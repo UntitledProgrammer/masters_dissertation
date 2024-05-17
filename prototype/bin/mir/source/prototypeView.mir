@@ -1,0 +1,241 @@
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 7; ]
+class Metric extends WatchUi.Drawable{
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 10; @position = 17; ]
+    protected
+    const HEADER_OFFSET_Y as Lang.Number = 20;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 11; @position = 17; ]
+    protected
+    const VALUE_OFFSET_Y as Lang.Number = 54;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 14; @position = 15; ]
+    protected
+    var m_value as Lang.Float = 0.0f;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 15; @position = 15; ]
+    protected
+    var m_header_label;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 16; @position = 15; ]
+    protected
+    var m_value_label;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 19; ]
+    function initialize(p_name as Lang.String) as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_20_4_36_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 21 8 ]
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv function ? %tmp.3 :Text;
+        %tmp.5 = newd 5;
+        %tmp.7 = const :text;
+        %tmp.9 = lgetv %p_name;
+        %tmp.10 = dup %tmp.5;
+        %tmp.11 = aputv %tmp.10 %tmp.7 %tmp.9;
+        %tmp.13 = const :color;
+        %tmp.14 = getm $.Toybox.Graphics;
+        %tmp.15 = getv %tmp.14 :COLOR_BLACK;
+        %tmp.16 = dup %tmp.11;
+        %tmp.17 = aputv %tmp.16 %tmp.13 %tmp.15;
+        %tmp.19 = const :font;
+        %tmp.20 = getm $.Toybox.Graphics;
+        %tmp.21 = getv %tmp.20 :FONT_LARGE;
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
+        %tmp.25 = const :locX;
+        %tmp.26 = getm $.Toybox.WatchUi;
+        %tmp.27 = getv %tmp.26 :LAYOUT_HALIGN_CENTER;
+        %tmp.28 = dup %tmp.23;
+        %tmp.29 = aputv %tmp.28 %tmp.25 %tmp.27;
+        %tmp.31 = const :locY;
+        %tmp.32 = getm $.Toybox.WatchUi;
+        %tmp.33 = getv %tmp.32 :LAYOUT_VALIGN_CENTER;
+        %tmp.35 = getv ? :HEADER_OFFSET_Y;
+        %tmp.36 = add %tmp.33 %tmp.35;
+        %tmp.37 = dup %tmp.29;
+        %tmp.38 = aputv %tmp.37 %tmp.31 %tmp.36;
+        %tmp.1 = newc %tmp.4 (%tmp.38);
+        putv self :m_header_label %tmp.1;
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 29 8 ]
+        %tmp.41 = getm $.Toybox.WatchUi;
+        %tmp.42 = getv function ? %tmp.41 :Text;
+        %tmp.43 = newd 5;
+        %tmp.45 = const :text;
+        %tmp.46 = "0";
+        %tmp.47 = dup %tmp.43;
+        %tmp.48 = aputv %tmp.47 %tmp.45 %tmp.46;
+        %tmp.50 = const :color;
+        %tmp.51 = getm $.Toybox.Graphics;
+        %tmp.52 = getv %tmp.51 :COLOR_BLACK;
+        %tmp.53 = dup %tmp.48;
+        %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
+        %tmp.56 = const :font;
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :FONT_NUMBER_THAI_HOT;
+        %tmp.59 = dup %tmp.54;
+        %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+        %tmp.62 = const :locX;
+        %tmp.63 = getm $.Toybox.WatchUi;
+        %tmp.64 = getv %tmp.63 :LAYOUT_HALIGN_CENTER;
+        %tmp.65 = dup %tmp.60;
+        %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+        %tmp.68 = const :locY;
+        %tmp.69 = getm $.Toybox.WatchUi;
+        %tmp.70 = getv %tmp.69 :LAYOUT_VALIGN_CENTER;
+        %tmp.72 = getv ? :VALUE_OFFSET_Y;
+        %tmp.73 = add %tmp.70 %tmp.72;
+        %tmp.74 = dup %tmp.66;
+        %tmp.75 = aputv %tmp.74 %tmp.68 %tmp.73;
+        %tmp.39 = newc %tmp.42 (%tmp.75);
+        putv self :m_value_label %tmp.39;
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_20_4_36_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 39; ]
+    function setValue(p_value as Lang.Number) as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_40_4_42_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 41 8 ]
+        %tmp.2 = getv ? :m_value_label;
+        %tmp.3 = getv function %tmp.2 :setText;
+        %tmp.5 = lgetv %p_value;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_40_4_42_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 44; ]
+    function onUpdate(dc) as Void {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 50; ]
+    function draw(p_dc) as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_51_4_54_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 52 8 ]
+        %tmp.2 = getv ? :m_header_label;
+        %tmp.3 = getv function %tmp.2 :draw;
+        %tmp.5 = lgetv %p_dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 53 8 ]
+        %tmp.7 = getv ? :m_value_label;
+        %tmp.8 = getv function %tmp.7 :draw;
+        %tmp.10 = lgetv %p_dc;
+        invoke %tmp.7 %tmp.8(%tmp.10);
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_51_4_54_4_stop:
+    }
+}
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 57; ]
+class prototypeView extends WatchUi.WatchFace{
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 57; ]
+    <init> {
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 62 15 ]
+        %tmp.14 = getv ? :Metric;
+        %tmp.15 = "Cadence";
+        %tmp.11 = newc %tmp.14 (%tmp.15);
+        putv self :metric %tmp.11;
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 57; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 60; @position = 15; ]
+    protected
+    var metricHeader;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 61; @position = 15; ]
+    protected
+    var metricValue;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 62; @position = 15; ]
+    protected
+    var metric as Metric;
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 64; ]
+    function initialize() as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_64_26_66_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 65 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_64_26_66_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 69; ]
+    function onLayout(dc as Dc) as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_69_40_71_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 70 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_69_40_71_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 76; ]
+    function onShow() as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_76_30_85_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 78 8 ]
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv function ? %tmp.3 :Text;
+        %tmp.5 = newd 5;
+        %tmp.7 = const :text;
+        %tmp.8 = "Hello World!";
+        %tmp.9 = dup %tmp.5;
+        %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+        %tmp.12 = const :color;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv %tmp.13 :COLOR_DK_GREEN;
+        %tmp.15 = dup %tmp.10;
+        %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+        %tmp.18 = const :font;
+        %tmp.19 = getm $.Toybox.Graphics;
+        %tmp.20 = getv %tmp.19 :FONT_LARGE;
+        %tmp.21 = dup %tmp.16;
+        %tmp.22 = aputv %tmp.21 %tmp.18 %tmp.20;
+        %tmp.24 = const :locX;
+        %tmp.25 = getm $.Toybox.WatchUi;
+        %tmp.26 = getv %tmp.25 :LAYOUT_HALIGN_CENTER;
+        %tmp.27 = dup %tmp.22;
+        %tmp.28 = aputv %tmp.27 %tmp.24 %tmp.26;
+        %tmp.30 = const :locY;
+        %tmp.31 = getm $.Toybox.WatchUi;
+        %tmp.32 = getv %tmp.31 :LAYOUT_VALIGN_CENTER;
+        %tmp.33 = dup %tmp.28;
+        %tmp.34 = aputv %tmp.33 %tmp.30 %tmp.32;
+        %tmp.1 = newc %tmp.4 (%tmp.34);
+        putv self :metricHeader %tmp.1;
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_76_30_85_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 88; ]
+    function onUpdate(dc as Dc) as Void {
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_88_40_95_4_start:
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 91 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc" 94 8 ]
+        %tmp.7 = getv ? :metric;
+        %tmp.8 = getv function %tmp.7 :draw;
+        %tmp.10 = lgetv %dc;
+        invoke %tmp.7 %tmp.8(%tmp.10);
+D_tomja_Documents_Masters_Dissertation_prototype_source_prototypeView_mc_88_40_95_4_stop:
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 100; ]
+    function onHide() as Void {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 104; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 108; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "D:\tomja\Documents\Masters Dissertation\prototype\source\prototypeView.mc"; @line = 1; ]
+<init> {
+}
