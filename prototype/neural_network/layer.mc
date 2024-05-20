@@ -16,7 +16,7 @@ module Jacobs
         */
 
         // Instance Attributes:
-        private var mNeurons as Array<Neuron>;
+        private var _mNeurons as Array<Neuron>;
 
 
         // Constructor:
@@ -28,10 +28,11 @@ module Jacobs
             *   @param pNumberOfInputsPerNeuron: the number of inputs each neuron in this layer will have.
             */
             
-            mNeurons = [];
+            _mNeurons = [];
+
             for (var i = 0; i < pNumberOfNeurons-1; i++)
             {
-                mNeurons.add(new Neuron(pNumberOfInputsPerNeuron));
+                _mNeurons.add(new Neuron(pNumberOfInputsPerNeuron));
             }
         }
 
@@ -51,9 +52,9 @@ module Jacobs
 
             var outputs = [];
 
-            for (var i = 0; i < mNeurons.size(); i++)
+            for (var i = 0; i < _mNeurons.size(); i++)
             {
-                outputs.add(mNeurons[i].computeOutput(inputs));
+                outputs.add(_mNeurons[i].computeOutput(inputs));
             }
 
             return outputs;

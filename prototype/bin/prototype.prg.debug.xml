@@ -162,15 +162,15 @@
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="23" parent="globals/Jacobs/PrioritisationNetwork" pc="268438317" symbol="initialize"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438331" symbol="initialize"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="27" parent="globals/Jacobs/PrioritisationNetwork" pc="268438355" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="40" parent="globals/Jacobs/Layer" pc="268438429" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="52" parent="globals/Jacobs/Layer" pc="268438433" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="54" parent="globals/Jacobs/Layer" pc="268438441" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="56" parent="globals/Jacobs/Layer" pc="268438471" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="59" parent="globals/Jacobs/Layer" pc="268438518" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="41" parent="globals/Jacobs/Layer" pc="268438429" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="53" parent="globals/Jacobs/Layer" pc="268438433" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="55" parent="globals/Jacobs/Layer" pc="268438441" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="57" parent="globals/Jacobs/Layer" pc="268438471" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="60" parent="globals/Jacobs/Layer" pc="268438518" symbol="forward"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="23" parent="globals/Jacobs/Layer" pc="268438521" symbol="initialize"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="31" parent="globals/Jacobs/Layer" pc="268438525" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="32" parent="globals/Jacobs/Layer" pc="268438539" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="34" parent="globals/Jacobs/Layer" pc="268438560" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="33" parent="globals/Jacobs/Layer" pc="268438539" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="35" parent="globals/Jacobs/Layer" pc="268438560" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -217,6 +217,7 @@
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry field="true" id="48" symbol="ColorDarkGray"/>
+        <entry field="true" id="60" symbol="&lt;globals/Jacobs/Layer/&lt;&gt;_mNeurons&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="21" method="true" symbol="get_value"/>
         <entry id="39" method="true" symbol="getCurrentCadence"/>
@@ -226,7 +227,6 @@
         <entry id="8389349" symbol="justification"/>
         <entry id="7" object="true" symbol="Assessment"/>
         <entry id="31" method="true" symbol="set"/>
-        <entry field="true" id="60" symbol="&lt;globals/Jacobs/Layer/&lt;&gt;mNeurons&gt;"/>
         <entry field="true" id="51" symbol="ColorWhite"/>
         <entry id="17" object="true" symbol="prototypeApp"/>
         <entry id="8391428" object="true" symbol="Layer"/>
@@ -299,7 +299,7 @@
         <entry endPc="268437565" name="i" stackId="2" startPc="268437451"/>
         <entry endPc="268437645" name="activityInfo" stackId="1" startPc="268437591"/>
         <entry arg="true" endPc="268437938" name="dc" stackId="1" startPc="268437737"/>
-        <entry endPc="268437938" name="rez_cmp_local_custom_drawable_68595913817373104957" stackId="2" startPc="268437749"/>
+        <entry endPc="268437938" name="rez_cmp_local_custom_drawable_13780137951213996660" stackId="2" startPc="268437749"/>
         <entry endPc="268437938" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437749"/>
         <entry arg="true" endPc="268438051" name="pInputs" stackId="1" startPc="268437939"/>
         <entry endPc="268438051" name="sum" stackId="2" startPc="268437943"/>
