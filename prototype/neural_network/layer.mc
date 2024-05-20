@@ -54,6 +54,7 @@ module Jacobs
 
             for (var i = 0; i < _mNeurons.size(); i++)
             {
+                // Calculate the output for each of the neurons.
                 outputs.add(_mNeurons[i].computeOutput(inputs));
             }
 
