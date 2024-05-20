@@ -46,6 +46,11 @@ class MetricFace extends WatchUi.Drawable
         m_value_label.setText(p_value.format("%o"));
     }
 
+    function setHeader(p_name as Lang.String) as Void
+    {
+        m_header_label.setText(p_name);
+    }
+
     function onUpdate(dc) as Void
     {
 

@@ -123,22 +123,32 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
 C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_45_4_47_4_stop:
     }
     [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc"; @line = 49; ]
+    function setHeader(p_name as Lang.String) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_50_4_52_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc" 51 8 ]
+        %tmp.2 = getv ? :m_header_label;
+        %tmp.3 = getv function %tmp.2 :setText;
+        %tmp.5 = lgetv %p_name;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_50_4_52_4_stop:
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc"; @line = 54; ]
     function onUpdate(dc) as Void {
     }
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc"; @line = 55; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc"; @line = 60; ]
     function draw(p_dc) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_56_4_59_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc" 57 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_61_4_64_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc" 62 8 ]
         %tmp.2 = getv ? :m_header_label;
         %tmp.3 = getv function %tmp.2 :draw;
         %tmp.5 = lgetv %p_dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc" 58 8 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc" 63 8 ]
         %tmp.7 = getv ? :m_value_label;
         %tmp.8 = getv function %tmp.7 :draw;
         %tmp.10 = lgetv %p_dc;
         invoke %tmp.7 %tmp.8(%tmp.10);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_56_4_59_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metricFace_mc_61_4_64_4_stop:
     }
 }
 [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metricFace.mc"; @line = 1; ]
