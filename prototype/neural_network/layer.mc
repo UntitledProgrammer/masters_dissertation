@@ -1,3 +1,4 @@
+
 import Toybox.Application;
 import Toybox.Graphics;
 import Toybox.Lang;
@@ -12,30 +13,30 @@ using Toybox.System as Sys;
 
 module Jacobs
 {
-    class PrioritisationNetwork
+    class Layer
     {
         // Instance Attributes:
-        hidden var mLayers as Array<Layer>;
+        var mNeurons as Array<Neuron>;
 
         // Constructor:
-        function initialize(layerSizes as Array<Lang.Integer>)
+        function initialize(pNumberOfNeurons as Lang.Integer, pNumberOfInputsPerNeuron as Lang.Integer)
         {
-            mLayers = [];
-
-            for (var i = 0; i < layerSizes.size(); i++)
+            mNeurons = [];
+            for (var i = 0; i < pNumberOfNeurons-1; i++)
             {
-                mLayers.add(new Layer(layerSizes[i+1], layerSizes[i]));
+                mNeurons.add(new Neuron(pNumberOfInputsPerNeuron));
             }
         }
 
-        // Method to perform forward propagation through the network
+        // Method to perform forward propagation for the layer
         function forward(inputs as Array<Lang.Float>) as Array<Lang.Float>
         {
-            var outputs = inputs;
-            for (var i = 0; i < mLayers.size(); i++)
+            var outputs = [];
+            for (var i = 0; i < mNeurons.size(); i++)
             {
-                outputs = mLayers[i].forward(outputs);
+                outputs.add(mNeurons[i].computeOutput(inputs));
             }
+
             return outputs;
         }
     }

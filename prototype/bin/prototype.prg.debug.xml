@@ -137,92 +137,138 @@
         <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="14" parent="globals/Rez/Layouts" pc="268437749" symbol="WatchFace"/>
         <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="16" parent="globals/Rez/Layouts" pc="268437777" symbol="WatchFace"/>
         <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="18" parent="globals/Rez/Layouts" pc="268437912" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="43" parent="globals/Jacobs/Neuron" pc="268437939" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="45" parent="globals/Jacobs/Neuron" pc="268437943" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="46" parent="globals/Jacobs/Neuron" pc="268437950" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="48" parent="globals/Jacobs/Neuron" pc="268437974" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="50" parent="globals/Jacobs/Neuron" pc="268438009" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="51" parent="globals/Jacobs/Neuron" pc="268438022" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="51" lineNum="52" parent="globals/Jacobs/Neuron" pc="268438043" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="52" lineNum="56" parent="globals/Jacobs/Neuron" pc="268438052" symbol="activationFunction"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="52" lineNum="59" parent="globals/Jacobs/Neuron" pc="268438054" symbol="activationFunction"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="26" parent="globals/Jacobs/Neuron" pc="268438060" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="28" parent="globals/Jacobs/Neuron" pc="268438064" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="31" parent="globals/Jacobs/Neuron" pc="268438078" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="33" parent="globals/Jacobs/Neuron" pc="268438099" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="34" parent="globals/Jacobs/Neuron" pc="268438145" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="38" parent="globals/Jacobs/Neuron" pc="268438178" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="53" lineNum="39" parent="globals/Jacobs/Neuron" pc="268438224" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="54" lineNum="32" parent="globals/Jacobs/PrioritisationNetwork" pc="268438235" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="54" lineNum="34" parent="globals/Jacobs/PrioritisationNetwork" pc="268438239" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="54" lineNum="35" parent="globals/Jacobs/PrioritisationNetwork" pc="268438243" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="54" lineNum="37" parent="globals/Jacobs/PrioritisationNetwork" pc="268438273" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="54" lineNum="39" parent="globals/Jacobs/PrioritisationNetwork" pc="268438310" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="21" parent="globals/Jacobs/PrioritisationNetwork" pc="268438313" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="23" parent="globals/Jacobs/PrioritisationNetwork" pc="268438317" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438331" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="55" lineNum="27" parent="globals/Jacobs/PrioritisationNetwork" pc="268438355" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="32" parent="globals/Jacobs/Layer" pc="268438429" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="34" parent="globals/Jacobs/Layer" pc="268438433" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="35" parent="globals/Jacobs/Layer" pc="268438441" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="37" parent="globals/Jacobs/Layer" pc="268438471" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="40" parent="globals/Jacobs/Layer" pc="268438518" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="22" parent="globals/Jacobs/Layer" pc="268438521" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="24" parent="globals/Jacobs/Layer" pc="268438525" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="25" parent="globals/Jacobs/Layer" pc="268438539" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="27" parent="globals/Jacobs/Layer" pc="268438560" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8390141" method="true" object="true" symbol="test"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="22" symbol="m_value_label"/>
-        <entry field="true" id="36" symbol="metric"/>
+        <entry field="true" id="24" symbol="m_value_label"/>
+        <entry field="true" id="60" symbol="mNeurons"/>
+        <entry field="true" id="40" symbol="metric"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-        <entry id="14" object="true" symbol="TreeNode"/>
-        <entry field="true" id="46" symbol="ColorRed"/>
-        <entry field="true" id="37" symbol="metricHeader"/>
-        <entry field="true" id="30" symbol="mValue"/>
-        <entry field="true" id="49" symbol="MilitaryFormatTitle"/>
-        <entry id="18" method="true" symbol="evaluate"/>
-        <entry id="12" object="true" symbol="Range"/>
+        <entry id="16" object="true" symbol="TreeNode"/>
+        <entry field="true" id="50" symbol="ColorRed"/>
+        <entry field="true" id="41" symbol="metricHeader"/>
+        <entry field="true" id="32" symbol="mValue"/>
+        <entry id="9" module="true" symbol="Jacobs"/>
+        <entry id="33" object="true" symbol="Neuron"/>
+        <entry field="true" id="53" symbol="MilitaryFormatTitle"/>
+        <entry id="20" method="true" symbol="evaluate"/>
+        <entry id="14" object="true" symbol="Range"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="43" symbol="ColorBlue"/>
-        <entry field="true" id="33" symbol="mName"/>
-        <entry field="true" id="40" symbol="AppName"/>
-        <entry field="true" id="34" symbol="mRange"/>
-        <entry id="13" object="true" symbol="Tree"/>
-        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="31" symbol="mNodes"/>
-        <entry field="true" id="25" symbol="mMinimum"/>
+        <entry field="true" id="47" symbol="ColorBlue"/>
+        <entry field="true" id="37" symbol="mName"/>
+        <entry field="true" id="56" symbol="mBias"/>
+        <entry id="58" method="true" symbol="forward"/>
+        <entry field="true" id="44" symbol="AppName"/>
+        <entry field="true" id="59" symbol="mLayers"/>
+        <entry field="true" id="38" symbol="mRange"/>
+        <entry id="15" object="true" symbol="Tree"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="35" symbol="mNodes"/>
+        <entry field="true" id="27" symbol="mMinimum"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="3" module="true" symbol="globals/Rez"/>
         <entry field="true" id="8388959" symbol="cadence"/>
         <entry id="8388789" method="true" symbol="get"/>
+        <entry field="true" id="57" symbol="mWeights"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="8389112" symbol="mType"/>
-        <entry id="27" method="true" symbol="set_minimum"/>
+        <entry id="29" method="true" symbol="set_minimum"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="44" symbol="ColorDarkGray"/>
-        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="19" method="true" symbol="get_value"/>
-        <entry id="35" method="true" symbol="getCurrentCadence"/>
-        <entry id="10" object="true" symbol="Metrics"/>
+        <entry field="true" id="48" symbol="ColorDarkGray"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="21" method="true" symbol="get_value"/>
+        <entry id="39" method="true" symbol="getCurrentCadence"/>
+        <entry id="12" object="true" symbol="Metrics"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="6" object="true" symbol="Assessment"/>
-        <entry id="29" method="true" symbol="set"/>
-        <entry field="true" id="47" symbol="ColorWhite"/>
-        <entry id="15" object="true" symbol="prototypeApp"/>
-        <entry id="8" object="true" symbol="Metric"/>
-        <entry field="true" id="42" symbol="ColorBlack"/>
-        <entry id="9" object="true" symbol="MetricFace"/>
-        <entry field="true" id="24" symbol="mMaximum"/>
-        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="11" object="true" symbol="Power"/>
+        <entry id="7" object="true" symbol="Assessment"/>
+        <entry id="31" method="true" symbol="set"/>
+        <entry field="true" id="51" symbol="ColorWhite"/>
+        <entry id="17" object="true" symbol="prototypeApp"/>
+        <entry id="8391428" object="true" symbol="Layer"/>
+        <entry id="10" object="true" symbol="Metric"/>
+        <entry field="true" id="46" symbol="ColorBlack"/>
+        <entry id="55" method="true" symbol="computeOutput"/>
+        <entry id="11" object="true" symbol="MetricFace"/>
+        <entry field="true" id="26" symbol="mMaximum"/>
+        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="2" module="true" symbol="globals/Jacobs"/>
+        <entry id="13" object="true" symbol="Power"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="26" method="true" symbol="set_maximum"/>
+        <entry id="28" method="true" symbol="set_maximum"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="16" object="true" symbol="prototypeView"/>
-        <entry field="true" id="20" symbol="m_header_label"/>
+        <entry id="18" object="true" symbol="prototypeView"/>
+        <entry field="true" id="22" symbol="m_header_label"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="39" symbol="LauncherIcon"/>
-        <entry id="23" method="true" symbol="setHeader"/>
+        <entry field="true" id="43" symbol="LauncherIcon"/>
+        <entry id="25" method="true" symbol="setHeader"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="41" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="45" symbol="BackgroundColorTitle"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="7" object="true" symbol="Cadence"/>
-        <entry field="true" id="45" symbol="ColorLightGray"/>
+        <entry id="34" object="true" symbol="PrioritisationNetwork"/>
+        <entry id="8" object="true" symbol="Cadence"/>
+        <entry field="true" id="49" symbol="ColorLightGray"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="48" symbol="ForegroundColorTitle"/>
-        <entry id="32" method="true" symbol="get_name"/>
-        <entry field="true" id="21" symbol="m_value"/>
-        <entry id="17" module="true" symbol="Layouts"/>
-        <entry field="true" id="38" symbol="metricValue"/>
+        <entry field="true" id="52" symbol="ForegroundColorTitle"/>
+        <entry id="36" method="true" symbol="get_name"/>
+        <entry field="true" id="23" symbol="m_value"/>
+        <entry id="19" module="true" symbol="Layouts"/>
+        <entry id="54" method="true" symbol="activationFunction"/>
+        <entry field="true" id="42" symbol="metricValue"/>
         <entry id="8390426" method="true" symbol="setValue"/>
-        <entry field="true" id="28" symbol="metrics"/>
+        <entry field="true" id="30" symbol="metrics"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
@@ -253,8 +299,27 @@
         <entry endPc="268437565" name="i" stackId="2" startPc="268437451"/>
         <entry endPc="268437645" name="activityInfo" stackId="1" startPc="268437591"/>
         <entry arg="true" endPc="268437938" name="dc" stackId="1" startPc="268437737"/>
-        <entry endPc="268437938" name="rez_cmp_local_custom_drawable_17578129015561856185" stackId="2" startPc="268437749"/>
+        <entry endPc="268437938" name="rez_cmp_local_custom_drawable_21361030271124425335" stackId="2" startPc="268437749"/>
         <entry endPc="268437938" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437749"/>
+        <entry arg="true" endPc="268438051" name="pInputs" stackId="1" startPc="268437939"/>
+        <entry endPc="268438051" name="sum" stackId="2" startPc="268437943"/>
+        <entry endPc="268438008" name="i" stackId="3" startPc="268437974"/>
+        <entry arg="true" endPc="268438059" name="x" stackId="1" startPc="268438052"/>
+        <entry arg="true" endPc="268438234" name="pNumberOfInputs" stackId="1" startPc="268438060"/>
+        <entry endPc="268438177" name="i" stackId="2" startPc="268438099"/>
+        <entry endPc="268438164" name="random" stackId="3" startPc="268438099"/>
+        <entry endPc="268438233" name="random" stackId="4" startPc="268438064"/>
+        <entry arg="true" endPc="268438312" name="inputs" stackId="1" startPc="268438235"/>
+        <entry endPc="268438312" name="outputs" stackId="2" startPc="268438239"/>
+        <entry endPc="268438309" name="i" stackId="3" startPc="268438273"/>
+        <entry arg="true" endPc="268438428" name="layerSizes" stackId="1" startPc="268438313"/>
+        <entry endPc="268438427" name="i" stackId="2" startPc="268438355"/>
+        <entry arg="true" endPc="268438520" name="inputs" stackId="1" startPc="268438429"/>
+        <entry endPc="268438520" name="outputs" stackId="2" startPc="268438433"/>
+        <entry endPc="268438517" name="i" stackId="3" startPc="268438471"/>
+        <entry arg="true" endPc="268438619" name="pNumberOfNeurons" stackId="1" startPc="268438521"/>
+        <entry arg="true" endPc="268438619" name="pNumberOfInputsPerNeuron" stackId="2" startPc="268438521"/>
+        <entry endPc="268438618" name="i" stackId="3" startPc="268438560"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -270,23 +335,27 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Background" offset="214" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/Rez" offset="269" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Assessment" offset="324" parentId="globals" symbolId="Assessment" type="class"/>
-        <dataEntry label="globals/Cadence" offset="371" parentId="globals" symbolId="Cadence" type="class"/>
-        <dataEntry label="globals/MetricFace" offset="434" parentId="globals" symbolId="MetricFace" type="class"/>
-        <dataEntry label="globals/prototypeApp" offset="537" parentId="globals" symbolId="prototypeApp" type="class"/>
-        <dataEntry label="globals/Range" offset="616" parentId="globals" symbolId="Range" type="class"/>
-        <dataEntry label="globals/Metrics" offset="703" parentId="globals" symbolId="Metrics" type="class"/>
-        <dataEntry label="globals/TreeNode" offset="774" parentId="globals" symbolId="TreeNode" type="class"/>
-        <dataEntry label="globals/Tree" offset="837" parentId="globals" symbolId="Tree" type="class"/>
-        <dataEntry label="globals/Metric" offset="900" parentId="globals" symbolId="Metric" type="class"/>
-        <dataEntry label="globals/prototypeView" offset="987" parentId="globals" symbolId="prototypeView" type="class"/>
-        <dataEntry label="globals/Power" offset="1106" parentId="globals" symbolId="Power" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1169" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1208" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1247" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="230" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="285" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Assessment" offset="340" parentId="globals" symbolId="Assessment" type="class"/>
+        <dataEntry label="globals/Cadence" offset="387" parentId="globals" symbolId="Cadence" type="class"/>
+        <dataEntry label="globals/MetricFace" offset="450" parentId="globals" symbolId="MetricFace" type="class"/>
+        <dataEntry label="globals/prototypeApp" offset="553" parentId="globals" symbolId="prototypeApp" type="class"/>
+        <dataEntry label="globals/Range" offset="632" parentId="globals" symbolId="Range" type="class"/>
+        <dataEntry label="globals/Metrics" offset="719" parentId="globals" symbolId="Metrics" type="class"/>
+        <dataEntry label="globals/TreeNode" offset="790" parentId="globals" symbolId="TreeNode" type="class"/>
+        <dataEntry label="globals/Jacobs" offset="853" parentId="globals" symbolId="Jacobs" type="module"/>
+        <dataEntry label="globals/Tree" offset="908" parentId="globals" symbolId="Tree" type="class"/>
+        <dataEntry label="globals/Metric" offset="971" parentId="globals" symbolId="Metric" type="class"/>
+        <dataEntry label="globals/prototypeView" offset="1058" parentId="globals" symbolId="prototypeView" type="class"/>
+        <dataEntry label="globals/Power" offset="1177" parentId="globals" symbolId="Power" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1240" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1279" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1318" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Jacobs/Neuron" offset="1429" parentId="Jacobs" symbolId="Neuron" type="class"/>
+        <dataEntry label="globals/Jacobs/PrioritisationNetwork" offset="1516" parentId="Jacobs" symbolId="PrioritisationNetwork" type="class"/>
+        <dataEntry label="globals/Jacobs/Layer" offset="1579" parentId="Jacobs" symbolId="Layer" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -317,6 +386,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="TreeNode">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Jacobs">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435662" name="&lt;init&gt;" parent="Tree" startPc="268435648">
@@ -429,6 +501,15 @@
             <param id="pType"/>
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Neuron">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="PrioritisationNetwork">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layer">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" endPc="268436909" name="initialize" parent="Tree" startPc="268436776">
             <documentation/>
         </functionEntry>
@@ -476,6 +557,35 @@
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437938" name="WatchFace" parent="Layouts" startPc="268437737">
             <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438051" name="computeOutput" parent="Neuron" startPc="268437939">
+            <param id="pInputs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438059" name="activationFunction" parent="Neuron" startPc="268438052">
+            <param id="x"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438234" name="initialize" parent="Neuron" startPc="268438060">
+            <param id="pNumberOfInputs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438312" name="forward" parent="PrioritisationNetwork" startPc="268438235">
+            <param id="inputs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438428" name="initialize" parent="PrioritisationNetwork" startPc="268438313">
+            <param id="layerSizes"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438520" name="forward" parent="Layer" startPc="268438429">
+            <param id="inputs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438619" name="initialize" parent="Layer" startPc="268438521">
+            <param id="pNumberOfNeurons"/>
+            <param id="pNumberOfInputsPerNeuron"/>
             <documentation/>
         </functionEntry>
     </functions>
