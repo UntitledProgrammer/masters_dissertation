@@ -38,7 +38,7 @@ module Jacobs
 
 
         // Methods:
-        function forward(inputs as Array<Lang.Float>) as Array<Lang.Float>
+        function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
         {
             /**
             *   Method for performing forward propagation of the layer.
@@ -46,7 +46,7 @@ module Jacobs
             *   This method processes the input array through each neuron in the layer
             *   and returns an array of the resulting outputs.
             * 
-            *   @param inputs an array of float values representing the inputs to the layer.
+            *   @param inputs: an array of float values representing the inputs to the layer.
             *   @return an array of float values representing the outputs of the layer after forward propagation.
             */
 
@@ -55,7 +55,7 @@ module Jacobs
             for (var i = 0; i < _mNeurons.size(); i++)
             {
                 // Calculate the output for each of the neurons.
-                outputs.add(_mNeurons[i].computeOutput(inputs));
+                outputs.add(_mNeurons[i].computeOutput(pInputs));
             }
 
             return outputs;

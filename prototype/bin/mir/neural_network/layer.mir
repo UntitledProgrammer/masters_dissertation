@@ -67,7 +67,7 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_ne
 C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_24_8_37_8_stop:
         }
         [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc"; @line = 41; ]
-        function forward(inputs as Array<Lang.Float>) as Array<Lang.Float> {
+        function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float> {
 C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_start:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 53 12 ]
             [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_stop" ]
@@ -97,7 +97,7 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_ne
             %tmp.15 = lgetv %i.2;
             %tmp.16 = agetv %tmp.13 %tmp.15;
             %tmp.17 = getv function %tmp.16 :computeOutput;
-            %tmp.19 = lgetv %inputs;
+            %tmp.19 = lgetv %pInputs;
             %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
             invoke %tmp.10 %tmp.11(%tmp.20);
 C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_56_12_59_12_stop:

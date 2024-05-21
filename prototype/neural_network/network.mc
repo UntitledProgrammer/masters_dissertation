@@ -22,7 +22,7 @@ module Jacobs
 
 
         // Constructor:
-        function initialize(layerSizes as Array<Lang.Integer>)
+        function initialize(pLayerSizes as Array<Lang.Integer>)
         {
             /**
             *   Constructor to initialize the network with a given layer structure.
@@ -32,15 +32,15 @@ module Jacobs
 
             _mLayers = [];
 
-            for (var i = 0; i < layerSizes.size(); i++)
+            for (var i = 0; i < pLayerSizes.size(); i++)
             {
-                _mLayers.add(new Layer(layerSizes[i+1], layerSizes[i]));
+                _mLayers.add(new Layer(pLayerSizes[i+1], pLayerSizes[i]));
             }
         }
 
 
         // Methods:
-        function forward(inputs as Array<Lang.Float>) as Array<Lang.Float>
+        function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
         {
             /**
             *   Performs a forward propagation of each layer in the network, returning a final output layer.
@@ -49,7 +49,7 @@ module Jacobs
             *   @return an array of float values representing the outputs of the network after forward propagation.
             */
 
-            var outputs = inputs;
+            var outputs = pInputs;
 
             // Calculate the output for each layer of the network.
             for (var i = 0; i < _mLayers.size(); i++) { outputs = _mLayers[i].forward(outputs); }
