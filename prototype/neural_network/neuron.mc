@@ -25,13 +25,15 @@ module Jacobs
         private const _MINIMUM_WEIGHT_VALUE as Lang.Float = 0.0;
         private const _MAXIMUM_WEIGHT_VALUE as Lang.Float = 1.0;
 
+
         // Instance Attributes:
         private var _mValue as Lang.Float = 0.0;
         private var _mWeights as Array<Lang.Float>;
         private var _mBias as Lang.Float = 0.0;
 
+
         // Constructor:
-        function initialize(pNumberOfInputs as Lang.Integer)
+        public function initialize(pNumberOfInputs as Lang.Integer)
         {
             /**
             *   Constructor to initialize a neuron with a specified number of inputs.
@@ -55,7 +57,7 @@ module Jacobs
 
 
         // Methods:
-        function computeOutput(pInputs as Array<Lang.Float>) as Lang.Float
+        public function computeOutput(pInputs as Array<Lang.Float>) as Lang.Float
         {
             /**
             *   Method to compute the output of the neuron.
@@ -75,13 +77,13 @@ module Jacobs
                 sum += pInputs[i] * _mWeights[i];
             }
             
-            sum += _mBias; // Add the bias
-            _mValue = activationFunction(sum); // Apply activation function
+            sum += _mBias; // Add the bias.
+            _mValue = _activationFunction(sum); // Apply the activation function.
 
             return _mValue;
         }
 
-        function activationFunction(pX as Lang.Float) as Lang.Float
+        private function _activationFunction(pX as Lang.Float) as Lang.Float
         {
             /**
             *   Activation function for the neuron.

@@ -22,7 +22,7 @@ module Jacobs
 
 
         // Constructor:
-        function initialize(pLayerSizes as Array<Lang.Integer>)
+        public function initialize(pLayerSizes as Array<Lang.Integer>)
         {
             /**
             *   Constructor to initialize the network with a given layer structure.
@@ -40,7 +40,7 @@ module Jacobs
 
 
         // Methods:
-        function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
+        public function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
         {
             /**
             *   Performs a forward propagation of each layer in the network, returning a final output layer.

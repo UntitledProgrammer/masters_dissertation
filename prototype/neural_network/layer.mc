@@ -20,7 +20,7 @@ module Jacobs
 
 
         // Constructor:
-        function initialize(pNumberOfNeurons as Lang.Integer, pNumberOfInputsPerNeuron as Lang.Integer)
+        public function initialize(pNumberOfNeurons as Lang.Integer, pNumberOfInputsPerNeuron as Lang.Integer)
         {
             /**
             *   Initializes a layer with a given number of neurons, each with a specified number of inputs.
@@ -38,7 +38,7 @@ module Jacobs
 
 
         // Methods:
-        function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
+        public function forward(pInputs as Array<Lang.Float>) as Array<Lang.Float>
         {
             /**
             *   Method for performing forward propagation of the layer.
