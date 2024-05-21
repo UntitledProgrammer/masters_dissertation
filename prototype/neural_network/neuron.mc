@@ -13,6 +13,14 @@ module Jacobs
 {
     class Neuron
     {
+        /**
+        * The Neuron class represents a single neuron in a neural network.
+        * 
+        * Each neuron computes an output based on its inputs and weights,
+        * applying an activation function to the weighted sum.
+        */
+
+
         // Class Attributes:
         hidden const MINIMUM_WEIGHT_VALUE as Lang.Float = 0.0;
         hidden const MAXIMUM_WEIGHT_VALUE as Lang.Float = 1.0;

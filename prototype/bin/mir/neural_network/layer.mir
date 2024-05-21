@@ -68,29 +68,29 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_ne
         }
         [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc"; @line = 41; ]
         function forward(inputs as Array<Lang.Float>) as Array<Lang.Float> {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_61_8_start:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_start:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 53 12 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_61_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_61_8_stop" ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_stop" ]
             %outputs.1 = local;
             %tmp.1 = newa 0;
             lputv %outputs.1 %tmp.1;
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 55 12 ]
-            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_init:
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_end" ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_end" ]
             %i.2 = local;
             %tmp.2 = 0;
             lputv %i.2 %tmp.2;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_test:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_test:
             %tmp.4 = lgetv %i.2;
             %tmp.6 = getv ? :_mNeurons;
             %tmp.7 = getv function %tmp.6 :size;
             %tmp.8 = invoke %tmp.6 %tmp.7();
             %tmp.9 = lt %tmp.4 %tmp.8;
-            bf %tmp.9 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_begin:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_56_12_58_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 57 16 ]
+            bf %tmp.9 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_56_12_59_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 58 16 ]
             %tmp.10 = lgetv %outputs.1;
             %tmp.11 = getv function %tmp.10 :add;
             %tmp.13 = getv ? :_mNeurons;
@@ -100,18 +100,18 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_ne
             %tmp.19 = lgetv %inputs;
             %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
             invoke %tmp.10 %tmp.11(%tmp.20);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_56_12_58_12_stop:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_incr:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_56_12_59_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_incr:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 55 ]
             %tmp.23 = lgetv %i.2;
             %tmp.24 = add %tmp.23 1;
             lputv %i.2 %tmp.24;
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_test;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_58_12_for_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 60 12 ]
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_55_12_59_12_for_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\layer.mc" 61 12 ]
             %tmp.26 = lgetv %outputs.1;
             ret %tmp.26;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_61_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_layer_mc_42_8_62_8_stop:
         }
     }
 }
