@@ -12,7 +12,7 @@ module Jacobs
     {
         /**
         *   The Layer class represents a single layer in a neural network, containing multiple neurons.
-        *   Each layer is responsible for initializing its neurons and handling forward propagation through the neurons.
+        *   Each layer is responsible for initialising its neurons and handling forward propagation through the neurons.
         */
 
         // Instance Attributes:
