@@ -179,11 +179,20 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_ne
         [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\neuron.mc"; @line = 86; ]
         private
         function _activationFunction(pX as Lang.Float) as Lang.Float {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_neuron_mc_87_8_99_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\neuron.mc" 98 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_neuron_mc_87_8_98_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\neural_network\neuron.mc" 97 12 ]
             %tmp.1 = 1.0;
-            ret %tmp.1;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_neuron_mc_87_8_99_8_stop:
+            %tmp.2 = 1.0;
+            %tmp.4 = getv ? :Math;
+            %tmp.5 = getv function %tmp.4 :pow;
+            %tmp.7 = getv ? :Math;
+            %tmp.8 = getv %tmp.7 :E;
+            %tmp.10 = lgetv %pX;
+            %tmp.11 = invoke %tmp.4 %tmp.5(%tmp.8, %tmp.10);
+            %tmp.12 = add %tmp.2 %tmp.11;
+            %tmp.13 = div %tmp.1 %tmp.12;
+            ret %tmp.13;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_neural_network_neuron_mc_87_8_98_8_stop:
         }
     }
 }

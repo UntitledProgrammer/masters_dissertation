@@ -117,65 +117,64 @@
         <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="46" lineNum="16" parent="globals/Rez/Layouts" pc="268437601" symbol="WatchFace"/>
         <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="46" lineNum="18" parent="globals/Rez/Layouts" pc="268437736" symbol="WatchFace"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="47" lineNum="86" parent="globals/Jacobs/Neuron" pc="268437763" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="47" lineNum="98" parent="globals/Jacobs/Neuron" pc="268437765" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="60" parent="globals/Jacobs/Neuron" pc="268437771" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="73" parent="globals/Jacobs/Neuron" pc="268437775" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="75" parent="globals/Jacobs/Neuron" pc="268437782" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="77" parent="globals/Jacobs/Neuron" pc="268437806" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="80" parent="globals/Jacobs/Neuron" pc="268437841" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="81" parent="globals/Jacobs/Neuron" pc="268437854" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="83" parent="globals/Jacobs/Neuron" pc="268437875" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="36" parent="globals/Jacobs/Neuron" pc="268437884" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="44" parent="globals/Jacobs/Neuron" pc="268437888" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="47" parent="globals/Jacobs/Neuron" pc="268437902" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="49" parent="globals/Jacobs/Neuron" pc="268437923" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="50" parent="globals/Jacobs/Neuron" pc="268437969" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="54" parent="globals/Jacobs/Neuron" pc="268438002" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="55" parent="globals/Jacobs/Neuron" pc="268438048" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="43" parent="globals/Jacobs/PrioritisationNetwork" pc="268438059" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="52" parent="globals/Jacobs/PrioritisationNetwork" pc="268438063" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438067" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438097" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="57" parent="globals/Jacobs/PrioritisationNetwork" pc="268438134" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438137" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="33" parent="globals/Jacobs/PrioritisationNetwork" pc="268438141" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="35" parent="globals/Jacobs/PrioritisationNetwork" pc="268438155" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="37" parent="globals/Jacobs/PrioritisationNetwork" pc="268438179" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="50" parent="globals/Jacobs/Range" pc="268438253" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="52" parent="globals/Jacobs/Range" pc="268438255" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="54" parent="globals/Jacobs/Range" pc="268438269" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="55" parent="globals/Jacobs/Range" pc="268438279" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="58" parent="globals/Jacobs/Range" pc="268438283" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="33" parent="globals/Jacobs/Range" pc="268438294" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="35" parent="globals/Jacobs/Range" pc="268438296" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="35" parent="globals/Jacobs/Range" pc="268438324" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="36" parent="globals/Jacobs/Range" pc="268438330" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="39" parent="globals/Jacobs/Range" pc="268438333" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="41" parent="globals/Jacobs/Range" pc="268438335" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="43" parent="globals/Jacobs/Range" pc="268438349" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="44" parent="globals/Jacobs/Range" pc="268438359" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="47" parent="globals/Jacobs/Range" pc="268438363" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="18" parent="globals/Jacobs/Range" pc="268438374" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="20" parent="globals/Jacobs/Range" pc="268438376" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="23" parent="globals/Jacobs/Range" pc="268438384" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="24" parent="globals/Jacobs/Range" pc="268438394" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="25" parent="globals/Jacobs/Range" pc="268438404" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="28" parent="globals/Jacobs/Range" pc="268438408" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="29" parent="globals/Jacobs/Range" pc="268438418" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="41" parent="globals/Jacobs/Layer" pc="268438429" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="53" parent="globals/Jacobs/Layer" pc="268438433" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="55" parent="globals/Jacobs/Layer" pc="268438441" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="58" parent="globals/Jacobs/Layer" pc="268438471" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="61" parent="globals/Jacobs/Layer" pc="268438518" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="23" parent="globals/Jacobs/Layer" pc="268438521" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="31" parent="globals/Jacobs/Layer" pc="268438525" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="33" parent="globals/Jacobs/Layer" pc="268438539" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="35" parent="globals/Jacobs/Layer" pc="268438560" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="47" lineNum="97" parent="globals/Jacobs/Neuron" pc="268437765" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="60" parent="globals/Jacobs/Neuron" pc="268437802" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="73" parent="globals/Jacobs/Neuron" pc="268437806" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="75" parent="globals/Jacobs/Neuron" pc="268437813" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="77" parent="globals/Jacobs/Neuron" pc="268437837" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="80" parent="globals/Jacobs/Neuron" pc="268437872" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="81" parent="globals/Jacobs/Neuron" pc="268437885" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="48" lineNum="83" parent="globals/Jacobs/Neuron" pc="268437906" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="36" parent="globals/Jacobs/Neuron" pc="268437915" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="44" parent="globals/Jacobs/Neuron" pc="268437919" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="47" parent="globals/Jacobs/Neuron" pc="268437933" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="49" parent="globals/Jacobs/Neuron" pc="268437954" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="50" parent="globals/Jacobs/Neuron" pc="268438000" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="54" parent="globals/Jacobs/Neuron" pc="268438033" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\neuron.mc" id="49" lineNum="55" parent="globals/Jacobs/Neuron" pc="268438079" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="43" parent="globals/Jacobs/PrioritisationNetwork" pc="268438090" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="52" parent="globals/Jacobs/PrioritisationNetwork" pc="268438094" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438098" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438128" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="50" lineNum="57" parent="globals/Jacobs/PrioritisationNetwork" pc="268438165" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438168" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="33" parent="globals/Jacobs/PrioritisationNetwork" pc="268438172" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="35" parent="globals/Jacobs/PrioritisationNetwork" pc="268438186" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\network.mc" id="51" lineNum="37" parent="globals/Jacobs/PrioritisationNetwork" pc="268438210" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="84" parent="globals/Jacobs/Range" pc="268438284" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="95" parent="globals/Jacobs/Range" pc="268438286" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="98" parent="globals/Jacobs/Range" pc="268438300" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="99" parent="globals/Jacobs/Range" pc="268438310" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="52" lineNum="102" parent="globals/Jacobs/Range" pc="268438314" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="50" parent="globals/Jacobs/Range" pc="268438325" symbol="test"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="53" lineNum="60" parent="globals/Jacobs/Range" pc="268438327" symbol="test"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="63" parent="globals/Jacobs/Range" pc="268438356" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="74" parent="globals/Jacobs/Range" pc="268438358" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="77" parent="globals/Jacobs/Range" pc="268438372" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="78" parent="globals/Jacobs/Range" pc="268438382" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="54" lineNum="81" parent="globals/Jacobs/Range" pc="268438386" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="25" parent="globals/Jacobs/Range" pc="268438397" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="36" parent="globals/Jacobs/Range" pc="268438399" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="39" parent="globals/Jacobs/Range" pc="268438407" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="40" parent="globals/Jacobs/Range" pc="268438417" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="41" parent="globals/Jacobs/Range" pc="268438427" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="44" parent="globals/Jacobs/Range" pc="268438431" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="55" lineNum="45" parent="globals/Jacobs/Range" pc="268438441" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="41" parent="globals/Jacobs/Layer" pc="268438452" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="53" parent="globals/Jacobs/Layer" pc="268438456" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="55" parent="globals/Jacobs/Layer" pc="268438464" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="58" parent="globals/Jacobs/Layer" pc="268438494" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="56" lineNum="61" parent="globals/Jacobs/Layer" pc="268438541" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="23" parent="globals/Jacobs/Layer" pc="268438544" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="31" parent="globals/Jacobs/Layer" pc="268438548" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="33" parent="globals/Jacobs/Layer" pc="268438562" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\neural_network\\layer.mc" id="57" lineNum="35" parent="globals/Jacobs/Layer" pc="268438583" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8390141" method="true" object="true" symbol="test"/>
+        <entry field="true" id="57" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMaximum&gt;"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry field="true" id="23" symbol="m_value_label"/>
         <entry field="true" id="36" symbol="metric"/>
@@ -199,7 +198,6 @@
         <entry id="14" object="true" symbol="Tree"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry field="true" id="31" symbol="mNodes"/>
-        <entry field="true" id="58" symbol="mMinimum"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
@@ -210,6 +208,7 @@
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="8389112" symbol="mType"/>
+        <entry field="true" id="58" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMinimum&gt;"/>
         <entry id="60" method="true" symbol="set_minimum"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
@@ -233,7 +232,6 @@
         <entry field="true" id="42" symbol="ColorBlack"/>
         <entry id="54" method="true" symbol="computeOutput"/>
         <entry id="11" object="true" symbol="MetricFace"/>
-        <entry field="true" id="57" symbol="mMaximum"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="2" module="true" symbol="globals/Jacobs"/>
         <entry field="true" id="53" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mWeights&gt;"/>
@@ -295,32 +293,32 @@
         <entry endPc="268437389" name="i" stackId="2" startPc="268437275"/>
         <entry endPc="268437469" name="activityInfo" stackId="1" startPc="268437415"/>
         <entry arg="true" endPc="268437762" name="dc" stackId="1" startPc="268437561"/>
-        <entry endPc="268437762" name="rez_cmp_local_custom_drawable_14751102442619692691" stackId="2" startPc="268437573"/>
+        <entry endPc="268437762" name="rez_cmp_local_custom_drawable_22140828188928225916" stackId="2" startPc="268437573"/>
         <entry endPc="268437762" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437573"/>
-        <entry arg="true" endPc="268437770" name="pX" stackId="1" startPc="268437763"/>
-        <entry arg="true" endPc="268437883" name="pInputs" stackId="1" startPc="268437771"/>
-        <entry endPc="268437883" name="sum" stackId="2" startPc="268437775"/>
-        <entry endPc="268437840" name="i" stackId="3" startPc="268437806"/>
-        <entry arg="true" endPc="268438058" name="pNumberOfInputs" stackId="1" startPc="268437884"/>
-        <entry endPc="268438001" name="i" stackId="2" startPc="268437923"/>
-        <entry endPc="268437988" name="random" stackId="3" startPc="268437923"/>
-        <entry endPc="268438057" name="random" stackId="4" startPc="268437888"/>
-        <entry arg="true" endPc="268438136" name="pInputs" stackId="1" startPc="268438059"/>
-        <entry endPc="268438136" name="outputs" stackId="2" startPc="268438063"/>
-        <entry endPc="268438133" name="i" stackId="3" startPc="268438097"/>
-        <entry arg="true" endPc="268438252" name="pLayerSizes" stackId="1" startPc="268438137"/>
-        <entry endPc="268438251" name="i" stackId="2" startPc="268438179"/>
-        <entry arg="true" endPc="268438293" name="pValue" stackId="1" startPc="268438253"/>
-        <entry arg="true" endPc="268438332" name="pValue" stackId="1" startPc="268438294"/>
-        <entry arg="true" endPc="268438373" name="pValue" stackId="1" startPc="268438333"/>
-        <entry arg="true" endPc="268438428" name="pMinimum" stackId="1" startPc="268438374"/>
-        <entry arg="true" endPc="268438428" name="pMaximum" stackId="2" startPc="268438374"/>
-        <entry arg="true" endPc="268438520" name="pInputs" stackId="1" startPc="268438429"/>
-        <entry endPc="268438520" name="outputs" stackId="2" startPc="268438433"/>
-        <entry endPc="268438517" name="i" stackId="3" startPc="268438471"/>
-        <entry arg="true" endPc="268438619" name="pNumberOfNeurons" stackId="1" startPc="268438521"/>
-        <entry arg="true" endPc="268438619" name="pNumberOfInputsPerNeuron" stackId="2" startPc="268438521"/>
-        <entry endPc="268438618" name="i" stackId="3" startPc="268438560"/>
+        <entry arg="true" endPc="268437801" name="pX" stackId="1" startPc="268437763"/>
+        <entry arg="true" endPc="268437914" name="pInputs" stackId="1" startPc="268437802"/>
+        <entry endPc="268437914" name="sum" stackId="2" startPc="268437806"/>
+        <entry endPc="268437871" name="i" stackId="3" startPc="268437837"/>
+        <entry arg="true" endPc="268438089" name="pNumberOfInputs" stackId="1" startPc="268437915"/>
+        <entry endPc="268438032" name="i" stackId="2" startPc="268437954"/>
+        <entry endPc="268438019" name="random" stackId="3" startPc="268437954"/>
+        <entry endPc="268438088" name="random" stackId="4" startPc="268437919"/>
+        <entry arg="true" endPc="268438167" name="pInputs" stackId="1" startPc="268438090"/>
+        <entry endPc="268438167" name="outputs" stackId="2" startPc="268438094"/>
+        <entry endPc="268438164" name="i" stackId="3" startPc="268438128"/>
+        <entry arg="true" endPc="268438283" name="pLayerSizes" stackId="1" startPc="268438168"/>
+        <entry endPc="268438282" name="i" stackId="2" startPc="268438210"/>
+        <entry arg="true" endPc="268438324" name="pValue" stackId="1" startPc="268438284"/>
+        <entry arg="true" endPc="268438355" name="pValue" stackId="1" startPc="268438325"/>
+        <entry arg="true" endPc="268438396" name="pValue" stackId="1" startPc="268438356"/>
+        <entry arg="true" endPc="268438451" name="pMinimum" stackId="1" startPc="268438397"/>
+        <entry arg="true" endPc="268438451" name="pMaximum" stackId="2" startPc="268438397"/>
+        <entry arg="true" endPc="268438543" name="pInputs" stackId="1" startPc="268438452"/>
+        <entry endPc="268438543" name="outputs" stackId="2" startPc="268438456"/>
+        <entry endPc="268438540" name="i" stackId="3" startPc="268438494"/>
+        <entry arg="true" endPc="268438642" name="pNumberOfNeurons" stackId="1" startPc="268438544"/>
+        <entry arg="true" endPc="268438642" name="pNumberOfInputsPerNeuron" stackId="2" startPc="268438544"/>
+        <entry endPc="268438641" name="i" stackId="3" startPc="268438583"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -543,48 +541,48 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437770" name="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;" parent="Neuron" startPc="268437763">
+        <functionEntry accessMode="private" endPc="268437801" name="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;" parent="Neuron" startPc="268437763">
             <param id="pX"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437883" name="computeOutput" parent="Neuron" startPc="268437771">
+        <functionEntry accessMode="public" endPc="268437914" name="computeOutput" parent="Neuron" startPc="268437802">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438058" name="initialize" parent="Neuron" startPc="268437884">
+        <functionEntry accessMode="public" endPc="268438089" name="initialize" parent="Neuron" startPc="268437915">
             <param id="pNumberOfInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438136" name="forward" parent="PrioritisationNetwork" startPc="268438059">
+        <functionEntry accessMode="public" endPc="268438167" name="forward" parent="PrioritisationNetwork" startPc="268438090">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438252" name="initialize" parent="PrioritisationNetwork" startPc="268438137">
+        <functionEntry accessMode="public" endPc="268438283" name="initialize" parent="PrioritisationNetwork" startPc="268438168">
             <param id="pLayerSizes"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438293" name="set_maximum" parent="Range" startPc="268438253">
+        <functionEntry accessMode="public" endPc="268438324" name="set_maximum" parent="Range" startPc="268438284">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438332" name="test" parent="Range" startPc="268438294">
+        <functionEntry accessMode="public" endPc="268438355" name="test" parent="Range" startPc="268438325">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438373" name="set_minimum" parent="Range" startPc="268438333">
+        <functionEntry accessMode="public" endPc="268438396" name="set_minimum" parent="Range" startPc="268438356">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438428" name="initialize" parent="Range" startPc="268438374">
+        <functionEntry accessMode="public" endPc="268438451" name="initialize" parent="Range" startPc="268438397">
             <param id="pMinimum"/>
             <param id="pMaximum"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438520" name="forward" parent="Layer" startPc="268438429">
+        <functionEntry accessMode="public" endPc="268438543" name="forward" parent="Layer" startPc="268438452">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438619" name="initialize" parent="Layer" startPc="268438521">
+        <functionEntry accessMode="public" endPc="268438642" name="initialize" parent="Layer" startPc="268438544">
             <param id="pNumberOfNeurons"/>
             <param id="pNumberOfInputsPerNeuron"/>
             <documentation/>

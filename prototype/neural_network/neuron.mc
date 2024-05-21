@@ -95,7 +95,6 @@ module Jacobs
             */
 
             return 1.0 / (1.0 + Math.pow(Math.E, pX));
-            return 1.0;
         }
     }
 }

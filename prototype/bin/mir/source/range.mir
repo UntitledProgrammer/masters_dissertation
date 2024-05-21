@@ -24,120 +24,114 @@ module Jacobs {
         static
         <init> {
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 14; @position = 19; ]
-        protected
-        var mMinimum as Lang.Number = 0;
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 15; @position = 19; ]
-        protected
-        var mMaximum as Lang.Number = 1;
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 18; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 20; @position = 20; ]
+        private
+        var _mMinimum as Lang.Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 21; @position = 20; ]
+        private
+        var _mMaximum as Lang.Number = 1;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 25; ]
+        public
         function initialize(pMinimum as Lang.Number, pMaximum as Lang.Number) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_19_8_30_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 20 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_20_12_26_12_if_stmt:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_26_8_46_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 36 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_36_12_42_12_if_stmt:
             %tmp.2 = lgetv %pMinimum;
             %tmp.4 = lgetv %pMaximum;
             %tmp.5 = gte %tmp.2 %tmp.4;
-            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_20_12_26_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_20_12_26_12_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_21_12_26_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 23 16 ]
+            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_36_12_42_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_36_12_42_12_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_37_12_42_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 39 16 ]
             %tmp.7 = lgetv %pMaximum;
-            putv self :mMinimum %tmp.7;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 24 16 ]
+            putv self :_mMinimum %tmp.7;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 40 16 ]
             %tmp.9 = lgetv %pMinimum;
-            putv self :mMaximum %tmp.9;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 25 16 ]
+            putv self :_mMaximum %tmp.9;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 41 16 ]
             ret ?;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_21_12_26_12_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_20_12_26_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_20_12_26_12_if_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 28 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_37_12_42_12_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_36_12_42_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_36_12_42_12_if_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 44 12 ]
             %tmp.11 = lgetv %pMinimum;
-            putv self :mMinimum %tmp.11;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 29 12 ]
+            putv self :_mMinimum %tmp.11;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 45 12 ]
             %tmp.13 = lgetv %pMaximum;
-            putv self :mMaximum %tmp.13;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_19_8_30_8_stop:
-        }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 33; ]
-        function test(pValue as Lang.Number) as Lang.Boolean {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_34_8_37_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 35 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_stmt:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_15_35_45_begin:
-            %tmp.2 = lgetv %pValue;
-            %tmp.4 = getv ? :mMaximum;
-            %tmp.5 = gt %tmp.2 %tmp.4;
-            bt %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_true;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_36_35_45_false:
-            %tmp.7 = lgetv %pValue;
-            %tmp.9 = getv ? :mMinimum;
-            %tmp.10 = lt %tmp.7 %tmp.9;
-            push %tmp.10;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_36_35_45_end:
-            %tmp.11 = phi [%tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_15_35_45_begin] [%tmp.10 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_36_35_45_false] [%tmp.11 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_36_35_45_end];
-            bf %tmp.11 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_55_35_71_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 35 57 ]
-            %tmp.12 = false;
-            ret %tmp.12;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_55_35_71_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_35_12_35_71_if_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 36 12 ]
-            %tmp.13 = true;
-            ret %tmp.13;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_34_8_37_8_stop:
-        }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 39; ]
-        function set_minimum(pValue as Lang.Number) {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_40_8_48_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 41 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_41_12_45_12_if_stmt:
-            %tmp.2 = lgetv %pValue;
-            %tmp.4 = getv ? :mMaximum;
-            %tmp.5 = gte %tmp.2 %tmp.4;
-            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_41_12_45_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_41_12_45_12_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_42_12_45_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 43 16 ]
-            %tmp.7 = lgetv %pValue;
-            putv self :mMaximum %tmp.7;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 44 16 ]
-            ret ?;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_42_12_45_12_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_41_12_45_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_41_12_45_12_if_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 47 12 ]
-            %tmp.9 = lgetv %pValue;
-            putv self :mMinimum %tmp.9;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_40_8_48_8_stop:
+            putv self :_mMaximum %tmp.13;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_26_8_46_8_stop:
         }
         [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 50; ]
-        function set_maximum(pValue as Lang.Number) {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_51_8_59_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 52 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_52_12_56_12_if_stmt:
+        public
+        function test(pValue as Lang.Number) as Lang.Boolean {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_51_8_61_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 60 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_19_60_52_begin:
             %tmp.2 = lgetv %pValue;
-            %tmp.4 = getv ? :mMinimum;
-            %tmp.5 = lte %tmp.2 %tmp.4;
-            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_52_12_56_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_52_12_56_12_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_53_12_56_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 54 16 ]
+            %tmp.4 = getv ? :_mMinimum;
+            %tmp.5 = gte %tmp.2 %tmp.4;
+            %tmp.6 = dup %tmp.5;
+            bf %tmp.6 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_42_60_52_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_42_60_52_true:
+            %tmp.8 = lgetv %pValue;
+            %tmp.10 = getv ? :_mMaximum;
+            %tmp.11 = lte %tmp.8 %tmp.10;
+            %tmp.12 = and %tmp.5 %tmp.11;
+            push %tmp.12;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_42_60_52_end:
+            %tmp.13 = phi [%tmp.6 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_19_60_52_begin] [%tmp.12 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_42_60_52_true] [%tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_60_42_60_52_end];
+            ret %tmp.13;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_51_8_61_8_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 63; ]
+        public
+        function set_minimum(pValue as Lang.Number) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_64_8_82_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 74 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_74_12_79_12_if_stmt:
+            %tmp.2 = lgetv %pValue;
+            %tmp.4 = getv ? :_mMaximum;
+            %tmp.5 = gte %tmp.2 %tmp.4;
+            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_74_12_79_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_74_12_79_12_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_75_12_79_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 77 16 ]
             %tmp.7 = lgetv %pValue;
-            putv self :mMinimum %tmp.7;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 55 16 ]
+            putv self :_mMaximum %tmp.7;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 78 16 ]
             ret ?;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_53_12_56_12_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_52_12_56_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_52_12_56_12_if_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 58 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_75_12_79_12_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_74_12_79_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_74_12_79_12_if_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 81 12 ]
             %tmp.9 = lgetv %pValue;
-            putv self :mMaximum %tmp.9;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_51_8_59_8_stop:
+            putv self :_mMinimum %tmp.9;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_64_8_82_8_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc"; @line = 84; ]
+        public
+        function set_maximum(pValue as Lang.Number) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_85_8_103_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 95 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_95_12_100_12_if_stmt:
+            %tmp.2 = lgetv %pValue;
+            %tmp.4 = getv ? :_mMinimum;
+            %tmp.5 = lte %tmp.2 %tmp.4;
+            bf %tmp.5 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_95_12_100_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_95_12_100_12_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_96_12_100_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 98 16 ]
+            %tmp.7 = lgetv %pValue;
+            putv self :_mMinimum %tmp.7;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 99 16 ]
+            ret ?;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_96_12_100_12_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_95_12_100_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_95_12_100_12_if_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\range.mc" 102 12 ]
+            %tmp.9 = lgetv %pValue;
+            putv self :_mMaximum %tmp.9;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_range_mc_85_8_103_8_stop:
         }
     }
 }
