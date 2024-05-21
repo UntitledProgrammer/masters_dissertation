@@ -4,61 +4,11 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Activity;
+import Jacobs;
 
 using Toybox.Application as App;
 using Toybox.Activity as Activity;
 using Toybox.System as Sys;
-
-class Range
-{
-    // Instance Attributes:
-    hidden var mMinimum as Lang.Number = 0;
-    hidden var mMaximum as Lang.Number = 1;
-
-    // Initialiser:
-    function initialize(pMinimum as Lang.Number, pMaximum as Lang.Number)
-    {
-        if(pMinimum >= pMaximum) 
-        {
-            // If the minimum value is more than the maximum value, the minimum value should equate to the maximum value (Swap the minimum and maximum values).
-            mMinimum = pMaximum;
-            mMaximum = pMinimum;
-            return;
-        }
-
-        mMinimum = pMinimum;
-        mMaximum = pMaximum;
-    }
-
-    // Methods:
-    function test(pValue as Lang.Number) as Lang.Boolean
-    {
-        if(pValue > mMaximum || pValue < mMinimum) { return false; }
-        return true;
-    }
-
-    function set_minimum(pValue as Lang.Number)
-    {
-        if(pValue >= mMaximum) 
-        { 
-            mMaximum = pValue;
-            return;
-        }
-
-        mMinimum = pValue;
-    }
-
-    function set_maximum(pValue as Lang.Number)
-    {
-        if(pValue <= mMinimum) 
-        { 
-            mMinimum = pValue;
-            return;
-        }
-
-        mMaximum = pValue;
-    }
-}
 
 class Metric 
 {
