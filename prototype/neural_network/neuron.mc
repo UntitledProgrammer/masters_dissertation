@@ -94,7 +94,7 @@ module Jacobs
             *   @return the output value after applying the activation function.
             */
 
-            //return 1.0 / (1.0 + Math.exp(-pX));
+            return 1.0 / (1.0 + Math.pow(Math.E, pX));
             return 1.0;
         }
     }
