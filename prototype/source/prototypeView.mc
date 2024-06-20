@@ -89,6 +89,19 @@ class Power extends Metric
     }
 }
 
+class PerformanceMetric extends Prioritisable
+{
+    // Instance Attributes:
+    public var value as Number = 0;
+    public var name as String = "DEFAULT_NAME";
+
+    // Constructor:
+    public function initialize(name as String, value as Number)
+    {
+        self.value = value;
+        self.name = name;
+    }
+}
 
 class prototypeView extends WatchUi.WatchFace 
 {
@@ -111,10 +124,10 @@ class prototypeView extends WatchUi.WatchFace
 
         // Priority queue testing.
         var queue = new Jacobs.PriorityQueue();
-        queue.enqueue(10, 2);
-        queue.enqueue(4, 4);
-        var number = queue.getIndex(3, 0, 1);
-        queue.enqueue(2, 2);
+        queue.enqueue(new PerformanceMetric("Cadence", 180));
+        queue.enqueue(new PerformanceMetric("Heart Rate", 160));
+        queue.updatePriority(new PerformanceMetric("Cadence", 180), 20);
+        queue.enqueue(new Prioritisable(14));
     }
 
     // Methods:
