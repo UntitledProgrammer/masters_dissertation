@@ -13,10 +13,10 @@ using Toybox.Test;
 
 module Jacobs
 {
-        class Prioritisable
+    class Prioritisable
     {
         /**
-        *   The Prioritizable class represents an item with a priority value, explicitly defining 
+        *   The Prioritisable class represents an item with a priority value, explicitly defining 
         *   methods for getting and setting the priority value. 
         *   The priority value determines the order in which items are processed in a priority queue.
         */
