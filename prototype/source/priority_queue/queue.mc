@@ -12,36 +12,15 @@ using Toybox.Test;
 
 module Jacobs
 {
-    class Prioritisable
-    {
-        // Class Attributes:
-        private const _DEFAULT_PRIORITY = 0;
-
-        // Instance Attributes:
-        private var _priority as Number = _DEFAULT_PRIORITY;
-
-        // Constructor:
-        public function initialize(priority as Number or Null)
-        {
-            _priority = priority;
-            if(_priority == null) { _priority = _DEFAULT_PRIORITY; }
-        }
-
-        // Methods:
-        public function getPriority() as Number
-        {
-            return _priority;
-        }
-
-        public function setPriority(priority as Number) as Void
-        {
-            Test.assert(priority != null);
-            _priority = priority;
-        }
-    }
-
     class PriorityQueue
     {
+        /*
+        *   The PriorityQueue class manages a collection of 'Prioritisable' items, maintaining their order based on priority. 
+        *   The class defines methods for adding (enqueue) items, retrieving (dequeue) the highest priority item, and updating the priority of existing items. 
+        *   Crucially, the queue ensures that items with higher priority are processed before those with lower priority.
+        */
+
+        
         // Class Attributes:
         private const _STARTING_INDEX as Lang.Number = 0;
         private const _OUT_OF_RANGE as Lang.Number = -1;
@@ -59,16 +38,16 @@ module Jacobs
 
 
         // Methods:
-        public function enqueue(element as Prioritisable) as Void
+        public function enqueue(item as Prioritisable) as Void
         {
             /**
             *   Adds an element to the priority queue at the correct position based on its priority.
             *   @param element The element to be added to the priority queue.
             */
 
-
-            var position = findInsertPosition(element);
-            insertAtPosition(element, position);
+            
+            var position = findInsertPosition(item);
+            insertAtPosition(item, position);
         }
 
         public function dequeue() as Object or Null
