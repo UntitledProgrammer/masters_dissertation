@@ -1,0 +1,91 @@
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 6; ]
+import Toybox.Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 8; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 9; ]
+using Toybox.Activity as :Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 10; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 12; ]
+module Jacobs {
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 14; ]
+    class QueueItem{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 14; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 14; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 17; @position = 19; ]
+        public
+        var mObject as Object;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 18; @position = 19; ]
+        public
+        var mPriority as Lang.Number;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 21; ]
+        public
+        function initialize(pObject as Object, pPriority as Lang.Number) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_22_8_25_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc" 23 12 ]
+            %tmp.2 = lgetv %pObject;
+            putv self :mObject %tmp.2;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc" 24 12 ]
+            %tmp.4 = lgetv %pPriority;
+            putv self :mPriority %tmp.4;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_22_8_25_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 28; ]
+    class PriorityQueue{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 28; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 28; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 31; @position = 20; ]
+        private
+        var _mElements as Array<QueueItem>;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 34; ]
+        public
+        function initialize() as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_35_8_37_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc" 36 12 ]
+            %tmp.1 = newa 0;
+            putv self :_mElements %tmp.1;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_35_8_37_8_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 40; ]
+        public
+        function enqueue(pObject as Object, pPriority as Lang.Number) {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_41_8_43_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc" 42 12 ]
+            %tmp.2 = getv ? :_mElements;
+            %tmp.3 = getv function %tmp.2 :add;
+            %tmp.7 = getv ? :QueueItem;
+            %tmp.9 = lgetv %pObject;
+            %tmp.11 = lgetv %pPriority;
+            %tmp.4 = newc %tmp.7 (%tmp.9, %tmp.11);
+            invoke %tmp.2 %tmp.3(%tmp.4);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_priority_queue_queue_mc_41_8_43_8_stop:
+        }
+    }
+}
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\priority_queue\queue.mc"; @line = 1; ]
+<init> {
+}

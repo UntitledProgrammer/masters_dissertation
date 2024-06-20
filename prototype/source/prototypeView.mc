@@ -107,6 +107,14 @@ class prototypeView extends WatchUi.WatchFace
 
         var tree = new Tree();
         var treeNode = new TreeNode(Assessment.QUALITY);
+
+
+        // Priority queue testing.
+        var queue = new Jacobs.PriorityQueue();
+        queue.enqueue(10, 2);
+        queue.enqueue(4, 4);
+        var number = queue.getIndex(3, 0, 1);
+        queue.enqueue(2, 2);
     }
 
     // Methods:
