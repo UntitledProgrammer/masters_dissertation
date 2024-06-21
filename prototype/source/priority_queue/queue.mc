@@ -88,6 +88,7 @@ module Jacobs
                 // If the item is contained within the queue then update the priority.
                 _mElements.remove(item);
                 item.setPriority(newPriority);
+
                 enqueue(item);
             }
         }
@@ -107,10 +108,12 @@ module Jacobs
             while (low <= high) 
             {
                 var mid = (low + high) / 2;
+                
                 if (_mElements[mid].getPriority() < item.getPriority()) 
                 {
                     high = mid - 1;
                 } 
+
                 else 
                 {
                     low = mid + 1;
