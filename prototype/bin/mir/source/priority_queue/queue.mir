@@ -112,9 +112,9 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
         [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc"; @line = 74; ]
         public
         function updatePriority(item as Prioritisable, newPriority as Number) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_93_8_start:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_94_8_start:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 84 12 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_93_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_93_8_stop" ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_94_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_94_8_stop" ]
             %index.1 = local;
             %tmp.2 = getv ? :_mElements;
             %tmp.3 = getv function %tmp.2 :indexOf;
@@ -122,13 +122,13 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
             lputv %index.1 %tmp.6;
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 86 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_92_12_if_stmt:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_93_12_if_stmt:
             %tmp.8 = lgetv %index.1;
             %tmp.10 = getv ? :_OUT_OF_RANGE;
             %tmp.11 = ne %tmp.8 %tmp.10;
-            bf %tmp.11 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_92_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_92_12_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_87_12_92_12_start:
+            bf %tmp.11 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_93_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_93_12_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_87_12_93_12_start:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 89 16 ]
             %tmp.13 = getv ? :_mElements;
             %tmp.14 = getv function %tmp.13 :remove;
@@ -139,27 +139,27 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.18 = getv function %tmp.17 :setPriority;
             %tmp.20 = lgetv %newPriority;
             invoke %tmp.17 %tmp.18(%tmp.20);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 91 16 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 92 16 ]
             %tmp.21 = self;
             %tmp.22 = getv function %tmp.21 :enqueue;
             %tmp.24 = lgetv %item;
             invoke %tmp.21 %tmp.22(%tmp.24);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_87_12_92_12_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_92_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_92_12_if_end:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_93_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_87_12_93_12_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_93_12_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_86_12_93_12_if_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_75_8_94_8_stop:
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc"; @line = 95; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc"; @line = 96; ]
         private
         function findInsertPosition(item as Prioritisable) as Number {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 104 12 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_stop" ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 105 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_stop" ]
             %low.1 = local;
             %tmp.1 = 0;
             lputv %low.1 %tmp.1;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 105 12 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_stop" ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 106 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_stop" ]
             %high.2 = local;
             %tmp.3 = getv ? :_mElements;
             %tmp.4 = getv function %tmp.3 :size;
@@ -167,17 +167,17 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.6 = 1;
             %tmp.7 = sub %tmp.5 %tmp.6;
             lputv %high.2 %tmp.7;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 107 12 ]
-            while @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_test:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 108 12 ]
+            while @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_test:
             %tmp.9 = lgetv %low.1;
             %tmp.11 = lgetv %high.2;
             %tmp.12 = lte %tmp.9 %tmp.11;
-            bf %tmp.12 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_begin:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_118_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 109 16 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_118_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_118_12_stop" ]
+            bf %tmp.12 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_109_12_121_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 110 16 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_109_12_121_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_109_12_121_12_stop" ]
             %mid.3 = local;
             %tmp.14 = lgetv %low.1;
             %tmp.16 = lgetv %high.2;
@@ -185,8 +185,8 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.18 = 2;
             %tmp.19 = div %tmp.17 %tmp.18;
             lputv %mid.3 %tmp.19;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 110 16 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_stmt:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 112 16 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_stmt:
             %tmp.21 = getv ? :_mElements;
             %tmp.23 = lgetv %mid.3;
             %tmp.24 = agetv %tmp.21 %tmp.23;
@@ -196,112 +196,112 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.28 = getv function %tmp.27 :getPriority;
             %tmp.29 = invoke %tmp.27 %tmp.28();
             %tmp.30 = lt %tmp.26 %tmp.29;
-            bf %tmp.30 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_false;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_111_16_113_16_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 112 20 ]
+            bf %tmp.30 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_false;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_113_16_115_16_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 114 20 ]
             %tmp.32 = lgetv %mid.3;
             %tmp.33 = 1;
             %tmp.34 = sub %tmp.32 %tmp.33;
             lputv %high.2 %tmp.34;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_111_16_113_16_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_false:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_115_16_117_16_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 116 20 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_113_16_115_16_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_false:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_118_16_120_16_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 119 20 ]
             %tmp.36 = lgetv %mid.3;
             %tmp.37 = 1;
             %tmp.38 = add %tmp.36 %tmp.37;
             lputv %low.1 %tmp.38;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_115_16_117_16_stop:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_110_16_117_16_if_end:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_118_12_stop:
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_test;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_107_12_118_12_while_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 120 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_118_16_120_16_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_112_16_120_16_if_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_109_12_121_12_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_108_12_121_12_while_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 123 12 ]
             %tmp.40 = lgetv %low.1;
             ret %tmp.40;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_96_8_121_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_97_8_124_8_stop:
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc"; @line = 123; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc"; @line = 126; ]
         private
         function insertAtPosition(item as Prioritisable, position as Number) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_124_8_147_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 132 12 ]
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_124_8_147_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_124_8_147_8_stop" ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_127_8_150_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 135 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_127_8_150_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_127_8_150_8_stop" ]
             %newElements.1 = local;
             %tmp.2 = 0;
             %tmp.1 = newa Array<Prioritisable> %tmp.2;
             lputv %newElements.1 %tmp.1;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 134 12 ]
-            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_init:
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_end" ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 137 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_end" ]
             %i.2 = local;
             %tmp.3 = 0;
             lputv %i.2 %tmp.3;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_test:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_test:
             %tmp.5 = lgetv %i.2;
             %tmp.7 = lgetv %position;
             %tmp.8 = lt %tmp.5 %tmp.7;
-            bf %tmp.8 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_begin:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_135_12_137_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 136 16 ]
+            bf %tmp.8 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_138_12_140_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 139 16 ]
             %tmp.9 = lgetv %newElements.1;
             %tmp.10 = getv function %tmp.9 :add;
             %tmp.12 = getv ? :_mElements;
             %tmp.14 = lgetv %i.2;
             %tmp.15 = agetv %tmp.12 %tmp.14;
             invoke %tmp.9 %tmp.10(%tmp.15);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_135_12_137_12_stop:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_incr:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 134 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_138_12_140_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 137 ]
             %tmp.18 = lgetv %i.2;
             %tmp.19 = add %tmp.18 1;
             lputv %i.2 %tmp.19;
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_test;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_134_12_137_12_for_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 139 12 ]
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_137_12_140_12_for_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 142 12 ]
             %tmp.20 = lgetv %newElements.1;
             %tmp.21 = getv function %tmp.20 :add;
             %tmp.23 = lgetv %item;
             invoke %tmp.20 %tmp.21(%tmp.23);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 141 12 ]
-            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_init:
-            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_end" ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 144 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_end" ]
             %i.3 = local;
             %tmp.25 = lgetv %position;
             lputv %i.3 %tmp.25;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_test:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_test:
             %tmp.27 = lgetv %i.3;
             %tmp.29 = getv ? :_mElements;
             %tmp.30 = getv function %tmp.29 :size;
             %tmp.31 = invoke %tmp.29 %tmp.30();
             %tmp.32 = lt %tmp.27 %tmp.31;
-            bf %tmp.32 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_begin:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_142_12_144_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 143 16 ]
+            bf %tmp.32 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_145_12_147_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 146 16 ]
             %tmp.33 = lgetv %newElements.1;
             %tmp.34 = getv function %tmp.33 :add;
             %tmp.36 = getv ? :_mElements;
             %tmp.38 = lgetv %i.3;
             %tmp.39 = agetv %tmp.36 %tmp.38;
             invoke %tmp.33 %tmp.34(%tmp.39);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_142_12_144_12_stop:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_incr:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 141 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_145_12_147_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 144 ]
             %tmp.42 = lgetv %i.3;
             %tmp.43 = add %tmp.42 1;
             lputv %i.3 %tmp.43;
-            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_test;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_141_12_144_12_for_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 146 12 ]
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_144_12_147_12_for_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\priority_queue\queue.mc" 149 12 ]
             %tmp.45 = lgetv %newElements.1;
             putv self :_mElements %tmp.45;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_124_8_147_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_priority_queue_queue_mc_127_8_150_8_stop:
         }
     }
 }

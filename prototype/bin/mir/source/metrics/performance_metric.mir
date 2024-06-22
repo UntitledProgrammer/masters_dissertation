@@ -1,0 +1,257 @@
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 6; ]
+import Toybox.Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 7; ]
+import Jacobs;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 9; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 10; ]
+using Toybox.Activity as :Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 11; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 13; ]
+module Jacobs {
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 15; ]
+    class PerformanceMetric{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 15; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 15; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 18; @position = 22; ]
+        private
+        const _DEFAULT_VALUE as Lang.Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 19; @position = 22; ]
+        private
+        const _DEFAULT_NAME as Lang.String = "Default Name";
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 22; ]
+        public
+        function getName() as Lang.String {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_22_49_22_73_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 22 51 ]
+            %tmp.2 = getv ? :_DEFAULT_NAME;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_22_49_22_73_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 23; ]
+        public
+        function getValue() as Lang.Number {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_23_50_23_75_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 23 52 ]
+            %tmp.2 = getv ? :_DEFAULT_VALUE;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_23_50_23_75_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 25; ]
+        public
+        function getRange() as Lang.Number {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_25_50_25_75_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 25 52 ]
+            %tmp.2 = getv ? :_DEFAULT_VALUE;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_25_50_25_75_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 26; ]
+        public
+        function getUserPriority() as Lang.Number {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_26_57_26_82_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 26 59 ]
+            %tmp.2 = getv ? :_DEFAULT_VALUE;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_26_57_26_82_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 27; ]
+        public
+        function getFluctuation() as Lang.Number {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_27_56_27_81_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 27 58 ]
+            %tmp.2 = getv ? :_DEFAULT_VALUE;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_27_56_27_81_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 28; ]
+        public
+        function getRateOfChange() as Lang.Number {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_28_57_28_82_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 28 59 ]
+            %tmp.2 = getv ? :_DEFAULT_VALUE;
+            ret %tmp.2;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_28_57_28_82_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 32; ]
+    class BlackboxResult{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 32; ]
+        <init> {
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 35 19 ]
+            %tmp.6 = getv ? :PerformanceMetric;
+            %tmp.3 = newc %tmp.6 ();
+            putv self :performance_metric %tmp.3;
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 32; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 34; @position = 19; ]
+        public
+        var priority as Lang.Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 35; @position = 19; ]
+        public
+        var performance_metric as PerformanceMetric;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 37; ]
+        public
+        function initialize(priority as Lang.Number, metric as PerformanceMetric) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_38_8_41_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 39 12 ]
+            %tmp.2 = lgetv %priority;
+            putv self :priority %tmp.2;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 40 12 ]
+            %tmp.4 = lgetv %metric;
+            putv self :performance_metric %tmp.4;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_38_8_41_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 45; ]
+    class Blackbox{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 45; ]
+        <init> {
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 49 20 ]
+            %tmp.5 = newa 0;
+            putv self :_performanceMetrics %tmp.5;
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 45; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 48; @position = 19; ]
+        public
+        var tolerance as Lang.Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 49; @position = 20; ]
+        private
+        var _performanceMetrics as Array<PerformanceMetric>;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 53; ]
+        public
+        function initialize() as Void {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 60; ]
+        public
+        function evaluate() as Array<BlackboxResult> {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_61_8_75_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 62 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_61_8_75_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_61_8_75_8_stop" ]
+            %results.1 = local;
+            %tmp.2 = 0;
+            %tmp.1 = newa Array<BlackboxResult> %tmp.2;
+            lputv %results.1 %tmp.1;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 64 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_end" ]
+            %i.2 = local;
+            %tmp.3 = 0;
+            lputv %i.2 %tmp.3;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_test:
+            %tmp.5 = lgetv %i.2;
+            %tmp.7 = getv ? :_performanceMetrics;
+            %tmp.8 = getv function %tmp.7 :size;
+            %tmp.9 = invoke %tmp.7 %tmp.8();
+            %tmp.10 = lt %tmp.5 %tmp.9;
+            bf %tmp.10 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_65_12_72_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 66 16 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_65_12_72_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_65_12_72_12_stop" ]
+            %result.3 = local;
+            %tmp.12 = getv ? :_performanceMetrics;
+            %tmp.14 = lgetv %i.2;
+            %tmp.15 = agetv %tmp.12 %tmp.14;
+            %tmp.16 = getv function %tmp.15 :getRange;
+            %tmp.17 = invoke %tmp.15 %tmp.16();
+            %tmp.19 = getv ? :_performanceMetrics;
+            %tmp.21 = lgetv %i.2;
+            %tmp.22 = agetv %tmp.19 %tmp.21;
+            %tmp.23 = getv function %tmp.22 :getFluctuation;
+            %tmp.24 = invoke %tmp.22 %tmp.23();
+            %tmp.25 = add %tmp.17 %tmp.24;
+            %tmp.27 = getv ? :_performanceMetrics;
+            %tmp.29 = lgetv %i.2;
+            %tmp.30 = agetv %tmp.27 %tmp.29;
+            %tmp.31 = getv function %tmp.30 :getRateOfChange;
+            %tmp.32 = invoke %tmp.30 %tmp.31();
+            %tmp.33 = add %tmp.25 %tmp.32;
+            %tmp.35 = getv ? :_performanceMetrics;
+            %tmp.37 = lgetv %i.2;
+            %tmp.38 = agetv %tmp.35 %tmp.37;
+            %tmp.39 = getv function %tmp.38 :getUserPriority;
+            %tmp.40 = invoke %tmp.38 %tmp.39();
+            %tmp.41 = mul %tmp.33 %tmp.40;
+            lputv %result.3 %tmp.41;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 68 16 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_stmt:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_19_68_74_begin:
+            %tmp.42 = lgetv %results.1;
+            %tmp.43 = getv function %tmp.42 :size;
+            %tmp.44 = invoke %tmp.42 %tmp.43();
+            %tmp.45 = 0;
+            %tmp.46 = lte %tmp.44 %tmp.45;
+            bt %tmp.46 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_true;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_42_68_74_false:
+            %tmp.48 = lgetv %results.1;
+            %tmp.49 = 0;
+            %tmp.50 = agetv %tmp.48 %tmp.49;
+            %tmp.51 = getv %tmp.50 :priority;
+            %tmp.53 = lgetv %result.3;
+            %tmp.54 = sub %tmp.51 %tmp.53;
+            %tmp.56 = getv ? :tolerance;
+            %tmp.57 = lte %tmp.54 %tmp.56;
+            push %tmp.57;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_42_68_74_end:
+            %tmp.58 = phi [%tmp.46 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_19_68_74_begin] [%tmp.57 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_42_68_74_false] [%tmp.58 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_42_68_74_end];
+            bf %tmp.58 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_69_16_71_16_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 70 20 ]
+            %tmp.59 = lgetv %results.1;
+            %tmp.60 = getv function %tmp.59 :add;
+            %tmp.64 = getv ? :BlackboxResult;
+            %tmp.66 = lgetv %result.3;
+            %tmp.68 = getv ? :_performanceMetrics;
+            %tmp.70 = lgetv %i.2;
+            %tmp.71 = agetv %tmp.68 %tmp.70;
+            %tmp.61 = newc %tmp.64 (%tmp.66, %tmp.71);
+            invoke %tmp.59 %tmp.60(%tmp.61);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_69_16_71_16_stop:
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_68_16_71_16_if_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_65_12_72_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 64 ]
+            %tmp.74 = lgetv %i.2;
+            %tmp.75 = add %tmp.74 1;
+            lputv %i.2 %tmp.75;
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_64_12_72_12_for_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc" 74 12 ]
+            %tmp.77 = lgetv %results.1;
+            ret %tmp.77;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_metrics_performance_metric_mc_61_8_75_8_stop:
+        }
+    }
+}
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\metrics\performance_metric.mc"; @line = 1; ]
+<init> {
+}

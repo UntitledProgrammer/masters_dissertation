@@ -59,11 +59,11 @@ module Jacobs
         // Methods:
         public function evaluate() as Array<BlackboxResult>
         {
-            var results as Array<BlackboxResult> = [];
+            var results = new Array<BlackboxResult>[0];
 
-            for(var i = 0; i < _performanceMetrics.size; i++)
+            for(var i = 0; i < _performanceMetrics.size(); i++)
             {
-                var result as Lang.Number = ( _performanceMetrics[i].getRange() + _performanceMetrics[i].getFluctuation() + _performanceMetrics[i].getRateOfChange() ) * _performanceMetrics[i].getUserPriority();
+                var result = (_performanceMetrics[i].getRange() + _performanceMetrics[i].getFluctuation() + _performanceMetrics[i].getRateOfChange() ) * _performanceMetrics[i].getUserPriority();
                 
                 if(results.size() <= 0 || results[0].priority - result <= tolerance)
                 {
@@ -73,6 +73,5 @@ module Jacobs
 
             return results;
         }
-
     }
 }
