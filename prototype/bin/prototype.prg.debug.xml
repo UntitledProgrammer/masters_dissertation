@@ -20,435 +20,468 @@
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="11" lineNum="112" parent="globals/prototypeView" pc="268435745" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="11" lineNum="113" parent="globals/prototypeView" pc="268435784" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="11" lineNum="114" parent="globals/prototypeView" pc="268435818" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="12" lineNum="64" parent="globals/Power" pc="268435901" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="8" parent="globals/Background" pc="268435920" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="9" parent="globals/Background" pc="268435924" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="13" parent="globals/Background" pc="268435945" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="16" parent="globals/Background" pc="268435966" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="18" parent="globals/Background" pc="268435968" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="19" parent="globals/Background" pc="268435990" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="46" parent="globals/Cadence" pc="268436003" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="48" parent="globals/Cadence" pc="268436007" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="50" parent="globals/Cadence" pc="268436024" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="52" parent="globals/Cadence" pc="268436044" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="55" parent="globals/Cadence" pc="268436056" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="37" parent="globals/Cadence" pc="268436062" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="39" parent="globals/Cadence" pc="268436064" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="41" parent="globals/Cadence" pc="268436082" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="42" parent="globals/Cadence" pc="268436095" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="18" lineNum="58" parent="globals/Cadence" pc="268436140" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="18" lineNum="60" parent="globals/Cadence" pc="268436142" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="19" lineNum="44" parent="globals/MetricFace" pc="268436171" symbol="setValue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="19" lineNum="46" parent="globals/MetricFace" pc="268436173" symbol="setValue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="24" parent="globals/MetricFace" pc="268436208" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="26" parent="globals/MetricFace" pc="268436210" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="34" parent="globals/MetricFace" pc="268436312" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="60" parent="globals/MetricFace" pc="268436418" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="62" parent="globals/MetricFace" pc="268436420" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="63" parent="globals/MetricFace" pc="268436440" symbol="draw"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="22" lineNum="54" parent="globals/MetricFace" pc="268436461" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="23" lineNum="49" parent="globals/MetricFace" pc="268436464" symbol="setHeader"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="23" lineNum="51" parent="globals/MetricFace" pc="268436466" symbol="setHeader"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="24" lineNum="12" parent="globals/prototypeApp" pc="268436487" symbol="onStart"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="25" lineNum="25" parent="globals/prototypeApp" pc="268436490" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="25" lineNum="26" parent="globals/prototypeApp" pc="268436492" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="26" lineNum="20" parent="globals/prototypeApp" pc="268436509" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="26" lineNum="21" parent="globals/prototypeApp" pc="268436511" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="27" lineNum="7" parent="globals/prototypeApp" pc="268436552" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="27" lineNum="8" parent="globals/prototypeApp" pc="268436554" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="28" lineNum="16" parent="globals/prototypeApp" pc="268436573" symbol="onStop"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="99" parent="globals/PerformanceMetric" pc="268436576" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="101" parent="globals/PerformanceMetric" pc="268436578" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="102" parent="globals/PerformanceMetric" pc="268436588" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="30" lineNum="37" parent="globals/Metrics" pc="268436599" symbol="set"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="30" lineNum="39" parent="globals/Metrics" pc="268436601" symbol="set"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="31" lineNum="32" parent="globals/Metrics" pc="268436615" symbol="get"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="31" lineNum="34" parent="globals/Metrics" pc="268436617" symbol="get"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="33" lineNum="50" parent="globals/TreeNode" pc="268436629" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="33" lineNum="52" parent="globals/TreeNode" pc="268436631" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="34" lineNum="32" parent="globals/Jacobs/BlackboxResult" pc="268436642" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="34" lineNum="35" parent="globals/Jacobs/BlackboxResult" pc="268436642" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="35" lineNum="45" parent="globals/Jacobs/Blackbox" pc="268436677" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="35" lineNum="49" parent="globals/Jacobs/Blackbox" pc="268436677" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="36" lineNum="62" parent="globals/Tree" pc="268436692" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="36" lineNum="64" parent="globals/Tree" pc="268436694" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="68" parent="globals/Tree" pc="268436826" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="70" parent="globals/Tree" pc="268436830" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="72" parent="globals/Tree" pc="268436837" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="74" parent="globals/Tree" pc="268436860" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="76" parent="globals/Tree" pc="268436873" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="76" parent="globals/Tree" pc="268436879" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="78" parent="globals/Tree" pc="268436885" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="78" parent="globals/Tree" pc="268436916" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="80" parent="globals/Tree" pc="268436922" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="83" parent="globals/Tree" pc="268436941" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="38" lineNum="30" parent="globals/Metric" pc="268436944" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="38" lineNum="30" parent="globals/Metric" pc="268436946" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="39" lineNum="29" parent="globals/Metric" pc="268436952" symbol="get_name"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="39" lineNum="29" parent="globals/Metric" pc="268436954" symbol="get_name"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="41" lineNum="23" parent="globals/Metric" pc="268436963" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="41" lineNum="25" parent="globals/Metric" pc="268436965" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="42" lineNum="151" parent="globals/prototypeView" pc="268436968" symbol="onShow"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="42" lineNum="154" parent="globals/prototypeView" pc="268436970" symbol="onShow"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="43" lineNum="146" parent="globals/prototypeView" pc="268437076" symbol="onLayout"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="43" lineNum="148" parent="globals/prototypeView" pc="268437078" symbol="onLayout"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="117" parent="globals/prototypeView" pc="268437120" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="119" parent="globals/prototypeView" pc="268437124" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="121" parent="globals/prototypeView" pc="268437142" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="122" parent="globals/prototypeView" pc="268437170" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="126" parent="globals/prototypeView" pc="268437203" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="127" parent="globals/prototypeView" pc="268437231" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="128" parent="globals/prototypeView" pc="268437279" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="129" parent="globals/prototypeView" pc="268437327" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="130" parent="globals/prototypeView" pc="268437380" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="134" parent="globals/prototypeView" pc="268437424" symbol="getCurrentCadence"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="136" parent="globals/prototypeView" pc="268437428" symbol="getCurrentCadence"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="138" parent="globals/prototypeView" pc="268437445" symbol="getCurrentCadence"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="140" parent="globals/prototypeView" pc="268437465" symbol="getCurrentCadence"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="143" parent="globals/prototypeView" pc="268437477" symbol="getCurrentCadence"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="163" parent="globals/prototypeView" pc="268437483" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="167" parent="globals/prototypeView" pc="268437487" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="170" parent="globals/prototypeView" pc="268437511" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="171" parent="globals/prototypeView" pc="268437534" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="173" parent="globals/prototypeView" pc="268437557" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="175" parent="globals/prototypeView" pc="268437587" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="177" parent="globals/prototypeView" pc="268437610" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="178" parent="globals/prototypeView" pc="268437648" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="183" parent="globals/prototypeView" pc="268437702" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="74" parent="globals/Power" pc="268437723" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="76" parent="globals/Power" pc="268437727" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="78" parent="globals/Power" pc="268437744" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="80" parent="globals/Power" pc="268437764" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="83" parent="globals/Power" pc="268437776" symbol="get_value"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="67" parent="globals/Power" pc="268437782" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="69" parent="globals/Power" pc="268437784" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="70" parent="globals/Power" pc="268437797" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="49" lineNum="86" parent="globals/Power" pc="268437842" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="49" lineNum="88" parent="globals/Power" pc="268437844" symbol="evaluate"/>
-        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="13" parent="globals/Rez/Layouts" pc="268437873" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="14" parent="globals/Rez/Layouts" pc="268437885" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="16" parent="globals/Rez/Layouts" pc="268437913" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="50" lineNum="18" parent="globals/Rez/Layouts" pc="268438048" symbol="WatchFace"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="51" lineNum="39" parent="globals/Jacobs/Prioritisable" pc="268438075" symbol="getPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="51" lineNum="47" parent="globals/Jacobs/Prioritisable" pc="268438077" symbol="getPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="52" lineNum="32" parent="globals/Jacobs/Prioritisable" pc="268438086" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="52" lineNum="34" parent="globals/Jacobs/Prioritisable" pc="268438088" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="52" lineNum="35" parent="globals/Jacobs/Prioritisable" pc="268438098" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="52" lineNum="35" parent="globals/Jacobs/Prioritisable" pc="268438110" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="53" lineNum="50" parent="globals/Jacobs/Prioritisable" pc="268438127" symbol="setPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="53" lineNum="59" parent="globals/Jacobs/Prioritisable" pc="268438129" symbol="setPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="53" lineNum="60" parent="globals/Jacobs/Prioritisable" pc="268438149" symbol="setPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="54" lineNum="26" parent="globals/Jacobs/PerformanceMetric" pc="268438160" symbol="getUserPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="54" lineNum="26" parent="globals/Jacobs/PerformanceMetric" pc="268438162" symbol="getUserPriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="55" lineNum="23" parent="globals/Jacobs/PerformanceMetric" pc="268438168" symbol="getValue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="55" lineNum="23" parent="globals/Jacobs/PerformanceMetric" pc="268438170" symbol="getValue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="56" lineNum="22" parent="globals/Jacobs/PerformanceMetric" pc="268438176" symbol="getName"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="56" lineNum="22" parent="globals/Jacobs/PerformanceMetric" pc="268438178" symbol="getName"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="57" lineNum="25" parent="globals/Jacobs/PerformanceMetric" pc="268438184" symbol="getRange"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="57" lineNum="25" parent="globals/Jacobs/PerformanceMetric" pc="268438186" symbol="getRange"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="58" lineNum="27" parent="globals/Jacobs/PerformanceMetric" pc="268438192" symbol="getFluctuation"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="58" lineNum="27" parent="globals/Jacobs/PerformanceMetric" pc="268438194" symbol="getFluctuation"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="60" lineNum="28" parent="globals/Jacobs/PerformanceMetric" pc="268438200" symbol="getRateOfChange"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="60" lineNum="28" parent="globals/Jacobs/PerformanceMetric" pc="268438202" symbol="getRateOfChange"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="61" lineNum="37" parent="globals/Jacobs/BlackboxResult" pc="268438208" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="61" lineNum="39" parent="globals/Jacobs/BlackboxResult" pc="268438210" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="61" lineNum="40" parent="globals/Jacobs/BlackboxResult" pc="268438220" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="62" lineNum="86" parent="globals/Jacobs/Neuron" pc="268438231" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="62" lineNum="97" parent="globals/Jacobs/Neuron" pc="268438233" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="60" parent="globals/Jacobs/Neuron" pc="268438270" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="73" parent="globals/Jacobs/Neuron" pc="268438274" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="75" parent="globals/Jacobs/Neuron" pc="268438281" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="77" parent="globals/Jacobs/Neuron" pc="268438305" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="80" parent="globals/Jacobs/Neuron" pc="268438340" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="81" parent="globals/Jacobs/Neuron" pc="268438353" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="63" lineNum="83" parent="globals/Jacobs/Neuron" pc="268438374" symbol="computeOutput"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="36" parent="globals/Jacobs/Neuron" pc="268438383" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="44" parent="globals/Jacobs/Neuron" pc="268438387" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="47" parent="globals/Jacobs/Neuron" pc="268438401" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="49" parent="globals/Jacobs/Neuron" pc="268438422" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="50" parent="globals/Jacobs/Neuron" pc="268438468" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="54" parent="globals/Jacobs/Neuron" pc="268438501" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="64" lineNum="55" parent="globals/Jacobs/Neuron" pc="268438547" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="60" parent="globals/Jacobs/Blackbox" pc="268438558" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="62" parent="globals/Jacobs/Blackbox" pc="268438562" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="64" parent="globals/Jacobs/Blackbox" pc="268438570" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="66" parent="globals/Jacobs/Blackbox" pc="268438600" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="68" parent="globals/Jacobs/Blackbox" pc="268438685" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="70" parent="globals/Jacobs/Blackbox" pc="268438734" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="66" lineNum="74" parent="globals/Jacobs/Blackbox" pc="268438801" symbol="evaluate"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="67" lineNum="43" parent="globals/Jacobs/PrioritisationNetwork" pc="268438804" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="67" lineNum="52" parent="globals/Jacobs/PrioritisationNetwork" pc="268438808" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="67" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438812" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="67" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438842" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="67" lineNum="57" parent="globals/Jacobs/PrioritisationNetwork" pc="268438879" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="68" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438882" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="68" lineNum="33" parent="globals/Jacobs/PrioritisationNetwork" pc="268438886" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="68" lineNum="35" parent="globals/Jacobs/PrioritisationNetwork" pc="268438900" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="68" lineNum="37" parent="globals/Jacobs/PrioritisationNetwork" pc="268438924" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="69" lineNum="41" parent="globals/Jacobs/PriorityQueue" pc="268438998" symbol="enqueue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="69" lineNum="49" parent="globals/Jacobs/PriorityQueue" pc="268439002" symbol="enqueue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="69" lineNum="50" parent="globals/Jacobs/PriorityQueue" pc="268439017" symbol="enqueue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="126" parent="globals/Jacobs/PriorityQueue" pc="268439034" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="135" parent="globals/Jacobs/PriorityQueue" pc="268439038" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="137" parent="globals/Jacobs/PriorityQueue" pc="268439046" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="139" parent="globals/Jacobs/PriorityQueue" pc="268439061" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="142" parent="globals/Jacobs/PriorityQueue" pc="268439097" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="144" parent="globals/Jacobs/PriorityQueue" pc="268439111" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="146" parent="globals/Jacobs/PriorityQueue" pc="268439138" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="70" lineNum="149" parent="globals/Jacobs/PriorityQueue" pc="268439174" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="53" parent="globals/Jacobs/PriorityQueue" pc="268439185" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="61" parent="globals/Jacobs/PriorityQueue" pc="268439189" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="64" parent="globals/Jacobs/PriorityQueue" pc="268439215" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="68" parent="globals/Jacobs/PriorityQueue" pc="268439220" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="69" parent="globals/Jacobs/PriorityQueue" pc="268439236" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="71" lineNum="71" parent="globals/Jacobs/PriorityQueue" pc="268439268" symbol="dequeue"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="72" lineNum="34" parent="globals/Jacobs/PriorityQueue" pc="268439271" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="72" lineNum="36" parent="globals/Jacobs/PriorityQueue" pc="268439273" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="74" parent="globals/Jacobs/PriorityQueue" pc="268439288" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="84" parent="globals/Jacobs/PriorityQueue" pc="268439292" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="86" parent="globals/Jacobs/PriorityQueue" pc="268439313" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="89" parent="globals/Jacobs/PriorityQueue" pc="268439324" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="90" parent="globals/Jacobs/PriorityQueue" pc="268439344" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="73" lineNum="92" parent="globals/Jacobs/PriorityQueue" pc="268439358" symbol="updatePriority"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="96" parent="globals/Jacobs/PriorityQueue" pc="268439376" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="105" parent="globals/Jacobs/PriorityQueue" pc="268439380" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="106" parent="globals/Jacobs/PriorityQueue" pc="268439387" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="108" parent="globals/Jacobs/PriorityQueue" pc="268439412" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="110" parent="globals/Jacobs/PriorityQueue" pc="268439420" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="112" parent="globals/Jacobs/PriorityQueue" pc="268439433" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="114" parent="globals/Jacobs/PriorityQueue" pc="268439468" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="119" parent="globals/Jacobs/PriorityQueue" pc="268439481" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="123" parent="globals/Jacobs/PriorityQueue" pc="268439494" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="75" lineNum="84" parent="globals/Jacobs/Range" pc="268439497" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="75" lineNum="95" parent="globals/Jacobs/Range" pc="268439499" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="75" lineNum="98" parent="globals/Jacobs/Range" pc="268439513" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="75" lineNum="99" parent="globals/Jacobs/Range" pc="268439523" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="75" lineNum="102" parent="globals/Jacobs/Range" pc="268439527" symbol="set_maximum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="76" lineNum="50" parent="globals/Jacobs/Range" pc="268439538" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="76" lineNum="60" parent="globals/Jacobs/Range" pc="268439540" symbol="test"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="77" lineNum="63" parent="globals/Jacobs/Range" pc="268439569" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="77" lineNum="74" parent="globals/Jacobs/Range" pc="268439571" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="77" lineNum="77" parent="globals/Jacobs/Range" pc="268439585" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="77" lineNum="78" parent="globals/Jacobs/Range" pc="268439595" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="77" lineNum="81" parent="globals/Jacobs/Range" pc="268439599" symbol="set_minimum"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="25" parent="globals/Jacobs/Range" pc="268439610" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="36" parent="globals/Jacobs/Range" pc="268439612" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="39" parent="globals/Jacobs/Range" pc="268439620" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="40" parent="globals/Jacobs/Range" pc="268439630" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="41" parent="globals/Jacobs/Range" pc="268439640" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="44" parent="globals/Jacobs/Range" pc="268439644" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="78" lineNum="45" parent="globals/Jacobs/Range" pc="268439654" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="79" lineNum="41" parent="globals/Jacobs/Layer" pc="268439665" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="79" lineNum="53" parent="globals/Jacobs/Layer" pc="268439669" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="79" lineNum="55" parent="globals/Jacobs/Layer" pc="268439677" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="79" lineNum="58" parent="globals/Jacobs/Layer" pc="268439707" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="79" lineNum="61" parent="globals/Jacobs/Layer" pc="268439754" symbol="forward"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="80" lineNum="23" parent="globals/Jacobs/Layer" pc="268439757" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="80" lineNum="31" parent="globals/Jacobs/Layer" pc="268439761" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="80" lineNum="33" parent="globals/Jacobs/Layer" pc="268439775" symbol="initialize"/>
-        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="80" lineNum="35" parent="globals/Jacobs/Layer" pc="268439796" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="11" lineNum="115" parent="globals/prototypeView" pc="268435900" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="12" lineNum="64" parent="globals/Power" pc="268435935" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="8" parent="globals/Background" pc="268435954" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="9" parent="globals/Background" pc="268435958" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="13" lineNum="13" parent="globals/Background" pc="268435979" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="16" parent="globals/Background" pc="268436000" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="18" parent="globals/Background" pc="268436002" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeBackground.mc" id="14" lineNum="19" parent="globals/Background" pc="268436024" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="46" parent="globals/Cadence" pc="268436037" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="48" parent="globals/Cadence" pc="268436041" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="50" parent="globals/Cadence" pc="268436058" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="52" parent="globals/Cadence" pc="268436078" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="16" lineNum="55" parent="globals/Cadence" pc="268436090" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="37" parent="globals/Cadence" pc="268436096" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="39" parent="globals/Cadence" pc="268436098" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="41" parent="globals/Cadence" pc="268436116" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="17" lineNum="42" parent="globals/Cadence" pc="268436129" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="18" lineNum="58" parent="globals/Cadence" pc="268436174" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="18" lineNum="60" parent="globals/Cadence" pc="268436176" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="19" lineNum="44" parent="globals/MetricFace" pc="268436205" symbol="setValue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="19" lineNum="46" parent="globals/MetricFace" pc="268436207" symbol="setValue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="24" parent="globals/MetricFace" pc="268436242" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="26" parent="globals/MetricFace" pc="268436244" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="20" lineNum="34" parent="globals/MetricFace" pc="268436346" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="60" parent="globals/MetricFace" pc="268436452" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="62" parent="globals/MetricFace" pc="268436454" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="21" lineNum="63" parent="globals/MetricFace" pc="268436474" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="22" lineNum="54" parent="globals/MetricFace" pc="268436495" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="23" lineNum="49" parent="globals/MetricFace" pc="268436498" symbol="setHeader"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metricFace.mc" id="23" lineNum="51" parent="globals/MetricFace" pc="268436500" symbol="setHeader"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="24" lineNum="12" parent="globals/prototypeApp" pc="268436521" symbol="onStart"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="25" lineNum="25" parent="globals/prototypeApp" pc="268436524" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="25" lineNum="26" parent="globals/prototypeApp" pc="268436526" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="26" lineNum="20" parent="globals/prototypeApp" pc="268436543" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="26" lineNum="21" parent="globals/prototypeApp" pc="268436545" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="27" lineNum="7" parent="globals/prototypeApp" pc="268436586" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="27" lineNum="8" parent="globals/prototypeApp" pc="268436588" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeApp.mc" id="28" lineNum="16" parent="globals/prototypeApp" pc="268436607" symbol="onStop"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="99" parent="globals/PerformanceMetric" pc="268436610" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="101" parent="globals/PerformanceMetric" pc="268436612" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="29" lineNum="102" parent="globals/PerformanceMetric" pc="268436622" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="30" lineNum="37" parent="globals/Metrics" pc="268436633" symbol="set"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="30" lineNum="39" parent="globals/Metrics" pc="268436635" symbol="set"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="31" lineNum="32" parent="globals/Metrics" pc="268436649" symbol="get"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="31" lineNum="34" parent="globals/Metrics" pc="268436651" symbol="get"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="33" lineNum="50" parent="globals/TreeNode" pc="268436663" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="33" lineNum="52" parent="globals/TreeNode" pc="268436665" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="34" lineNum="84" parent="globals/Jacobs/LayoutOrchestrator" pc="268436676" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="34" lineNum="75" parent="globals/Jacobs/LayoutOrchestrator" pc="268436676" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="35" lineNum="32" parent="globals/Jacobs/BlackboxResult" pc="268436691" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="35" lineNum="35" parent="globals/Jacobs/BlackboxResult" pc="268436691" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="36" lineNum="45" parent="globals/Jacobs/Blackbox" pc="268436726" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="36" lineNum="49" parent="globals/Jacobs/Blackbox" pc="268436726" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="62" parent="globals/Tree" pc="268436741" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="37" lineNum="64" parent="globals/Tree" pc="268436743" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="68" parent="globals/Tree" pc="268436875" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="70" parent="globals/Tree" pc="268436879" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="72" parent="globals/Tree" pc="268436886" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="74" parent="globals/Tree" pc="268436909" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="76" parent="globals/Tree" pc="268436922" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="76" parent="globals/Tree" pc="268436928" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="78" parent="globals/Tree" pc="268436934" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="78" parent="globals/Tree" pc="268436965" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="80" parent="globals/Tree" pc="268436971" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\qualityMetric.mc" id="38" lineNum="83" parent="globals/Tree" pc="268436990" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="39" lineNum="30" parent="globals/Metric" pc="268436993" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="39" lineNum="30" parent="globals/Metric" pc="268436995" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="40" lineNum="29" parent="globals/Metric" pc="268437001" symbol="get_name"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="40" lineNum="29" parent="globals/Metric" pc="268437003" symbol="get_name"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="42" lineNum="23" parent="globals/Metric" pc="268437012" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="42" lineNum="25" parent="globals/Metric" pc="268437014" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="43" lineNum="142" parent="globals/prototypeView" pc="268437017" symbol="onShow"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="43" lineNum="145" parent="globals/prototypeView" pc="268437019" symbol="onShow"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="137" parent="globals/prototypeView" pc="268437125" symbol="onLayout"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="44" lineNum="139" parent="globals/prototypeView" pc="268437127" symbol="onLayout"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="118" parent="globals/prototypeView" pc="268437169" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="45" lineNum="120" parent="globals/prototypeView" pc="268437171" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="125" parent="globals/prototypeView" pc="268437190" symbol="getCurrentCadence"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="127" parent="globals/prototypeView" pc="268437194" symbol="getCurrentCadence"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="129" parent="globals/prototypeView" pc="268437211" symbol="getCurrentCadence"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="131" parent="globals/prototypeView" pc="268437231" symbol="getCurrentCadence"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="46" lineNum="134" parent="globals/prototypeView" pc="268437243" symbol="getCurrentCadence"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="154" parent="globals/prototypeView" pc="268437249" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="158" parent="globals/prototypeView" pc="268437253" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="160" parent="globals/prototypeView" pc="268437277" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="161" parent="globals/prototypeView" pc="268437285" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="47" lineNum="163" parent="globals/prototypeView" pc="268437338" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="74" parent="globals/Power" pc="268437361" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="76" parent="globals/Power" pc="268437365" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="78" parent="globals/Power" pc="268437382" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="80" parent="globals/Power" pc="268437402" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="48" lineNum="83" parent="globals/Power" pc="268437414" symbol="get_value"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="49" lineNum="67" parent="globals/Power" pc="268437420" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="49" lineNum="69" parent="globals/Power" pc="268437422" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="49" lineNum="70" parent="globals/Power" pc="268437435" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="50" lineNum="86" parent="globals/Power" pc="268437480" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\prototypeView.mc" id="50" lineNum="88" parent="globals/Power" pc="268437482" symbol="evaluate"/>
+        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="51" lineNum="13" parent="globals/Rez/Layouts" pc="268437511" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="51" lineNum="14" parent="globals/Rez/Layouts" pc="268437523" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="51" lineNum="16" parent="globals/Rez/Layouts" pc="268437551" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\bin\\gen\\006-B1765-00\\source\\Rez.mcgen" id="51" lineNum="18" parent="globals/Rez/Layouts" pc="268437686" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="52" lineNum="88" parent="globals/Jacobs/LayoutOrchestrator" pc="268437713" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="52" lineNum="90" parent="globals/Jacobs/LayoutOrchestrator" pc="268437715" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="101" parent="globals/Jacobs/LayoutOrchestrator" pc="268437821" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="103" parent="globals/Jacobs/LayoutOrchestrator" pc="268437825" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="105" parent="globals/Jacobs/LayoutOrchestrator" pc="268437845" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="107" parent="globals/Jacobs/LayoutOrchestrator" pc="268437883" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="109" parent="globals/Jacobs/LayoutOrchestrator" pc="268437906" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="113" parent="globals/Jacobs/LayoutOrchestrator" pc="268437942" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="53" lineNum="114" parent="globals/Jacobs/LayoutOrchestrator" pc="268437996" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="54" lineNum="118" parent="globals/Jacobs/LayoutOrchestrator" pc="268438043" symbol="&lt;globals/Jacobs/LayoutOrchestrator/&lt;&gt;_drawSegment&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="55" lineNum="39" parent="globals/Jacobs/Prioritisable" pc="268438046" symbol="getPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="55" lineNum="47" parent="globals/Jacobs/Prioritisable" pc="268438048" symbol="getPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="56" lineNum="32" parent="globals/Jacobs/Prioritisable" pc="268438057" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="56" lineNum="34" parent="globals/Jacobs/Prioritisable" pc="268438059" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="56" lineNum="35" parent="globals/Jacobs/Prioritisable" pc="268438069" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="56" lineNum="35" parent="globals/Jacobs/Prioritisable" pc="268438081" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="57" lineNum="50" parent="globals/Jacobs/Prioritisable" pc="268438098" symbol="setPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="57" lineNum="59" parent="globals/Jacobs/Prioritisable" pc="268438100" symbol="setPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\prioritisable.mc" id="57" lineNum="60" parent="globals/Jacobs/Prioritisable" pc="268438120" symbol="setPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="58" lineNum="26" parent="globals/Jacobs/PerformanceMetric" pc="268438131" symbol="getUserPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="58" lineNum="26" parent="globals/Jacobs/PerformanceMetric" pc="268438133" symbol="getUserPriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="59" lineNum="23" parent="globals/Jacobs/PerformanceMetric" pc="268438139" symbol="getValue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="59" lineNum="23" parent="globals/Jacobs/PerformanceMetric" pc="268438141" symbol="getValue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="60" lineNum="22" parent="globals/Jacobs/PerformanceMetric" pc="268438147" symbol="getName"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="60" lineNum="22" parent="globals/Jacobs/PerformanceMetric" pc="268438149" symbol="getName"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="61" lineNum="25" parent="globals/Jacobs/PerformanceMetric" pc="268438155" symbol="getRange"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="61" lineNum="25" parent="globals/Jacobs/PerformanceMetric" pc="268438157" symbol="getRange"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="62" lineNum="27" parent="globals/Jacobs/PerformanceMetric" pc="268438163" symbol="getFluctuation"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="62" lineNum="27" parent="globals/Jacobs/PerformanceMetric" pc="268438165" symbol="getFluctuation"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="64" lineNum="28" parent="globals/Jacobs/PerformanceMetric" pc="268438171" symbol="getRateOfChange"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="64" lineNum="28" parent="globals/Jacobs/PerformanceMetric" pc="268438173" symbol="getRateOfChange"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="65" lineNum="37" parent="globals/Jacobs/BlackboxResult" pc="268438179" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="65" lineNum="39" parent="globals/Jacobs/BlackboxResult" pc="268438181" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="65" lineNum="40" parent="globals/Jacobs/BlackboxResult" pc="268438191" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="66" lineNum="86" parent="globals/Jacobs/Neuron" pc="268438202" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="66" lineNum="97" parent="globals/Jacobs/Neuron" pc="268438204" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="60" parent="globals/Jacobs/Neuron" pc="268438241" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="73" parent="globals/Jacobs/Neuron" pc="268438245" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="75" parent="globals/Jacobs/Neuron" pc="268438252" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="77" parent="globals/Jacobs/Neuron" pc="268438276" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="80" parent="globals/Jacobs/Neuron" pc="268438311" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="81" parent="globals/Jacobs/Neuron" pc="268438324" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="67" lineNum="83" parent="globals/Jacobs/Neuron" pc="268438345" symbol="computeOutput"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="36" parent="globals/Jacobs/Neuron" pc="268438354" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="44" parent="globals/Jacobs/Neuron" pc="268438358" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="47" parent="globals/Jacobs/Neuron" pc="268438372" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="49" parent="globals/Jacobs/Neuron" pc="268438393" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="50" parent="globals/Jacobs/Neuron" pc="268438439" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="54" parent="globals/Jacobs/Neuron" pc="268438472" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\neuron.mc" id="68" lineNum="55" parent="globals/Jacobs/Neuron" pc="268438518" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="69" lineNum="24" parent="globals/Jacobs/Message" pc="268438529" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="69" lineNum="26" parent="globals/Jacobs/Message" pc="268438531" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="69" lineNum="27" parent="globals/Jacobs/Message" pc="268438541" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="69" lineNum="28" parent="globals/Jacobs/Message" pc="268438551" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="60" parent="globals/Jacobs/Blackbox" pc="268438562" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="62" parent="globals/Jacobs/Blackbox" pc="268438566" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="64" parent="globals/Jacobs/Blackbox" pc="268438574" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="66" parent="globals/Jacobs/Blackbox" pc="268438604" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="68" parent="globals/Jacobs/Blackbox" pc="268438689" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="70" parent="globals/Jacobs/Blackbox" pc="268438738" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\metrics\\performance_metric.mc" id="71" lineNum="74" parent="globals/Jacobs/Blackbox" pc="268438805" symbol="evaluate"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="72" lineNum="43" parent="globals/Jacobs/PrioritisationNetwork" pc="268438808" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="72" lineNum="52" parent="globals/Jacobs/PrioritisationNetwork" pc="268438812" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="72" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438816" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="72" lineNum="55" parent="globals/Jacobs/PrioritisationNetwork" pc="268438846" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="72" lineNum="57" parent="globals/Jacobs/PrioritisationNetwork" pc="268438883" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="73" lineNum="25" parent="globals/Jacobs/PrioritisationNetwork" pc="268438886" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="73" lineNum="33" parent="globals/Jacobs/PrioritisationNetwork" pc="268438890" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="73" lineNum="35" parent="globals/Jacobs/PrioritisationNetwork" pc="268438904" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\network.mc" id="73" lineNum="37" parent="globals/Jacobs/PrioritisationNetwork" pc="268438928" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="41" parent="globals/Jacobs/PriorityQueue" pc="268439002" symbol="enqueue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="49" parent="globals/Jacobs/PriorityQueue" pc="268439006" symbol="enqueue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="74" lineNum="50" parent="globals/Jacobs/PriorityQueue" pc="268439021" symbol="enqueue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="126" parent="globals/Jacobs/PriorityQueue" pc="268439038" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="135" parent="globals/Jacobs/PriorityQueue" pc="268439042" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="137" parent="globals/Jacobs/PriorityQueue" pc="268439050" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="139" parent="globals/Jacobs/PriorityQueue" pc="268439065" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="142" parent="globals/Jacobs/PriorityQueue" pc="268439101" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="144" parent="globals/Jacobs/PriorityQueue" pc="268439115" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="146" parent="globals/Jacobs/PriorityQueue" pc="268439142" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="75" lineNum="149" parent="globals/Jacobs/PriorityQueue" pc="268439178" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="53" parent="globals/Jacobs/PriorityQueue" pc="268439189" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="61" parent="globals/Jacobs/PriorityQueue" pc="268439193" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="64" parent="globals/Jacobs/PriorityQueue" pc="268439219" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="68" parent="globals/Jacobs/PriorityQueue" pc="268439224" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="69" parent="globals/Jacobs/PriorityQueue" pc="268439240" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="76" lineNum="71" parent="globals/Jacobs/PriorityQueue" pc="268439272" symbol="dequeue"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="77" lineNum="34" parent="globals/Jacobs/PriorityQueue" pc="268439275" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="77" lineNum="36" parent="globals/Jacobs/PriorityQueue" pc="268439277" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="74" parent="globals/Jacobs/PriorityQueue" pc="268439292" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="84" parent="globals/Jacobs/PriorityQueue" pc="268439296" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="86" parent="globals/Jacobs/PriorityQueue" pc="268439317" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="89" parent="globals/Jacobs/PriorityQueue" pc="268439328" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="90" parent="globals/Jacobs/PriorityQueue" pc="268439348" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="78" lineNum="92" parent="globals/Jacobs/PriorityQueue" pc="268439362" symbol="updatePriority"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="96" parent="globals/Jacobs/PriorityQueue" pc="268439380" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="105" parent="globals/Jacobs/PriorityQueue" pc="268439384" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="106" parent="globals/Jacobs/PriorityQueue" pc="268439391" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="108" parent="globals/Jacobs/PriorityQueue" pc="268439416" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="110" parent="globals/Jacobs/PriorityQueue" pc="268439424" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="112" parent="globals/Jacobs/PriorityQueue" pc="268439437" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="114" parent="globals/Jacobs/PriorityQueue" pc="268439472" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="119" parent="globals/Jacobs/PriorityQueue" pc="268439485" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\priority_queue\\queue.mc" id="79" lineNum="123" parent="globals/Jacobs/PriorityQueue" pc="268439498" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="80" lineNum="84" parent="globals/Jacobs/Range" pc="268439501" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="80" lineNum="95" parent="globals/Jacobs/Range" pc="268439503" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="80" lineNum="98" parent="globals/Jacobs/Range" pc="268439517" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="80" lineNum="99" parent="globals/Jacobs/Range" pc="268439527" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="80" lineNum="102" parent="globals/Jacobs/Range" pc="268439531" symbol="set_maximum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="81" lineNum="50" parent="globals/Jacobs/Range" pc="268439542" symbol="test"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="81" lineNum="60" parent="globals/Jacobs/Range" pc="268439544" symbol="test"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="82" lineNum="63" parent="globals/Jacobs/Range" pc="268439573" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="82" lineNum="74" parent="globals/Jacobs/Range" pc="268439575" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="82" lineNum="77" parent="globals/Jacobs/Range" pc="268439589" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="82" lineNum="78" parent="globals/Jacobs/Range" pc="268439599" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="82" lineNum="81" parent="globals/Jacobs/Range" pc="268439603" symbol="set_minimum"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="25" parent="globals/Jacobs/Range" pc="268439614" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="36" parent="globals/Jacobs/Range" pc="268439616" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="39" parent="globals/Jacobs/Range" pc="268439624" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="40" parent="globals/Jacobs/Range" pc="268439634" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="41" parent="globals/Jacobs/Range" pc="268439644" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="44" parent="globals/Jacobs/Range" pc="268439648" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\range.mc" id="83" lineNum="45" parent="globals/Jacobs/Range" pc="268439658" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="84" lineNum="41" parent="globals/Jacobs/Layer" pc="268439669" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="84" lineNum="53" parent="globals/Jacobs/Layer" pc="268439673" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="84" lineNum="55" parent="globals/Jacobs/Layer" pc="268439681" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="84" lineNum="58" parent="globals/Jacobs/Layer" pc="268439711" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="84" lineNum="61" parent="globals/Jacobs/Layer" pc="268439758" symbol="forward"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="85" lineNum="23" parent="globals/Jacobs/Layer" pc="268439761" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="85" lineNum="31" parent="globals/Jacobs/Layer" pc="268439765" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="85" lineNum="33" parent="globals/Jacobs/Layer" pc="268439779" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\neural_network\\layer.mc" id="85" lineNum="35" parent="globals/Jacobs/Layer" pc="268439800" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="86" lineNum="41" parent="globals/Jacobs/Segment" pc="268439860" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="86" lineNum="43" parent="globals/Jacobs/Segment" pc="268439862" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="86" lineNum="51" parent="globals/Jacobs/Segment" pc="268439961" symbol="initialize"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="87" lineNum="62" parent="globals/Jacobs/Segment" pc="268440067" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="87" lineNum="65" parent="globals/Jacobs/Segment" pc="268440069" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="87" lineNum="66" parent="globals/Jacobs/Segment" pc="268440089" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="87" lineNum="69" parent="globals/Jacobs/Segment" pc="268440123" symbol="draw"/>
+        <entry filename="C:\\Users\\tomja\\PycharmProjects\\task_application\\masters_dissertation\\prototype\\source\\fsm\\layout.mc" id="87" lineNum="70" parent="globals/Jacobs/Segment" pc="268440143" symbol="draw"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="78" method="true" symbol="updatePriority"/>
+        <entry id="86" method="true" symbol="updatePriority"/>
+        <entry field="true" id="59" symbol="&lt;globals/Jacobs/LayoutOrchestrator/&lt;&gt;_segments&gt;"/>
         <entry id="8390141" method="true" object="true" symbol="test"/>
-        <entry field="true" id="79" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMaximum&gt;"/>
+        <entry field="true" id="87" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMaximum&gt;"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry field="true" id="24" symbol="m_value_label"/>
-        <entry field="true" id="41" symbol="metric"/>
-        <entry id="75" method="true" symbol="enqueue"/>
+        <entry field="true" id="44" symbol="metric"/>
+        <entry id="83" method="true" symbol="enqueue"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry id="16" object="true" symbol="TreeNode"/>
-        <entry field="true" id="51" symbol="ColorRed"/>
-        <entry field="true" id="42" symbol="metricHeader"/>
+        <entry field="true" id="54" symbol="ColorRed"/>
+        <entry field="true" id="45" symbol="metricHeader"/>
         <entry field="true" id="29" symbol="mValue"/>
+        <entry id="8389236" object="true" symbol="Message"/>
         <entry id="9" module="true" symbol="Jacobs"/>
         <entry id="13" object="true" symbol="PerformanceMetric"/>
-        <entry id="32" object="true" symbol="Neuron"/>
-        <entry field="true" id="54" symbol="MilitaryFormatTitle"/>
+        <entry id="58" method="true" symbol="&lt;globals/Jacobs/LayoutOrchestrator/&lt;&gt;_drawSegment&gt;"/>
+        <entry id="33" object="true" symbol="Neuron"/>
+        <entry field="true" id="57" symbol="MilitaryFormatTitle"/>
         <entry id="20" method="true" symbol="evaluate"/>
-        <entry id="35" object="true" symbol="Range"/>
+        <entry id="36" object="true" symbol="Range"/>
+        <entry id="37" object="true" symbol="Segment"/>
         <entry id="8389629" method="true" symbol="getValue"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="65" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mBias&gt;"/>
+        <entry field="true" id="71" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mBias&gt;"/>
         <entry id="8388649" module="true" object="true" symbol="Test"/>
-        <entry field="true" id="48" symbol="ColorBlue"/>
-        <entry field="true" id="38" symbol="mName"/>
-        <entry id="72" method="true" symbol="forward"/>
-        <entry field="true" id="45" symbol="AppName"/>
-        <entry field="true" id="39" symbol="mRange"/>
+        <entry field="true" id="51" symbol="ColorBlue"/>
+        <entry field="true" id="40" symbol="mName"/>
+        <entry id="80" method="true" symbol="forward"/>
+        <entry field="true" id="48" symbol="AppName"/>
+        <entry field="true" id="41" symbol="mRange"/>
         <entry id="15" object="true" symbol="Tree"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="36" symbol="mNodes"/>
-        <entry field="true" id="70" symbol="tolerance"/>
+        <entry field="true" id="38" symbol="mNodes"/>
+        <entry field="true" id="78" symbol="tolerance"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry field="true" id="8388947" method="true" symbol="value"/>
-        <entry id="60" method="true" symbol="getRateOfChange"/>
+        <entry id="66" method="true" symbol="getRateOfChange"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="59" method="true" symbol="getRange"/>
-        <entry field="true" id="55" symbol="&lt;globals/Jacobs/Prioritisable/&lt;&gt;_priority&gt;"/>
+        <entry id="65" method="true" symbol="getRange"/>
+        <entry field="true" id="61" symbol="&lt;globals/Jacobs/Prioritisable/&lt;&gt;_priority&gt;"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
         <entry field="true" id="8388959" symbol="cadence"/>
         <entry id="8388789" method="true" symbol="get"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
-        <entry id="58" method="true" symbol="getFluctuation"/>
+        <entry id="64" method="true" symbol="getFluctuation"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="8389112" symbol="mType"/>
-        <entry field="true" id="80" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMinimum&gt;"/>
-        <entry id="82" method="true" symbol="set_minimum"/>
+        <entry field="true" id="88" symbol="&lt;globals/Jacobs/Range/&lt;&gt;_mMinimum&gt;"/>
+        <entry id="90" method="true" symbol="set_minimum"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="49" symbol="ColorDarkGray"/>
-        <entry field="true" id="83" symbol="&lt;globals/Jacobs/Layer/&lt;&gt;_mNeurons&gt;"/>
+        <entry field="true" id="52" symbol="ColorDarkGray"/>
+        <entry field="true" id="91" symbol="&lt;globals/Jacobs/Layer/&lt;&gt;_mNeurons&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="21" method="true" symbol="get_value"/>
-        <entry id="40" method="true" symbol="getCurrentCadence"/>
+        <entry field="true" id="75" symbol="colour"/>
+        <entry id="42" method="true" symbol="getCurrentCadence"/>
         <entry id="12" object="true" symbol="Metrics"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="66" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mValue&gt;"/>
-        <entry field="true" id="73" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;_mElements&gt;"/>
+        <entry field="true" id="72" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mValue&gt;"/>
+        <entry field="true" id="81" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;_mElements&gt;"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="31" object="true" symbol="BlackboxResult"/>
         <entry id="7" object="true" symbol="Assessment"/>
         <entry id="28" method="true" symbol="set"/>
-        <entry id="57" method="true" symbol="setPriority"/>
-        <entry field="true" id="52" symbol="ColorWhite"/>
+        <entry id="63" method="true" symbol="setPriority"/>
+        <entry field="true" id="55" symbol="ColorWhite"/>
         <entry id="17" object="true" symbol="prototypeApp"/>
         <entry id="8391428" object="true" symbol="Layer"/>
         <entry id="10" object="true" symbol="Metric"/>
-        <entry field="true" id="47" symbol="ColorBlack"/>
-        <entry id="68" method="true" symbol="computeOutput"/>
+        <entry field="true" id="50" symbol="ColorBlack"/>
+        <entry id="74" method="true" symbol="computeOutput"/>
         <entry id="11" object="true" symbol="MetricFace"/>
-        <entry id="77" method="true" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
+        <entry id="85" method="true" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="2" module="true" symbol="globals/Jacobs"/>
-        <entry field="true" id="67" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mWeights&gt;"/>
-        <entry field="true" id="63" symbol="priority"/>
+        <entry field="true" id="73" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_mWeights&gt;"/>
+        <entry field="true" id="69" symbol="priority"/>
         <entry id="14" object="true" symbol="Power"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry field="true" id="71" symbol="&lt;globals/Jacobs/PrioritisationNetwork/&lt;&gt;_mLayers&gt;"/>
-        <entry id="81" method="true" symbol="set_maximum"/>
+        <entry field="true" id="60" symbol="&lt;globals/Jacobs/LayoutOrchestrator/&lt;&gt;headerLabel&gt;"/>
+        <entry field="true" id="79" symbol="&lt;globals/Jacobs/PrioritisationNetwork/&lt;&gt;_mLayers&gt;"/>
+        <entry id="89" method="true" symbol="set_maximum"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="34" object="true" symbol="PriorityQueue"/>
+        <entry id="35" object="true" symbol="PriorityQueue"/>
+        <entry field="true" id="92" symbol="&lt;globals/Jacobs/Segment/&lt;&gt;_header&gt;"/>
         <entry id="18" object="true" symbol="prototypeView"/>
         <entry field="true" id="22" symbol="m_header_label"/>
         <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="76" symbol="header"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="44" symbol="LauncherIcon"/>
+        <entry field="true" id="47" symbol="LauncherIcon"/>
         <entry id="25" method="true" symbol="setHeader"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="30" object="true" symbol="Blackbox"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="46" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="49" symbol="BackgroundColorTitle"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="62" symbol="performance_metric"/>
+        <entry field="true" id="68" symbol="performance_metric"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="33" object="true" symbol="PrioritisationNetwork"/>
+        <entry id="34" object="true" symbol="PrioritisationNetwork"/>
         <entry field="true" id="8388892" symbol="name"/>
-        <entry id="64" method="true" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
+        <entry id="70" method="true" symbol="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;"/>
         <entry id="8" object="true" symbol="Cadence"/>
-        <entry field="true" id="50" symbol="ColorLightGray"/>
+        <entry field="true" id="53" symbol="ColorLightGray"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="93" symbol="&lt;globals/Jacobs/Segment/&lt;&gt;_value&gt;"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="61" method="true" symbol="getUserPriority"/>
-        <entry id="56" method="true" symbol="getPriority"/>
-        <entry field="true" id="53" symbol="ForegroundColorTitle"/>
-        <entry id="76" method="true" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
-        <entry id="37" method="true" symbol="get_name"/>
+        <entry id="67" method="true" symbol="getUserPriority"/>
+        <entry id="62" method="true" symbol="getPriority"/>
+        <entry field="true" id="56" symbol="ForegroundColorTitle"/>
+        <entry id="84" method="true" symbol="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;"/>
+        <entry id="39" method="true" symbol="get_name"/>
+        <entry id="32" object="true" symbol="LayoutOrchestrator"/>
         <entry field="true" id="23" symbol="m_value"/>
         <entry id="19" module="true" symbol="Layouts"/>
-        <entry id="74" method="true" symbol="dequeue"/>
+        <entry id="82" method="true" symbol="dequeue"/>
         <entry id="26" object="true" symbol="Prioritisable"/>
-        <entry field="true" id="69" symbol="&lt;globals/Jacobs/Blackbox/&lt;&gt;_performanceMetrics&gt;"/>
-        <entry field="true" id="43" symbol="metricValue"/>
+        <entry field="true" id="77" symbol="&lt;globals/Jacobs/Blackbox/&lt;&gt;_performanceMetrics&gt;"/>
+        <entry field="true" id="46" symbol="metricValue"/>
         <entry id="8390426" method="true" symbol="setValue"/>
         <entry id="8389962" method="true" symbol="getName"/>
         <entry field="true" id="27" symbol="metrics"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="43" symbol="&lt;globals/prototypeView/&lt;&gt;layoutOrchestrator&gt;"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435964" name="dictionary" stackId="1" startPc="268435924"/>
-        <entry arg="true" endPc="268436002" name="dc" stackId="1" startPc="268435966"/>
-        <entry endPc="268436061" name="activityInfo" stackId="1" startPc="268436007"/>
-        <entry arg="true" endPc="268436207" name="p_value" stackId="1" startPc="268436171"/>
-        <entry arg="true" endPc="268436417" name="p_name" stackId="1" startPc="268436208"/>
-        <entry arg="true" endPc="268436460" name="p_dc" stackId="1" startPc="268436418"/>
-        <entry arg="true" endPc="268436486" name="p_name" stackId="1" startPc="268436464"/>
-        <entry arg="true" endPc="268436598" name="name" stackId="1" startPc="268436576"/>
-        <entry arg="true" endPc="268436598" name="value" stackId="2" startPc="268436576"/>
-        <entry arg="true" endPc="268436614" name="metricType" stackId="1" startPc="268436599"/>
-        <entry arg="true" endPc="268436614" name="value" stackId="2" startPc="268436599"/>
-        <entry arg="true" endPc="268436628" name="metricType" stackId="1" startPc="268436615"/>
-        <entry arg="true" endPc="268436641" name="pType" stackId="1" startPc="268436629"/>
-        <entry arg="true" endPc="268436943" name="pMetrics" stackId="1" startPc="268436826"/>
-        <entry endPc="268436943" name="currentNodeIndex" stackId="2" startPc="268436830"/>
-        <entry endPc="268436937" name="currentNode" stackId="3" startPc="268436860"/>
-        <entry arg="true" endPc="268437119" name="dc" stackId="1" startPc="268437076"/>
-        <entry endPc="268437422" name="tree" stackId="1" startPc="268437124"/>
-        <entry endPc="268437422" name="treeNode" stackId="2" startPc="268437124"/>
-        <entry endPc="268437422" name="queue" stackId="3" startPc="268437124"/>
-        <entry endPc="268437482" name="activityInfo" stackId="1" startPc="268437428"/>
-        <entry arg="true" endPc="268437722" name="dc" stackId="1" startPc="268437483"/>
-        <entry endPc="268437701" name="i" stackId="2" startPc="268437587"/>
-        <entry endPc="268437781" name="activityInfo" stackId="1" startPc="268437727"/>
-        <entry arg="true" endPc="268438074" name="dc" stackId="1" startPc="268437873"/>
-        <entry endPc="268438074" name="rez_cmp_local_custom_drawable_11382161301260731019" stackId="2" startPc="268437885"/>
-        <entry endPc="268438074" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437885"/>
-        <entry arg="true" endPc="268438126" name="priority" stackId="1" startPc="268438086"/>
-        <entry arg="true" endPc="268438159" name="priority" stackId="1" startPc="268438127"/>
-        <entry arg="true" endPc="268438230" name="priority" stackId="1" startPc="268438208"/>
-        <entry arg="true" endPc="268438230" name="metric" stackId="2" startPc="268438208"/>
-        <entry arg="true" endPc="268438269" name="pX" stackId="1" startPc="268438231"/>
-        <entry arg="true" endPc="268438382" name="pInputs" stackId="1" startPc="268438270"/>
-        <entry endPc="268438382" name="sum" stackId="2" startPc="268438274"/>
-        <entry endPc="268438339" name="i" stackId="3" startPc="268438305"/>
-        <entry arg="true" endPc="268438557" name="pNumberOfInputs" stackId="1" startPc="268438383"/>
-        <entry endPc="268438500" name="i" stackId="2" startPc="268438422"/>
-        <entry endPc="268438487" name="random" stackId="3" startPc="268438422"/>
-        <entry endPc="268438556" name="random" stackId="4" startPc="268438387"/>
-        <entry endPc="268438803" name="results" stackId="1" startPc="268438562"/>
-        <entry endPc="268438800" name="i" stackId="2" startPc="268438600"/>
-        <entry endPc="268438787" name="result" stackId="3" startPc="268438600"/>
-        <entry arg="true" endPc="268438881" name="pInputs" stackId="1" startPc="268438804"/>
-        <entry endPc="268438881" name="outputs" stackId="2" startPc="268438808"/>
-        <entry endPc="268438878" name="i" stackId="3" startPc="268438842"/>
-        <entry arg="true" endPc="268438997" name="pLayerSizes" stackId="1" startPc="268438882"/>
-        <entry endPc="268438996" name="i" stackId="2" startPc="268438924"/>
-        <entry arg="true" endPc="268439033" name="item" stackId="1" startPc="268438998"/>
-        <entry endPc="268439032" name="position" stackId="2" startPc="268439002"/>
-        <entry arg="true" endPc="268439184" name="item" stackId="1" startPc="268439034"/>
-        <entry arg="true" endPc="268439184" name="position" stackId="2" startPc="268439034"/>
-        <entry endPc="268439183" name="newElements" stackId="3" startPc="268439038"/>
-        <entry endPc="268439096" name="i" stackId="4" startPc="268439061"/>
-        <entry endPc="268439173" name="i" stackId="5" startPc="268439138"/>
-        <entry endPc="268439270" name="object" stackId="1" startPc="268439189"/>
-        <entry arg="true" endPc="268439375" name="item" stackId="1" startPc="268439288"/>
-        <entry arg="true" endPc="268439375" name="newPriority" stackId="2" startPc="268439288"/>
-        <entry endPc="268439374" name="index" stackId="3" startPc="268439292"/>
-        <entry arg="true" endPc="268439496" name="item" stackId="1" startPc="268439376"/>
-        <entry endPc="268439496" name="low" stackId="2" startPc="268439380"/>
-        <entry endPc="268439496" name="high" stackId="3" startPc="268439380"/>
-        <entry endPc="268439490" name="mid" stackId="4" startPc="268439420"/>
-        <entry arg="true" endPc="268439537" name="pValue" stackId="1" startPc="268439497"/>
-        <entry arg="true" endPc="268439568" name="pValue" stackId="1" startPc="268439538"/>
-        <entry arg="true" endPc="268439609" name="pValue" stackId="1" startPc="268439569"/>
-        <entry arg="true" endPc="268439664" name="pMinimum" stackId="1" startPc="268439610"/>
-        <entry arg="true" endPc="268439664" name="pMaximum" stackId="2" startPc="268439610"/>
-        <entry arg="true" endPc="268439756" name="pInputs" stackId="1" startPc="268439665"/>
-        <entry endPc="268439756" name="outputs" stackId="2" startPc="268439669"/>
-        <entry endPc="268439753" name="i" stackId="3" startPc="268439707"/>
-        <entry arg="true" endPc="268439855" name="pNumberOfNeurons" stackId="1" startPc="268439757"/>
-        <entry arg="true" endPc="268439855" name="pNumberOfInputsPerNeuron" stackId="2" startPc="268439757"/>
-        <entry endPc="268439854" name="i" stackId="3" startPc="268439796"/>
+        <entry endPc="268435998" name="dictionary" stackId="1" startPc="268435958"/>
+        <entry arg="true" endPc="268436036" name="dc" stackId="1" startPc="268436000"/>
+        <entry endPc="268436095" name="activityInfo" stackId="1" startPc="268436041"/>
+        <entry arg="true" endPc="268436241" name="p_value" stackId="1" startPc="268436205"/>
+        <entry arg="true" endPc="268436451" name="p_name" stackId="1" startPc="268436242"/>
+        <entry arg="true" endPc="268436494" name="p_dc" stackId="1" startPc="268436452"/>
+        <entry arg="true" endPc="268436520" name="p_name" stackId="1" startPc="268436498"/>
+        <entry arg="true" endPc="268436632" name="name" stackId="1" startPc="268436610"/>
+        <entry arg="true" endPc="268436632" name="value" stackId="2" startPc="268436610"/>
+        <entry arg="true" endPc="268436648" name="metricType" stackId="1" startPc="268436633"/>
+        <entry arg="true" endPc="268436648" name="value" stackId="2" startPc="268436633"/>
+        <entry arg="true" endPc="268436662" name="metricType" stackId="1" startPc="268436649"/>
+        <entry arg="true" endPc="268436675" name="pType" stackId="1" startPc="268436663"/>
+        <entry arg="true" endPc="268436992" name="pMetrics" stackId="1" startPc="268436875"/>
+        <entry endPc="268436992" name="currentNodeIndex" stackId="2" startPc="268436879"/>
+        <entry endPc="268436986" name="currentNode" stackId="3" startPc="268436909"/>
+        <entry arg="true" endPc="268437168" name="dc" stackId="1" startPc="268437125"/>
+        <entry endPc="268437248" name="activityInfo" stackId="1" startPc="268437194"/>
+        <entry arg="true" endPc="268437360" name="dc" stackId="1" startPc="268437249"/>
+        <entry endPc="268437359" name="array" stackId="2" startPc="268437253"/>
+        <entry endPc="268437419" name="activityInfo" stackId="1" startPc="268437365"/>
+        <entry arg="true" endPc="268437712" name="dc" stackId="1" startPc="268437511"/>
+        <entry endPc="268437712" name="rez_cmp_local_custom_drawable_84863480416934371187" stackId="2" startPc="268437523"/>
+        <entry endPc="268437712" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437523"/>
+        <entry arg="true" endPc="268438042" name="messages" stackId="1" startPc="268437821"/>
+        <entry arg="true" endPc="268438042" name="dc" stackId="2" startPc="268437821"/>
+        <entry endPc="268438041" name="i" stackId="3" startPc="268437883"/>
+        <entry arg="true" endPc="268438097" name="priority" stackId="1" startPc="268438057"/>
+        <entry arg="true" endPc="268438130" name="priority" stackId="1" startPc="268438098"/>
+        <entry arg="true" endPc="268438201" name="priority" stackId="1" startPc="268438179"/>
+        <entry arg="true" endPc="268438201" name="metric" stackId="2" startPc="268438179"/>
+        <entry arg="true" endPc="268438240" name="pX" stackId="1" startPc="268438202"/>
+        <entry arg="true" endPc="268438353" name="pInputs" stackId="1" startPc="268438241"/>
+        <entry endPc="268438353" name="sum" stackId="2" startPc="268438245"/>
+        <entry endPc="268438310" name="i" stackId="3" startPc="268438276"/>
+        <entry arg="true" endPc="268438528" name="pNumberOfInputs" stackId="1" startPc="268438354"/>
+        <entry endPc="268438471" name="i" stackId="2" startPc="268438393"/>
+        <entry endPc="268438458" name="random" stackId="3" startPc="268438393"/>
+        <entry endPc="268438527" name="random" stackId="4" startPc="268438358"/>
+        <entry arg="true" endPc="268438561" name="header" stackId="1" startPc="268438529"/>
+        <entry arg="true" endPc="268438561" name="value" stackId="2" startPc="268438529"/>
+        <entry arg="true" endPc="268438561" name="colour" stackId="3" startPc="268438529"/>
+        <entry endPc="268438807" name="results" stackId="1" startPc="268438566"/>
+        <entry endPc="268438804" name="i" stackId="2" startPc="268438604"/>
+        <entry endPc="268438791" name="result" stackId="3" startPc="268438604"/>
+        <entry arg="true" endPc="268438885" name="pInputs" stackId="1" startPc="268438808"/>
+        <entry endPc="268438885" name="outputs" stackId="2" startPc="268438812"/>
+        <entry endPc="268438882" name="i" stackId="3" startPc="268438846"/>
+        <entry arg="true" endPc="268439001" name="pLayerSizes" stackId="1" startPc="268438886"/>
+        <entry endPc="268439000" name="i" stackId="2" startPc="268438928"/>
+        <entry arg="true" endPc="268439037" name="item" stackId="1" startPc="268439002"/>
+        <entry endPc="268439036" name="position" stackId="2" startPc="268439006"/>
+        <entry arg="true" endPc="268439188" name="item" stackId="1" startPc="268439038"/>
+        <entry arg="true" endPc="268439188" name="position" stackId="2" startPc="268439038"/>
+        <entry endPc="268439187" name="newElements" stackId="3" startPc="268439042"/>
+        <entry endPc="268439100" name="i" stackId="4" startPc="268439065"/>
+        <entry endPc="268439177" name="i" stackId="5" startPc="268439142"/>
+        <entry endPc="268439274" name="object" stackId="1" startPc="268439193"/>
+        <entry arg="true" endPc="268439379" name="item" stackId="1" startPc="268439292"/>
+        <entry arg="true" endPc="268439379" name="newPriority" stackId="2" startPc="268439292"/>
+        <entry endPc="268439378" name="index" stackId="3" startPc="268439296"/>
+        <entry arg="true" endPc="268439500" name="item" stackId="1" startPc="268439380"/>
+        <entry endPc="268439500" name="low" stackId="2" startPc="268439384"/>
+        <entry endPc="268439500" name="high" stackId="3" startPc="268439384"/>
+        <entry endPc="268439494" name="mid" stackId="4" startPc="268439424"/>
+        <entry arg="true" endPc="268439541" name="pValue" stackId="1" startPc="268439501"/>
+        <entry arg="true" endPc="268439572" name="pValue" stackId="1" startPc="268439542"/>
+        <entry arg="true" endPc="268439613" name="pValue" stackId="1" startPc="268439573"/>
+        <entry arg="true" endPc="268439668" name="pMinimum" stackId="1" startPc="268439614"/>
+        <entry arg="true" endPc="268439668" name="pMaximum" stackId="2" startPc="268439614"/>
+        <entry arg="true" endPc="268439760" name="pInputs" stackId="1" startPc="268439669"/>
+        <entry endPc="268439760" name="outputs" stackId="2" startPc="268439673"/>
+        <entry endPc="268439757" name="i" stackId="3" startPc="268439711"/>
+        <entry arg="true" endPc="268439859" name="pNumberOfNeurons" stackId="1" startPc="268439761"/>
+        <entry arg="true" endPc="268439859" name="pNumberOfInputsPerNeuron" stackId="2" startPc="268439761"/>
+        <entry endPc="268439858" name="i" stackId="3" startPc="268439800"/>
+        <entry arg="true" endPc="268440066" name="x" stackId="1" startPc="268439860"/>
+        <entry arg="true" endPc="268440066" name="y" stackId="2" startPc="268439860"/>
+        <entry arg="true" endPc="268440163" name="header" stackId="1" startPc="268440067"/>
+        <entry arg="true" endPc="268440163" name="value" stackId="2" startPc="268440067"/>
+        <entry arg="true" endPc="268440163" name="dc" stackId="3" startPc="268440067"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -475,22 +508,25 @@
         <dataEntry label="globals/Metrics" offset="695" parentId="globals" symbolId="Metrics" type="class"/>
         <dataEntry label="globals/TreeNode" offset="766" parentId="globals" symbolId="TreeNode" type="class"/>
         <dataEntry label="globals/Jacobs" offset="829" parentId="globals" symbolId="Jacobs" type="module"/>
-        <dataEntry label="globals/Tree" offset="932" parentId="globals" symbolId="Tree" type="class"/>
-        <dataEntry label="globals/Metric" offset="995" parentId="globals" symbolId="Metric" type="class"/>
-        <dataEntry label="globals/prototypeView" offset="1082" parentId="globals" symbolId="prototypeView" type="class"/>
-        <dataEntry label="globals/Power" offset="1201" parentId="globals" symbolId="Power" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1264" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1303" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1342" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Jacobs/Prioritisable" offset="1453" parentId="Jacobs" symbolId="Prioritisable" type="class"/>
-        <dataEntry label="globals/Jacobs/PerformanceMetric" offset="1524" parentId="Jacobs" symbolId="PerformanceMetric" type="class"/>
-        <dataEntry label="globals/Jacobs/BlackboxResult" offset="1619" parentId="Jacobs" symbolId="BlackboxResult" type="class"/>
-        <dataEntry label="globals/Jacobs/Neuron" offset="1682" parentId="Jacobs" symbolId="Neuron" type="class"/>
-        <dataEntry label="globals/Jacobs/Blackbox" offset="1769" parentId="Jacobs" symbolId="Blackbox" type="class"/>
-        <dataEntry label="globals/Jacobs/PrioritisationNetwork" offset="1840" parentId="Jacobs" symbolId="PrioritisationNetwork" type="class"/>
-        <dataEntry label="globals/Jacobs/PriorityQueue" offset="1903" parentId="Jacobs" symbolId="PriorityQueue" type="class"/>
-        <dataEntry label="globals/Jacobs/Range" offset="1998" parentId="Jacobs" symbolId="Range" type="class"/>
-        <dataEntry label="globals/Jacobs/Layer" offset="2085" parentId="Jacobs" symbolId="Layer" type="class"/>
+        <dataEntry label="globals/Tree" offset="956" parentId="globals" symbolId="Tree" type="class"/>
+        <dataEntry label="globals/Metric" offset="1019" parentId="globals" symbolId="Metric" type="class"/>
+        <dataEntry label="globals/prototypeView" offset="1106" parentId="globals" symbolId="prototypeView" type="class"/>
+        <dataEntry label="globals/Power" offset="1233" parentId="globals" symbolId="Power" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1296" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1335" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1374" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Jacobs/LayoutOrchestrator" offset="1485" parentId="Jacobs" symbolId="LayoutOrchestrator" type="class"/>
+        <dataEntry label="globals/Jacobs/Prioritisable" offset="1564" parentId="Jacobs" symbolId="Prioritisable" type="class"/>
+        <dataEntry label="globals/Jacobs/PerformanceMetric" offset="1635" parentId="Jacobs" symbolId="PerformanceMetric" type="class"/>
+        <dataEntry label="globals/Jacobs/BlackboxResult" offset="1730" parentId="Jacobs" symbolId="BlackboxResult" type="class"/>
+        <dataEntry label="globals/Jacobs/Neuron" offset="1793" parentId="Jacobs" symbolId="Neuron" type="class"/>
+        <dataEntry label="globals/Jacobs/Message" offset="1880" parentId="Jacobs" symbolId="Message" type="class"/>
+        <dataEntry label="globals/Jacobs/Blackbox" offset="1951" parentId="Jacobs" symbolId="Blackbox" type="class"/>
+        <dataEntry label="globals/Jacobs/PrioritisationNetwork" offset="2022" parentId="Jacobs" symbolId="PrioritisationNetwork" type="class"/>
+        <dataEntry label="globals/Jacobs/PriorityQueue" offset="2085" parentId="Jacobs" symbolId="PriorityQueue" type="class"/>
+        <dataEntry label="globals/Jacobs/Range" offset="2180" parentId="Jacobs" symbolId="Range" type="class"/>
+        <dataEntry label="globals/Jacobs/Layer" offset="2267" parentId="Jacobs" symbolId="Layer" type="class"/>
+        <dataEntry label="globals/Jacobs/Segment" offset="2330" parentId="Jacobs" symbolId="Segment" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -532,16 +568,16 @@
         <functionEntry accessMode="public" endPc="268435726" name="&lt;init&gt;" parent="Metric" startPc="268435682">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435900" name="&lt;init&gt;" parent="prototypeView" startPc="268435727">
+        <functionEntry accessMode="public" endPc="268435934" name="&lt;init&gt;" parent="prototypeView" startPc="268435727">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435919" name="&lt;init&gt;" parent="Power" startPc="268435901">
+        <functionEntry accessMode="public" endPc="268435953" name="&lt;init&gt;" parent="Power" startPc="268435935">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435965" name="initialize" parent="Background" startPc="268435920">
+        <functionEntry accessMode="public" endPc="268435999" name="initialize" parent="Background" startPc="268435954">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436002" name="draw" parent="Background" startPc="268435966">
+        <functionEntry accessMode="public" endPc="268436036" name="draw" parent="Background" startPc="268436000">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -557,71 +593,74 @@
         <functionEntry accessMode="public" name="initialize" parent="Assessment">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436061" name="get_value" parent="Cadence" startPc="268436003">
+        <functionEntry accessMode="public" endPc="268436095" name="get_value" parent="Cadence" startPc="268436037">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436139" name="initialize" parent="Cadence" startPc="268436062">
+        <functionEntry accessMode="public" endPc="268436173" name="initialize" parent="Cadence" startPc="268436096">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436170" name="evaluate" parent="Cadence" startPc="268436140">
+        <functionEntry accessMode="public" endPc="268436204" name="evaluate" parent="Cadence" startPc="268436174">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436207" name="setValue" parent="MetricFace" startPc="268436171">
+        <functionEntry accessMode="public" endPc="268436241" name="setValue" parent="MetricFace" startPc="268436205">
             <param id="p_value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436417" name="initialize" parent="MetricFace" startPc="268436208">
+        <functionEntry accessMode="public" endPc="268436451" name="initialize" parent="MetricFace" startPc="268436242">
             <param id="p_name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436460" name="draw" parent="MetricFace" startPc="268436418">
+        <functionEntry accessMode="public" endPc="268436494" name="draw" parent="MetricFace" startPc="268436452">
             <param id="p_dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436463" name="onUpdate" parent="MetricFace" startPc="268436461">
+        <functionEntry accessMode="public" endPc="268436497" name="onUpdate" parent="MetricFace" startPc="268436495">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436486" name="setHeader" parent="MetricFace" startPc="268436464">
+        <functionEntry accessMode="public" endPc="268436520" name="setHeader" parent="MetricFace" startPc="268436498">
             <param id="p_name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436489" name="onStart" parent="prototypeApp" startPc="268436487">
+        <functionEntry accessMode="public" endPc="268436523" name="onStart" parent="prototypeApp" startPc="268436521">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436508" name="onSettingsChanged" parent="prototypeApp" startPc="268436490">
+        <functionEntry accessMode="public" endPc="268436542" name="onSettingsChanged" parent="prototypeApp" startPc="268436524">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436551" name="getInitialView" parent="prototypeApp" startPc="268436509">
+        <functionEntry accessMode="public" endPc="268436585" name="getInitialView" parent="prototypeApp" startPc="268436543">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436572" name="initialize" parent="prototypeApp" startPc="268436552">
+        <functionEntry accessMode="public" endPc="268436606" name="initialize" parent="prototypeApp" startPc="268436586">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436575" name="onStop" parent="prototypeApp" startPc="268436573">
+        <functionEntry accessMode="public" endPc="268436609" name="onStop" parent="prototypeApp" startPc="268436607">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436598" name="initialize" parent="PerformanceMetric" startPc="268436576">
+        <functionEntry accessMode="public" endPc="268436632" name="initialize" parent="PerformanceMetric" startPc="268436610">
             <param id="name"/>
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436614" name="set" parent="Metrics" startPc="268436599">
+        <functionEntry accessMode="public" endPc="268436648" name="set" parent="Metrics" startPc="268436633">
             <param id="metricType"/>
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436628" name="get" parent="Metrics" startPc="268436615">
+        <functionEntry accessMode="public" endPc="268436662" name="get" parent="Metrics" startPc="268436649">
             <param id="metricType"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="Metrics">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436641" name="initialize" parent="TreeNode" startPc="268436629">
+        <functionEntry accessMode="public" endPc="268436675" name="initialize" parent="TreeNode" startPc="268436663">
             <param id="pType"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436690" name="&lt;init&gt;" parent="LayoutOrchestrator" startPc="268436676">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Prioritisable">
@@ -630,13 +669,16 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="PerformanceMetric">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436676" name="&lt;init&gt;" parent="BlackboxResult" startPc="268436642">
+        <functionEntry accessMode="public" endPc="268436725" name="&lt;init&gt;" parent="BlackboxResult" startPc="268436691">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Neuron">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436691" name="&lt;init&gt;" parent="Blackbox" startPc="268436677">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Message">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436740" name="&lt;init&gt;" parent="Blackbox" startPc="268436726">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="PrioritisationNetwork">
@@ -651,166 +693,198 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layer">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436825" name="initialize" parent="Tree" startPc="268436692">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Segment">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436943" name="evaluate" parent="Tree" startPc="268436826">
+        <functionEntry accessMode="public" endPc="268436874" name="initialize" parent="Tree" startPc="268436741">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436992" name="evaluate" parent="Tree" startPc="268436875">
             <param id="pMetrics"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436951" name="get_value" parent="Metric" startPc="268436944">
+        <functionEntry accessMode="public" endPc="268437000" name="get_value" parent="Metric" startPc="268436993">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436962" name="get_name" parent="Metric" startPc="268436952">
+        <functionEntry accessMode="public" endPc="268437011" name="get_name" parent="Metric" startPc="268437001">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="Metric">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436967" name="evaluate" parent="Metric" startPc="268436963">
+        <functionEntry accessMode="public" endPc="268437016" name="evaluate" parent="Metric" startPc="268437012">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437075" name="onShow" parent="prototypeView" startPc="268436968">
+        <functionEntry accessMode="public" endPc="268437124" name="onShow" parent="prototypeView" startPc="268437017">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437119" name="onLayout" parent="prototypeView" startPc="268437076">
+        <functionEntry accessMode="public" endPc="268437168" name="onLayout" parent="prototypeView" startPc="268437125">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437423" name="initialize" parent="prototypeView" startPc="268437120">
+        <functionEntry accessMode="public" endPc="268437189" name="initialize" parent="prototypeView" startPc="268437169">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437482" name="getCurrentCadence" parent="prototypeView" startPc="268437424">
+        <functionEntry accessMode="public" endPc="268437248" name="getCurrentCadence" parent="prototypeView" startPc="268437190">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437722" name="onUpdate" parent="prototypeView" startPc="268437483">
+        <functionEntry accessMode="public" endPc="268437360" name="onUpdate" parent="prototypeView" startPc="268437249">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437781" name="get_value" parent="Power" startPc="268437723">
+        <functionEntry accessMode="public" endPc="268437419" name="get_value" parent="Power" startPc="268437361">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437841" name="initialize" parent="Power" startPc="268437782">
+        <functionEntry accessMode="public" endPc="268437479" name="initialize" parent="Power" startPc="268437420">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437872" name="evaluate" parent="Power" startPc="268437842">
+        <functionEntry accessMode="public" endPc="268437510" name="evaluate" parent="Power" startPc="268437480">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438074" name="WatchFace" parent="Layouts" startPc="268437873">
+        <functionEntry accessMode="public" endPc="268437712" name="WatchFace" parent="Layouts" startPc="268437511">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438085" name="getPriority" parent="Prioritisable" startPc="268438075">
+        <functionEntry accessMode="public" endPc="268437820" name="initialize" parent="LayoutOrchestrator" startPc="268437713">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438126" name="initialize" parent="Prioritisable" startPc="268438086">
+        <functionEntry accessMode="public" endPc="268438042" name="draw" parent="LayoutOrchestrator" startPc="268437821">
+            <param id="messages"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438045" name="&lt;globals/Jacobs/LayoutOrchestrator/&lt;&gt;_drawSegment&gt;" parent="LayoutOrchestrator" startPc="268438043">
+            <param id="message"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438056" name="getPriority" parent="Prioritisable" startPc="268438046">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438097" name="initialize" parent="Prioritisable" startPc="268438057">
             <param id="priority"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438159" name="setPriority" parent="Prioritisable" startPc="268438127">
+        <functionEntry accessMode="public" endPc="268438130" name="setPriority" parent="Prioritisable" startPc="268438098">
             <param id="priority"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438167" name="getUserPriority" parent="PerformanceMetric" startPc="268438160">
+        <functionEntry accessMode="public" endPc="268438138" name="getUserPriority" parent="PerformanceMetric" startPc="268438131">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438175" name="getValue" parent="PerformanceMetric" startPc="268438168">
+        <functionEntry accessMode="public" endPc="268438146" name="getValue" parent="PerformanceMetric" startPc="268438139">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438183" name="getName" parent="PerformanceMetric" startPc="268438176">
+        <functionEntry accessMode="public" endPc="268438154" name="getName" parent="PerformanceMetric" startPc="268438147">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438191" name="getRange" parent="PerformanceMetric" startPc="268438184">
+        <functionEntry accessMode="public" endPc="268438162" name="getRange" parent="PerformanceMetric" startPc="268438155">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438199" name="getFluctuation" parent="PerformanceMetric" startPc="268438192">
+        <functionEntry accessMode="public" endPc="268438170" name="getFluctuation" parent="PerformanceMetric" startPc="268438163">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="PerformanceMetric">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438207" name="getRateOfChange" parent="PerformanceMetric" startPc="268438200">
+        <functionEntry accessMode="public" endPc="268438178" name="getRateOfChange" parent="PerformanceMetric" startPc="268438171">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438230" name="initialize" parent="BlackboxResult" startPc="268438208">
+        <functionEntry accessMode="public" endPc="268438201" name="initialize" parent="BlackboxResult" startPc="268438179">
             <param id="priority"/>
             <param id="metric"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438269" name="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;" parent="Neuron" startPc="268438231">
+        <functionEntry accessMode="private" endPc="268438240" name="&lt;globals/Jacobs/Neuron/&lt;&gt;_activationFunction&gt;" parent="Neuron" startPc="268438202">
             <param id="pX"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438382" name="computeOutput" parent="Neuron" startPc="268438270">
+        <functionEntry accessMode="public" endPc="268438353" name="computeOutput" parent="Neuron" startPc="268438241">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438557" name="initialize" parent="Neuron" startPc="268438383">
+        <functionEntry accessMode="public" endPc="268438528" name="initialize" parent="Neuron" startPc="268438354">
             <param id="pNumberOfInputs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438561" name="initialize" parent="Message" startPc="268438529">
+            <param id="header"/>
+            <param id="value"/>
+            <param id="colour"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="Blackbox">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438803" name="evaluate" parent="Blackbox" startPc="268438558">
+        <functionEntry accessMode="public" endPc="268438807" name="evaluate" parent="Blackbox" startPc="268438562">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438881" name="forward" parent="PrioritisationNetwork" startPc="268438804">
+        <functionEntry accessMode="public" endPc="268438885" name="forward" parent="PrioritisationNetwork" startPc="268438808">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438997" name="initialize" parent="PrioritisationNetwork" startPc="268438882">
+        <functionEntry accessMode="public" endPc="268439001" name="initialize" parent="PrioritisationNetwork" startPc="268438886">
             <param id="pLayerSizes"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439033" name="enqueue" parent="PriorityQueue" startPc="268438998">
+        <functionEntry accessMode="public" endPc="268439037" name="enqueue" parent="PriorityQueue" startPc="268439002">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439184" name="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;" parent="PriorityQueue" startPc="268439034">
+        <functionEntry accessMode="private" endPc="268439188" name="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;insertAtPosition&gt;" parent="PriorityQueue" startPc="268439038">
             <param id="item"/>
             <param id="position"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439270" name="dequeue" parent="PriorityQueue" startPc="268439185">
+        <functionEntry accessMode="public" endPc="268439274" name="dequeue" parent="PriorityQueue" startPc="268439189">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439287" name="initialize" parent="PriorityQueue" startPc="268439271">
+        <functionEntry accessMode="public" endPc="268439291" name="initialize" parent="PriorityQueue" startPc="268439275">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439375" name="updatePriority" parent="PriorityQueue" startPc="268439288">
+        <functionEntry accessMode="public" endPc="268439379" name="updatePriority" parent="PriorityQueue" startPc="268439292">
             <param id="item"/>
             <param id="newPriority"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439496" name="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;" parent="PriorityQueue" startPc="268439376">
+        <functionEntry accessMode="private" endPc="268439500" name="&lt;globals/Jacobs/PriorityQueue/&lt;&gt;findInsertPosition&gt;" parent="PriorityQueue" startPc="268439380">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439537" name="set_maximum" parent="Range" startPc="268439497">
+        <functionEntry accessMode="public" endPc="268439541" name="set_maximum" parent="Range" startPc="268439501">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439568" name="test" parent="Range" startPc="268439538">
+        <functionEntry accessMode="public" endPc="268439572" name="test" parent="Range" startPc="268439542">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439609" name="set_minimum" parent="Range" startPc="268439569">
+        <functionEntry accessMode="public" endPc="268439613" name="set_minimum" parent="Range" startPc="268439573">
             <param id="pValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439664" name="initialize" parent="Range" startPc="268439610">
+        <functionEntry accessMode="public" endPc="268439668" name="initialize" parent="Range" startPc="268439614">
             <param id="pMinimum"/>
             <param id="pMaximum"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439756" name="forward" parent="Layer" startPc="268439665">
+        <functionEntry accessMode="public" endPc="268439760" name="forward" parent="Layer" startPc="268439669">
             <param id="pInputs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439855" name="initialize" parent="Layer" startPc="268439757">
+        <functionEntry accessMode="public" endPc="268439859" name="initialize" parent="Layer" startPc="268439761">
             <param id="pNumberOfNeurons"/>
             <param id="pNumberOfInputsPerNeuron"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440066" name="initialize" parent="Segment" startPc="268439860">
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440163" name="draw" parent="Segment" startPc="268440067">
+            <param id="header"/>
+            <param id="value"/>
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
     </functions>

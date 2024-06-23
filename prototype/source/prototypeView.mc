@@ -112,22 +112,13 @@ class prototypeView extends WatchUi.WatchFace
     hidden var metric as MetricFace = new MetricFace("Cadence");
     hidden var cadence as Cadence = new Cadence();
     hidden var metrics = [new Cadence(), new Power()];
+    private var layoutOrchestrator as LayoutOrchestrator = new LayoutOrchestrator();
 
     // Initialiser: 
     function initialize() 
     {
         WatchFace.initialize();
 
-        var tree = new Tree();
-        var treeNode = new TreeNode(Assessment.QUALITY);
-
-
-        // Priority queue testing.
-        var queue = new Jacobs.PriorityQueue();
-        queue.enqueue(new PerformanceMetric("Cadence", 180));
-        queue.enqueue(new PerformanceMetric("Heart Rate", 160));
-        queue.updatePriority(new PerformanceMetric("Cadence", 180), 20);
-        queue.enqueue(new Prioritisable(14));
     }
 
     // Methods:
@@ -166,20 +157,9 @@ class prototypeView extends WatchUi.WatchFace
         // Update and clear the previous view frame.
         View.onUpdate(dc);
 
-        // Reset Data Fields.
-        metric.setValue(0);
-        metric.setHeader("None");
+        var array = new Array<Message>[0];
+        array.add(new Message("hello world", 152, 0));
 
-        for( var i = 0; i < metrics.size(); i++ ) 
-        {
-            if(metrics[i].evaluate()) 
-            { 
-                metric.setValue(metrics[i].get_value());
-                metric.setHeader(metrics[i].get_name());
-            }
-        }
-
-        // Draw the current frame.
-        metric.draw(dc);
+        layoutOrchestrator.draw(array, dc);
     }
 }

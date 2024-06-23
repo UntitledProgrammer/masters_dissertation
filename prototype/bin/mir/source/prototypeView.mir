@@ -281,6 +281,10 @@ class prototypeView extends WatchUi.WatchFace{
         %tmp.25 = dup %tmp.20;
         %tmp.26 = aputv %tmp.25 1 %tmp.21;
         putv self :metrics %tmp.26;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 115 16 ]
+        %tmp.30 = getv ? :LayoutOrchestrator;
+        %tmp.27 = newc %tmp.30 ();
+        putv self :layoutOrchestrator %tmp.27;
     }
     [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 106; ]
     static
@@ -301,114 +305,64 @@ class prototypeView extends WatchUi.WatchFace{
     [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 114; @position = 15; ]
     protected
     var metrics;
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 117; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 115; @position = 16; ]
+    private
+    var layoutOrchestrator as LayoutOrchestrator;
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 118; ]
     function initialize() as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 119 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_119_4_122_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 120 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 121 8 ]
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_stop" ]
-        %tree.1 = local;
-        %tmp.7 = getv ? :Tree;
-        %tmp.4 = newc %tmp.7 ();
-        lputv %tree.1 %tmp.4;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 122 8 ]
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_stop" ]
-        %treeNode.2 = local;
-        %tmp.11 = getv ? :TreeNode;
-        %tmp.13 = getv ? :Assessment;
-        %tmp.14 = getv %tmp.13 :QUALITY;
-        %tmp.8 = newc %tmp.11 (%tmp.14);
-        lputv %treeNode.2 %tmp.8;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 126 8 ]
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_stop" ]
-        %queue.3 = local;
-        %tmp.17 = getm $.Jacobs;
-        %tmp.18 = getv function ? %tmp.17 :PriorityQueue;
-        %tmp.15 = newc %tmp.18 ();
-        lputv %queue.3 %tmp.15;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 127 8 ]
-        %tmp.19 = lgetv %queue.3;
-        %tmp.20 = getv function %tmp.19 :enqueue;
-        %tmp.24 = getv ? :PerformanceMetric;
-        %tmp.25 = "Cadence";
-        %tmp.26 = 180;
-        %tmp.21 = newc %tmp.24 (%tmp.25, %tmp.26);
-        invoke %tmp.19 %tmp.20(%tmp.21);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 128 8 ]
-        %tmp.27 = lgetv %queue.3;
-        %tmp.28 = getv function %tmp.27 :enqueue;
-        %tmp.32 = getv ? :PerformanceMetric;
-        %tmp.33 = "Heart Rate";
-        %tmp.34 = 160;
-        %tmp.29 = newc %tmp.32 (%tmp.33, %tmp.34);
-        invoke %tmp.27 %tmp.28(%tmp.29);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 129 8 ]
-        %tmp.35 = lgetv %queue.3;
-        %tmp.36 = getv function %tmp.35 :updatePriority;
-        %tmp.40 = getv ? :PerformanceMetric;
-        %tmp.41 = "Cadence";
-        %tmp.42 = 180;
-        %tmp.37 = newc %tmp.40 (%tmp.41, %tmp.42);
-        %tmp.43 = 20;
-        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.43);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 130 8 ]
-        %tmp.44 = lgetv %queue.3;
-        %tmp.45 = getv function %tmp.44 :enqueue;
-        %tmp.49 = getv ? :Prioritisable;
-        %tmp.50 = 14;
-        %tmp.46 = newc %tmp.49 (%tmp.50);
-        invoke %tmp.44 %tmp.45(%tmp.46);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_118_4_131_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_119_4_122_4_stop:
     }
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 134; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 125; ]
     function getCurrentCadence() as Number {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_135_4_144_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 136 8 ]
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_135_4_144_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_135_4_144_4_stop" ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_126_4_135_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 127 8 ]
+        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_126_4_135_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_126_4_135_4_stop" ]
         %activityInfo.1 = local;
         %tmp.1 = getm $.Toybox.Activity;
         %tmp.2 = getv function %tmp.1 :getActivityInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %activityInfo.1 %tmp.3;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 138 8 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_stmt:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_12_138_67_begin:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 129 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_stmt:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_12_129_67_begin:
         %tmp.5 = lgetv %activityInfo.1;
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_36_138_67_true:
+        bf %tmp.7 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_36_129_67_true:
         %tmp.8 = lgetv %activityInfo.1;
         %tmp.9 = as %tmp.8 { (!Null) };
         %tmp.10 = getv %tmp.9 :currentCadence;
         %tmp.11 = null;
         %tmp.12 = ne %tmp.10 %tmp.11;
         push %tmp.12;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_36_138_67_end:
-        %tmp.13 = phi [%tmp.7 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_12_138_67_begin] [%tmp.12 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_36_138_67_true] [%tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_36_138_67_end];
-        bf %tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_139_8_141_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 140 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_36_129_67_end:
+        %tmp.13 = phi [%tmp.7 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_12_129_67_begin] [%tmp.12 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_36_129_67_true] [%tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_36_129_67_end];
+        bf %tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_true:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_130_8_132_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 131 12 ]
         %tmp.14 = lgetv %activityInfo.1;
         %tmp.15 = as %tmp.14 { (!Null) };
         %tmp.16 = getv %tmp.15 :currentCadence;
         ret %tmp.16;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_139_8_141_8_stop:
-        goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_8_141_8_if_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 143 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_130_8_132_8_stop:
+        goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_129_8_132_8_if_end:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 134 8 ]
         %tmp.17 = 0;
         ret %tmp.17;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_135_4_144_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_126_4_135_4_stop:
     }
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 146; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 137; ]
     function onLayout(dc as Dc) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_147_4_149_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 148 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_4_140_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 139 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -417,12 +371,12 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_147_4_149_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_138_4_140_4_stop:
     }
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 151; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 142; ]
     function onShow() as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_152_4_161_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 154 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_143_4_152_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 145 8 ]
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv function ? %tmp.3 :Text;
         %tmp.5 = newd 5;
@@ -452,87 +406,38 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
         %tmp.34 = aputv %tmp.33 %tmp.30 %tmp.32;
         %tmp.1 = newc %tmp.4 (%tmp.34);
         putv self :metricHeader %tmp.1;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_152_4_161_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_143_4_152_4_stop:
     }
-    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 163; ]
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 154; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_164_4_184_4_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 167 8 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 158 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 170 8 ]
-        %tmp.7 = getv ? :metric;
-        %tmp.8 = getv function %tmp.7 :setValue;
-        %tmp.9 = 0;
-        invoke %tmp.7 %tmp.8(%tmp.9);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 171 8 ]
-        %tmp.11 = getv ? :metric;
-        %tmp.12 = getv function %tmp.11 :setHeader;
-        %tmp.13 = "None";
-        invoke %tmp.11 %tmp.12(%tmp.13);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 173 8 ]
-        for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_init:
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_end" ]
-        %i.1 = local;
-        %tmp.14 = 0;
-        lputv %i.1 %tmp.14;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_test:
-        %tmp.16 = lgetv %i.1;
-        %tmp.18 = getv ? :metrics;
-        %tmp.19 = getv function %tmp.18 :size;
-        %tmp.20 = invoke %tmp.18 %tmp.19();
-        %tmp.21 = lt %tmp.16 %tmp.20;
-        bf %tmp.21 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_begin:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_174_8_180_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 175 12 ]
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_175_12_179_12_if_stmt:
-        %tmp.23 = getv ? :metrics;
-        %tmp.25 = lgetv %i.1;
-        %tmp.26 = agetv %tmp.23 %tmp.25;
-        %tmp.27 = getv function %tmp.26 :evaluate;
-        %tmp.28 = invoke %tmp.26 %tmp.27();
-        bf %tmp.28 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_175_12_179_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_175_12_179_12_if_true:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_176_12_179_12_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 177 16 ]
-        %tmp.30 = getv ? :metric;
-        %tmp.31 = getv function %tmp.30 :setValue;
-        %tmp.33 = getv ? :metrics;
-        %tmp.35 = lgetv %i.1;
-        %tmp.36 = agetv %tmp.33 %tmp.35;
-        %tmp.37 = getv function %tmp.36 :get_value;
-        %tmp.38 = invoke %tmp.36 %tmp.37();
-        invoke %tmp.30 %tmp.31(%tmp.38);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 178 16 ]
-        %tmp.40 = getv ? :metric;
-        %tmp.41 = getv function %tmp.40 :setHeader;
-        %tmp.43 = getv ? :metrics;
-        %tmp.45 = lgetv %i.1;
-        %tmp.46 = agetv %tmp.43 %tmp.45;
-        %tmp.47 = getv function %tmp.46 :get_name;
-        %tmp.48 = invoke %tmp.46 %tmp.47();
-        invoke %tmp.40 %tmp.41(%tmp.48);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_176_12_179_12_stop:
-        goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_175_12_179_12_if_end;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_175_12_179_12_if_end:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_174_8_180_8_stop:
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_incr:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 173 ]
-        %tmp.51 = lgetv %i.1;
-        %tmp.52 = add %tmp.51 1;
-        lputv %i.1 %tmp.52;
-        goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_test;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_173_8_180_8_for_end:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 183 8 ]
-        %tmp.54 = getv ? :metric;
-        %tmp.55 = getv function %tmp.54 :draw;
-        %tmp.57 = lgetv %dc;
-        invoke %tmp.54 %tmp.55(%tmp.57);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_164_4_184_4_stop:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 160 8 ]
+        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_stop" ]
+        %array.1 = local;
+        %tmp.7 = 0;
+        %tmp.6 = newa Array<Message> %tmp.7;
+        lputv %array.1 %tmp.6;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 161 8 ]
+        %tmp.8 = lgetv %array.1;
+        %tmp.9 = getv function %tmp.8 :add;
+        %tmp.13 = getv ? :Message;
+        %tmp.14 = "hello world";
+        %tmp.15 = 152;
+        %tmp.16 = 0;
+        %tmp.10 = newc %tmp.13 (%tmp.14, %tmp.15, %tmp.16);
+        invoke %tmp.8 %tmp.9(%tmp.10);
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 163 8 ]
+        %tmp.18 = getv ? :layoutOrchestrator;
+        %tmp.19 = getv function %tmp.18 :draw;
+        %tmp.21 = lgetv %array.1;
+        %tmp.23 = lgetv %dc;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_stop:
     }
 }
 [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 1; ]
