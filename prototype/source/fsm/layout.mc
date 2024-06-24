@@ -10,6 +10,15 @@ using Toybox.Activity as Activity;
 using Toybox.System as Sys;
 
 
+module ForerunnerXT
+{
+    public const DISPLAY_WIDTH as Lang.Number = 205;
+    public const DISPLAY_HEIGHT as Lang.Number = 148;
+    public const SEGEMENTS_PER_ROW as Lang.Number = 2;
+    public const SEGMENT_WIDTH as Lang.Number = DISPLAY_WIDTH / SEGEMENTS_PER_ROW;
+    public const SEGMENT_HEIGHT as Lang.Number = DISPLAY_HEIGHT / SEGEMENTS_PER_ROW;
+}
+
 module Jacobs
 {
     class Message
@@ -30,94 +39,73 @@ module Jacobs
     }
 
 
-    class Segment
+    enum LayoutStateEnum
     {
-        // Instance Attributes:
-        private var _header as WatchUi.Text;
-        private var _value as WatchUi.Text;
-
-
-        // Constructor:
-        public function initialize(x as Number, y as Number)
-        {
-            _header = new WatchUi.Text({
-                :text=> "header",
-                :color=>Graphics.COLOR_BLACK,
-                :font=>Graphics.FONT_LARGE,
-                :locX => x,
-                :locY=>y
-            });
-
-            _value = new WatchUi.Text({
-                :text=> "value",
-                :color=>Graphics.COLOR_BLACK,
-                :font=>Graphics.FONT_LARGE,
-                :locX => x,
-                :locY=> y + 20
-            });
-        }
-
-
-        // Methods:
-        public function draw(header as String, value as Number, dc as Dc)
-        {
-            // Set the UI values.
-            _header.setText(header);
-            _value.setText(value.format("%o"));
-
-            // Draw the UI.
-            _header.draw(dc);
-            _value.draw(dc);
-        }
+        ZERO_MESSAGES,
+        ONE_MESSAGE,
+        TWO_MESSAGES,
+        THREE_MESSAGES,
+        FOUR_MESSAGES
     }
 
+    class LayoutOrchestrator{
+        private var _state as LayoutStateEnum;
+        private var _zeroMessagesState as LayoutState;
+        private var _oneMessageState as LayoutState;
+        private var _twoMessagesState as LayoutState;
+        private var _threeMessagesState as LayoutState;
+        private var _fourMessagesState as LayoutState;
 
-    class LayoutOrchestrator
-    {
-        // Class Attributes:
-        private const _MAXIMUM_MESSAGES = 4;
-        private const _MESSAGES_PER_ROW = 2;
-
-
-        // Instance Attributes:
-        private var headerLabel as WatchUi.Text;
-        private var _segments as Array<Segment> = new Array<Segment>[0];
-
-
-        // Constructor:
-        public function initialize()
-        {
-            headerLabel = new WatchUi.Text({
-                :text=> "test",
-                :color=>Graphics.COLOR_BLACK,
-                :font=>Graphics.FONT_LARGE,
-                :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
-                :locY=>WatchUi.LAYOUT_VALIGN_CENTER
-            });
+        public function initialize() {
+            _zeroMessagesState = new ZeroMessagesState();
+            _oneMessageState = new OneMessageState();
+            _twoMessagesState = new TwoMessagesState();
+            _threeMessagesState = new ThreeMessagesState();
+            _fourMessagesState = new FourMessagesState();
+            _state = ZERO_MESSAGES;
         }
 
-
-        // Methods:
-        public function draw(messages as Array<Message>, dc as Dc) as Void
-        {
-            headerLabel.draw(dc);
-
-            for(var i = 0; i < messages.size() && i < _MAXIMUM_MESSAGES; i++)
-            {
-                if(i < _segments.size())
-                {
-                    _segments[i].draw("header", 152, dc);
-                }
-
-
-                _segments.add(new Segment(0,0));
-                _segments[i].draw("header", 152, dc);
+        public function draw(messages as Array<Message>, dc as Dc) as Void {
+            switch (messages.size()) {
+                case 0:
+                    _state = ZERO_MESSAGES;
+                    break;
+                case 1:
+                    _state = ONE_MESSAGE;
+                    break;
+                case 2:
+                    _state = TWO_MESSAGES;
+                    break;
+                case 3:
+                    _state = THREE_MESSAGES;
+                    break;
+                case 4:
+                    _state = FOUR_MESSAGES;
+                    break;
+                default:
+                    _state = FOUR_MESSAGES;
+                    break;
             }
-        }
 
-        private function _drawSegment(message as Message) as Void
-        {
+            dc.clear();
 
+            switch (_state) {
+                case ZERO_MESSAGES:
+                    _zeroMessagesState.draw(dc, messages, self);
+                    break;
+                case ONE_MESSAGE:
+                    _oneMessageState.draw(dc, messages, self);
+                    break;
+                case TWO_MESSAGES:
+                    _twoMessagesState.draw(dc, messages, self);
+                    break;
+                case THREE_MESSAGES:
+                    _threeMessagesState.draw(dc, messages, self);
+                    break;
+                case FOUR_MESSAGES:
+                    _fourMessagesState.draw(dc, messages, self);
+                    break;
+            }
         }
     }
 }

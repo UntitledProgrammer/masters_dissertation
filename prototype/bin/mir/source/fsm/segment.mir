@@ -1,0 +1,191 @@
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 6; ]
+import Toybox.Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 8; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 9; ]
+using Toybox.Activity as :Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 10; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 12; ]
+module Jacobs {
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 14; ]
+    class Segment{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 14; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 14; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 17; @position = 22; ]
+        private
+        const _VALUE_OFFSET as Lang.Number = 20;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 21; @position = 20; ]
+        private
+        var _header as WatchUi.Text;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 22; @position = 20; ]
+        private
+        var _value as WatchUi.Text;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 26; ]
+        public
+        function initialize(x as Number, y as Number, width as Number, height as Number) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_27_8_48_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 28 12 ]
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 8;
+            %tmp.7 = const :text;
+            %tmp.8 = "header";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            %tmp.13 = getm $.Toybox.Graphics;
+            %tmp.14 = getv %tmp.13 :COLOR_BLACK;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :font;
+            %tmp.19 = getm $.Toybox.Graphics;
+            %tmp.20 = getv %tmp.19 :FONT_LARGE;
+            %tmp.21 = dup %tmp.16;
+            %tmp.22 = aputv %tmp.21 %tmp.18 %tmp.20;
+            %tmp.24 = const :locX;
+            %tmp.26 = lgetv %x;
+            %tmp.28 = lgetv %width;
+            %tmp.29 = 2;
+            %tmp.30 = div %tmp.28 %tmp.29;
+            %tmp.31 = add %tmp.26 %tmp.30;
+            %tmp.32 = dup %tmp.22;
+            %tmp.33 = aputv %tmp.32 %tmp.24 %tmp.31;
+            %tmp.35 = const :locY;
+            %tmp.37 = lgetv %y;
+            %tmp.39 = lgetv %height;
+            %tmp.40 = 4;
+            %tmp.41 = div %tmp.39 %tmp.40;
+            %tmp.42 = add %tmp.37 %tmp.41;
+            %tmp.43 = dup %tmp.33;
+            %tmp.44 = aputv %tmp.43 %tmp.35 %tmp.42;
+            %tmp.46 = const :backgroundColor;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :COLOR_TRANSPARENT;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            %tmp.53 = getm $.Toybox.Graphics;
+            %tmp.54 = getv %tmp.53 :FONT_SMALL;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.58 = const :justification;
+            %tmp.59 = getm $.Toybox.Graphics;
+            %tmp.60 = getv %tmp.59 :TEXT_JUSTIFY_CENTER;
+            %tmp.61 = dup %tmp.56;
+            %tmp.62 = aputv %tmp.61 %tmp.58 %tmp.60;
+            %tmp.1 = newc %tmp.4 (%tmp.62);
+            putv self :_header %tmp.1;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 39 12 ]
+            %tmp.65 = getm $.Toybox.WatchUi;
+            %tmp.66 = getv function ? %tmp.65 :Text;
+            %tmp.67 = newd 7;
+            %tmp.69 = const :text;
+            %tmp.70 = "value";
+            %tmp.71 = dup %tmp.67;
+            %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
+            %tmp.74 = const :color;
+            %tmp.75 = getm $.Toybox.Graphics;
+            %tmp.76 = getv %tmp.75 :COLOR_BLACK;
+            %tmp.77 = dup %tmp.72;
+            %tmp.78 = aputv %tmp.77 %tmp.74 %tmp.76;
+            %tmp.80 = const :font;
+            %tmp.81 = getm $.Toybox.Graphics;
+            %tmp.82 = getv %tmp.81 :FONT_LARGE;
+            %tmp.83 = dup %tmp.78;
+            %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
+            %tmp.86 = const :locX;
+            %tmp.88 = lgetv %x;
+            %tmp.90 = lgetv %width;
+            %tmp.91 = 2;
+            %tmp.92 = div %tmp.90 %tmp.91;
+            %tmp.93 = add %tmp.88 %tmp.92;
+            %tmp.94 = dup %tmp.84;
+            %tmp.95 = aputv %tmp.94 %tmp.86 %tmp.93;
+            %tmp.97 = const :locY;
+            %tmp.99 = lgetv %y;
+            %tmp.101 = getv ? :_VALUE_OFFSET;
+            %tmp.102 = add %tmp.99 %tmp.101;
+            %tmp.104 = lgetv %height;
+            %tmp.105 = 4;
+            %tmp.106 = div %tmp.104 %tmp.105;
+            %tmp.107 = add %tmp.102 %tmp.106;
+            %tmp.108 = dup %tmp.95;
+            %tmp.109 = aputv %tmp.108 %tmp.97 %tmp.107;
+            %tmp.111 = const :backgroundColor;
+            %tmp.112 = getm $.Toybox.Graphics;
+            %tmp.113 = getv %tmp.112 :COLOR_TRANSPARENT;
+            %tmp.114 = dup %tmp.109;
+            %tmp.115 = aputv %tmp.114 %tmp.111 %tmp.113;
+            %tmp.117 = const :justification;
+            %tmp.118 = getm $.Toybox.Graphics;
+            %tmp.119 = getv %tmp.118 :TEXT_JUSTIFY_CENTER;
+            %tmp.120 = dup %tmp.115;
+            %tmp.121 = aputv %tmp.120 %tmp.117 %tmp.119;
+            %tmp.63 = newc %tmp.66 (%tmp.121);
+            putv self :_value %tmp.63;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_27_8_48_8_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 52; ]
+        public
+        function setFont(font as Graphics.FontType) {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_53_8_55_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 54 12 ]
+            %tmp.2 = getv ? :_header;
+            %tmp.3 = getv function %tmp.2 :setFont;
+            %tmp.5 = lgetv %font;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_53_8_55_8_stop:
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 57; ]
+        public
+        function draw(header as String, value as Number, dc as Dc) {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_58_8_66_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 60 12 ]
+            %tmp.2 = getv ? :_header;
+            %tmp.3 = getv function %tmp.2 :setText;
+            %tmp.5 = lgetv %header;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 61 12 ]
+            %tmp.7 = getv ? :_value;
+            %tmp.8 = getv function %tmp.7 :setText;
+            %tmp.9 = lgetv %value;
+            %tmp.10 = getv function %tmp.9 :format;
+            %tmp.11 = "%i";
+            %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+            invoke %tmp.7 %tmp.8(%tmp.12);
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 64 12 ]
+            %tmp.14 = getv ? :_header;
+            %tmp.15 = getv function %tmp.14 :draw;
+            %tmp.17 = lgetv %dc;
+            invoke %tmp.14 %tmp.15(%tmp.17);
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 65 12 ]
+            %tmp.19 = getv ? :_value;
+            %tmp.20 = getv function %tmp.19 :draw;
+            %tmp.22 = lgetv %dc;
+            invoke %tmp.19 %tmp.20(%tmp.22);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_58_8_66_8_stop:
+        }
+    }
+}
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 1; ]
+<init> {
+}

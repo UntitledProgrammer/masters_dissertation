@@ -410,14 +410,14 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
     }
     [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 154; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_start:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_166_4_start:
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 158 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
 [ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 160 8 ]
-        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_stop" ]
+        [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_166_4_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_166_4_stop" ]
         %array.1 = local;
         %tmp.7 = 0;
         %tmp.6 = newa Array<Message> %tmp.7;
@@ -426,18 +426,18 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
         %tmp.8 = lgetv %array.1;
         %tmp.9 = getv function %tmp.8 :add;
         %tmp.13 = getv ? :Message;
-        %tmp.14 = "hello world";
+        %tmp.14 = "hello worlds";
         %tmp.15 = 152;
         %tmp.16 = 0;
         %tmp.10 = newc %tmp.13 (%tmp.14, %tmp.15, %tmp.16);
         invoke %tmp.8 %tmp.9(%tmp.10);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 163 8 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc" 165 8 ]
         %tmp.18 = getv ? :layoutOrchestrator;
         %tmp.19 = getv function %tmp.18 :draw;
         %tmp.21 = lgetv %array.1;
         %tmp.23 = lgetv %dc;
         invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_164_4_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_prototypeView_mc_155_4_166_4_stop:
     }
 }
 [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\prototypeView.mc"; @line = 1; ]

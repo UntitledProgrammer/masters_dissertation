@@ -1,0 +1,349 @@
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 6; ]
+using Toybox.Graphics as :Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 7; ]
+using Toybox.Lang as :Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 8; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 9; ]
+using Toybox.WatchUi as :WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 11; ]
+module Jacobs {
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 13; ]
+    class LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 13; ]
+        <init> {
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 15 22 ]
+            %tmp.2 = 0;
+            %tmp.1 = newa Array<Segment> %tmp.2;
+            putv self :_segments %tmp.1;
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 13; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 15; @position = 22; ]
+        protected
+        var _segments as Array<Segment>;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 17; ]
+        public
+        function draw(dc as Dc, messages as Array<Message>, context as LayoutOrchestrator) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_18_8_23_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 19 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_end" ]
+            %i.1 = local;
+            %tmp.1 = 0;
+            lputv %i.1 %tmp.1;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_test:
+            %tmp.3 = lgetv %i.1;
+            %tmp.5 = getv ? :_segments;
+            %tmp.6 = getv function %tmp.5 :size;
+            %tmp.7 = invoke %tmp.5 %tmp.6();
+            %tmp.8 = lt %tmp.3 %tmp.7;
+            bf %tmp.8 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_20_12_22_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 21 16 ]
+            %tmp.10 = getv ? :_segments;
+            %tmp.12 = lgetv %i.1;
+            %tmp.13 = agetv %tmp.10 %tmp.12;
+            %tmp.14 = getv function %tmp.13 :draw;
+            %tmp.16 = lgetv %messages;
+            %tmp.18 = lgetv %i.1;
+            %tmp.19 = agetv %tmp.16 %tmp.18;
+            %tmp.20 = getv %tmp.19 :header;
+            %tmp.22 = lgetv %messages;
+            %tmp.24 = lgetv %i.1;
+            %tmp.25 = agetv %tmp.22 %tmp.24;
+            %tmp.26 = getv %tmp.25 :value;
+            %tmp.28 = lgetv %dc;
+            invoke %tmp.13 %tmp.14(%tmp.20, %tmp.26, %tmp.28);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_20_12_22_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 19 ]
+            %tmp.31 = lgetv %i.1;
+            %tmp.32 = add %tmp.31 1;
+            lputv %i.1 %tmp.32;
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_19_12_22_12_for_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_18_8_23_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 27; ]
+    class ZeroMessagesState extends LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 27; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 27; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 29; ]
+        public
+        function draw(dc as Dc, messages as Array<Message>, context as LayoutOrchestrator) as Void {
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 35; ]
+    class OneMessageState extends LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 35; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 38; ]
+        public
+        function initialize() as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_39_8_43_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 40 12 ]
+            %tmp.2 = getv ? :LayoutState;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            invoke %tmp.2 %tmp.3();
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 41 12 ]
+            %tmp.5 = getv ? :_segments;
+            %tmp.6 = getv function %tmp.5 :add;
+            %tmp.10 = getv ? :Segment;
+            %tmp.11 = 0;
+            %tmp.12 = 0;
+            %tmp.14 = getv ? :ForerunnerXT;
+            %tmp.15 = getv %tmp.14 :DISPLAY_WIDTH;
+            %tmp.17 = getv ? :ForerunnerXT;
+            %tmp.18 = getv %tmp.17 :DISPLAY_HEIGHT;
+            %tmp.7 = newc %tmp.10 (%tmp.11, %tmp.12, %tmp.15, %tmp.18);
+            invoke %tmp.5 %tmp.6(%tmp.7);
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 42 12 ]
+            %tmp.20 = getv ? :_segments;
+            %tmp.22 = getv ? :_segments;
+            %tmp.23 = getv function %tmp.22 :size;
+            %tmp.24 = invoke %tmp.22 %tmp.23();
+            %tmp.25 = 1;
+            %tmp.26 = sub %tmp.24 %tmp.25;
+            %tmp.27 = agetv %tmp.20 %tmp.26;
+            %tmp.28 = getv function %tmp.27 :setFont;
+            %tmp.29 = getm $.Toybox.Graphics;
+            %tmp.30 = getv %tmp.29 :FONT_LARGE;
+            invoke %tmp.27 %tmp.28(%tmp.30);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_39_8_43_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 46; ]
+    class TwoMessagesState extends LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 46; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 46; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 49; ]
+        public
+        function initialize() as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_50_8_60_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 51 12 ]
+            %tmp.2 = getv ? :LayoutState;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            invoke %tmp.2 %tmp.3();
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 53 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_50_8_60_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_50_8_60_8_stop" ]
+            %segmentHeight.1 = local;
+            %tmp.5 = getv ? :ForerunnerXT;
+            %tmp.6 = getv %tmp.5 :DISPLAY_HEIGHT;
+            %tmp.7 = 2;
+            %tmp.8 = div %tmp.6 %tmp.7;
+            lputv %segmentHeight.1 %tmp.8;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 55 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_end" ]
+            %i.2 = local;
+            %tmp.9 = 0;
+            lputv %i.2 %tmp.9;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_test:
+            %tmp.11 = lgetv %i.2;
+            %tmp.12 = 2;
+            %tmp.13 = lt %tmp.11 %tmp.12;
+            bf %tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_56_12_59_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 57 16 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_56_12_59_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_56_12_59_12_stop" ]
+            %yPosition.3 = local;
+            %tmp.15 = lgetv %i.2;
+            %tmp.17 = lgetv %segmentHeight.1;
+            %tmp.18 = mul %tmp.15 %tmp.17;
+            lputv %yPosition.3 %tmp.18;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 58 16 ]
+            %tmp.20 = getv ? :_segments;
+            %tmp.21 = getv function %tmp.20 :add;
+            %tmp.25 = getv ? :Segment;
+            %tmp.26 = 0;
+            %tmp.28 = lgetv %yPosition.3;
+            %tmp.30 = getv ? :ForerunnerXT;
+            %tmp.31 = getv %tmp.30 :DISPLAY_WIDTH;
+            %tmp.33 = lgetv %segmentHeight.1;
+            %tmp.22 = newc %tmp.25 (%tmp.26, %tmp.28, %tmp.31, %tmp.33);
+            invoke %tmp.20 %tmp.21(%tmp.22);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_56_12_59_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 55 ]
+            %tmp.36 = lgetv %i.2;
+            %tmp.37 = add %tmp.36 1;
+            lputv %i.2 %tmp.37;
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_55_12_59_12_for_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_50_8_60_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 63; ]
+    class ThreeMessagesState extends LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 63; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 63; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 66; ]
+        public
+        function initialize() as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_67_8_77_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 68 12 ]
+            %tmp.2 = getv ? :LayoutState;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            invoke %tmp.2 %tmp.3();
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 70 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_67_8_77_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_67_8_77_8_stop" ]
+            %segmentHeight.1 = local;
+            %tmp.5 = getv ? :ForerunnerXT;
+            %tmp.6 = getv %tmp.5 :DISPLAY_HEIGHT;
+            %tmp.7 = 3;
+            %tmp.8 = div %tmp.6 %tmp.7;
+            lputv %segmentHeight.1 %tmp.8;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 72 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_end" ]
+            %i.2 = local;
+            %tmp.9 = 0;
+            lputv %i.2 %tmp.9;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_test:
+            %tmp.11 = lgetv %i.2;
+            %tmp.12 = 3;
+            %tmp.13 = lt %tmp.11 %tmp.12;
+            bf %tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_73_12_76_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 74 16 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_73_12_76_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_73_12_76_12_stop" ]
+            %yPosition.3 = local;
+            %tmp.15 = lgetv %i.2;
+            %tmp.17 = lgetv %segmentHeight.1;
+            %tmp.18 = mul %tmp.15 %tmp.17;
+            lputv %yPosition.3 %tmp.18;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 75 16 ]
+            %tmp.20 = getv ? :_segments;
+            %tmp.21 = getv function %tmp.20 :add;
+            %tmp.25 = getv ? :Segment;
+            %tmp.26 = 0;
+            %tmp.28 = lgetv %yPosition.3;
+            %tmp.30 = getv ? :ForerunnerXT;
+            %tmp.31 = getv %tmp.30 :DISPLAY_WIDTH;
+            %tmp.33 = lgetv %segmentHeight.1;
+            %tmp.22 = newc %tmp.25 (%tmp.26, %tmp.28, %tmp.31, %tmp.33);
+            invoke %tmp.20 %tmp.21(%tmp.22);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_73_12_76_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 72 ]
+            %tmp.36 = lgetv %i.2;
+            %tmp.37 = add %tmp.36 1;
+            lputv %i.2 %tmp.37;
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_72_12_76_12_for_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_67_8_77_8_stop:
+        }
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 80; ]
+    class FourMessagesState extends LayoutState{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 80; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 80; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 83; ]
+        public
+        function initialize() as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_84_8_93_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 85 12 ]
+            %tmp.2 = getv ? :LayoutState;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            invoke %tmp.2 %tmp.3();
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 87 12 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_84_8_93_8_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_84_8_93_8_stop" ]
+            %segmentHeight.1 = local;
+            %tmp.5 = getv ? :ForerunnerXT;
+            %tmp.6 = getv %tmp.5 :DISPLAY_HEIGHT;
+            %tmp.7 = 4;
+            %tmp.8 = div %tmp.6 %tmp.7;
+            lputv %segmentHeight.1 %tmp.8;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 89 12 ]
+            for @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_test @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_incr @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_init:
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_begin" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_end" ]
+            %i.2 = local;
+            %tmp.9 = 0;
+            lputv %i.2 %tmp.9;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_test:
+            %tmp.11 = lgetv %i.2;
+            %tmp.12 = 4;
+            %tmp.13 = lt %tmp.11 %tmp.12;
+            bf %tmp.13 @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_end;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_begin:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_40_92_12_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 90 16 ]
+            [ "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_40_92_12_start" "C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_40_92_12_stop" ]
+            %yPosition.3 = local;
+            %tmp.15 = lgetv %i.2;
+            %tmp.17 = lgetv %segmentHeight.1;
+            %tmp.18 = mul %tmp.15 %tmp.17;
+            lputv %yPosition.3 %tmp.18;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 91 16 ]
+            %tmp.20 = getv ? :_segments;
+            %tmp.21 = getv function %tmp.20 :add;
+            %tmp.25 = getv ? :Segment;
+            %tmp.26 = 0;
+            %tmp.28 = lgetv %yPosition.3;
+            %tmp.30 = getv ? :ForerunnerXT;
+            %tmp.31 = getv %tmp.30 :DISPLAY_WIDTH;
+            %tmp.33 = lgetv %segmentHeight.1;
+            %tmp.22 = newc %tmp.25 (%tmp.26, %tmp.28, %tmp.31, %tmp.33);
+            invoke %tmp.20 %tmp.21(%tmp.22);
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_40_92_12_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_incr:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc" 89 ]
+            %tmp.36 = lgetv %i.2;
+            %tmp.37 = add %tmp.36 1;
+            lputv %i.2 %tmp.37;
+            goto @C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_test;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_89_12_92_12_for_end:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_state_mc_84_8_93_8_stop:
+        }
+    }
+}
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\state.mc"; @line = 1; ]
+<init> {
+}

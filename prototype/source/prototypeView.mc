@@ -158,7 +158,9 @@ class prototypeView extends WatchUi.WatchFace
         View.onUpdate(dc);
 
         var array = new Array<Message>[0];
-        array.add(new Message("hello world", 152, 0));
+        array.add(new Message("hello worlds", 152, 0));
+        //array.add(new Message("goodbye world", 180, 0));
+        // array.add(new Message("third display", 200, 0));
 
         layoutOrchestrator.draw(array, dc);
     }
