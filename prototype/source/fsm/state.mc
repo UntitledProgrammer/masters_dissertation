@@ -12,10 +12,29 @@ module Jacobs
 {
     class LayoutState 
     {
+        /**
+        * This class serves as a base class for different layout states. It manages a collection of
+        * Segment objects and provides a method to draw these segments on the display.
+        */
+
+
+        // Instance Attributes:
         protected var _segments as Array<Segment> = new Array<Segment>[0];
 
+
+        // Methods:
         public function draw(dc as Dc, messages as Array<Message>, context as LayoutOrchestrator) as Void
         {
+            /**
+            * Draws the segments on the display.
+            * 
+            * @param dc       The device context used for drawing.
+            * @param messages An array of Message objects, each containing header, value, and colour.
+            * @param context  The LayoutOrchestrator context that manages the state transitions.
+            * @return Void
+            */
+
+
             for (var i = 0; i < _segments.size(); i++) 
             {
                 _segments[i].draw(messages[i].header, messages[i].value, dc);
@@ -31,6 +50,7 @@ module Jacobs
             // Handle zero messages (e.g., show a default message or do nothing)
         }
     }
+
 
     class OneMessageState extends LayoutState 
     {
@@ -60,6 +80,7 @@ module Jacobs
         }
     }
 
+
     class ThreeMessagesState extends LayoutState 
     {
         // Constructor:
@@ -76,6 +97,7 @@ module Jacobs
             }
         }
     }
+
 
     class FourMessagesState extends LayoutState 
     {

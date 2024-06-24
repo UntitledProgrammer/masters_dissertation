@@ -19,26 +19,9 @@ module ForerunnerXT
     public const SEGMENT_HEIGHT as Lang.Number = DISPLAY_HEIGHT / SEGEMENTS_PER_ROW;
 }
 
+
 module Jacobs
 {
-    class Message
-    {
-        // Instance Attributes:
-        public var header as String = "";
-        public var value as Number = 0;
-        public var colour as Number = 0;
-
-
-        // Constructor:
-        public function initialize(header as String, value as Number, colour as Number)
-        {
-            self.header = header;
-            self.value = value;
-            self.colour = colour;
-        }
-    }
-
-
     enum LayoutStateEnum
     {
         ZERO_MESSAGES,
@@ -48,7 +31,16 @@ module Jacobs
         FOUR_MESSAGES
     }
 
-    class LayoutOrchestrator{
+
+    class LayoutOrchestrator
+    {
+        /**
+        * This class orchestrates the layout of the display based on the number of messages.
+        * It manages different layout states and transitions between them.
+        */
+
+
+        // Instance Attributes:
         private var _state as LayoutStateEnum;
         private var _zeroMessagesState as LayoutState;
         private var _oneMessageState as LayoutState;
@@ -56,7 +48,10 @@ module Jacobs
         private var _threeMessagesState as LayoutState;
         private var _fourMessagesState as LayoutState;
 
-        public function initialize() {
+
+        // Constructor:
+        public function initialize() 
+        {
             _zeroMessagesState = new ZeroMessagesState();
             _oneMessageState = new OneMessageState();
             _twoMessagesState = new TwoMessagesState();
@@ -65,7 +60,17 @@ module Jacobs
             _state = ZERO_MESSAGES;
         }
 
-        public function draw(messages as Array<Message>, dc as Dc) as Void {
+
+        // Methods:
+        public function draw(messages as Array<Message>, dc as Dc) as Void 
+        {
+            /**
+            * Draws the display based on the current state and number of messages.
+            * 
+            * @param messages An array of Message objects to be displayed.
+            * @param dc       The device context used for drawing.
+            * @return Void
+            */
             switch (messages.size()) {
                 case 0:
                     _state = ZERO_MESSAGES;

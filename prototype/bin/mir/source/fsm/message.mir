@@ -1,0 +1,61 @@
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 6; ]
+import Toybox.Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 8; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 9; ]
+using Toybox.Activity as :Activity;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 10; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 13; ]
+module Jacobs {
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 15; ]
+    class Message{
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 15; ]
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 15; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 23; @position = 19; ]
+        public
+        var header as String = "";
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 24; @position = 19; ]
+        public
+        var value as Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 25; @position = 19; ]
+        public
+        var colour as Number = 0;
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 29; ]
+        public
+        function initialize(header as String, value as Number, colour as Number) as Void {
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_message_mc_30_8_43_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc" 40 12 ]
+            %tmp.2 = lgetv %header;
+            putv self :header %tmp.2;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc" 41 12 ]
+            %tmp.4 = lgetv %value;
+            putv self :value %tmp.4;
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc" 42 12 ]
+            %tmp.6 = lgetv %colour;
+            putv self :colour %tmp.6;
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_message_mc_30_8_43_8_stop:
+        }
+    }
+}
+[ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\message.mc"; @line = 1; ]
+<init> {
+}

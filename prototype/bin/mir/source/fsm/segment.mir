@@ -30,20 +30,20 @@ module Jacobs {
         static
         <init> {
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 17; @position = 22; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 23; @position = 22; ]
         private
         const _VALUE_OFFSET as Lang.Number = 20;
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 21; @position = 20; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 27; @position = 20; ]
         private
         var _header as WatchUi.Text;
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 22; @position = 20; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 28; @position = 20; ]
         private
         var _value as WatchUi.Text;
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 26; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 32; ]
         public
         function initialize(x as Number, y as Number, width as Number, height as Number) as Void {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_27_8_48_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 28 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_33_8_64_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 44 12 ]
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 8;
@@ -94,7 +94,7 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.62 = aputv %tmp.61 %tmp.58 %tmp.60;
             %tmp.1 = newc %tmp.4 (%tmp.62);
             putv self :_header %tmp.1;
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 39 12 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 55 12 ]
             %tmp.65 = getm $.Toybox.WatchUi;
             %tmp.66 = getv function ? %tmp.65 :Text;
             %tmp.67 = newd 7;
@@ -142,29 +142,29 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.121 = aputv %tmp.120 %tmp.117 %tmp.119;
             %tmp.63 = newc %tmp.66 (%tmp.121);
             putv self :_value %tmp.63;
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_27_8_48_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_33_8_64_8_stop:
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 52; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 68; ]
         public
         function setFont(font as Graphics.FontType) {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_53_8_55_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 54 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_69_8_78_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 77 12 ]
             %tmp.2 = getv ? :_header;
             %tmp.3 = getv function %tmp.2 :setFont;
             %tmp.5 = lgetv %font;
             invoke %tmp.2 %tmp.3(%tmp.5);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_53_8_55_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_69_8_78_8_stop:
         }
-        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 57; ]
+        [ @file = "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc"; @line = 80; ]
         public
         function draw(header as String, value as Number, dc as Dc) {
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_58_8_66_8_start:
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 60 12 ]
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_81_8_98_8_start:
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 92 12 ]
             %tmp.2 = getv ? :_header;
             %tmp.3 = getv function %tmp.2 :setText;
             %tmp.5 = lgetv %header;
             invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 61 12 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 93 12 ]
             %tmp.7 = getv ? :_value;
             %tmp.8 = getv function %tmp.7 :setText;
             %tmp.9 = lgetv %value;
@@ -172,17 +172,17 @@ C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_so
             %tmp.11 = "%i";
             %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
             invoke %tmp.7 %tmp.8(%tmp.12);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 64 12 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 96 12 ]
             %tmp.14 = getv ? :_header;
             %tmp.15 = getv function %tmp.14 :draw;
             %tmp.17 = lgetv %dc;
             invoke %tmp.14 %tmp.15(%tmp.17);
-[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 65 12 ]
+[ "C:\Users\tomja\PycharmProjects\task_application\masters_dissertation\prototype\source\fsm\segment.mc" 97 12 ]
             %tmp.19 = getv ? :_value;
             %tmp.20 = getv function %tmp.19 :draw;
             %tmp.22 = lgetv %dc;
             invoke %tmp.19 %tmp.20(%tmp.22);
-C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_58_8_66_8_stop:
+C_Users_tomja_PycharmProjects_task_application_masters_dissertation_prototype_source_fsm_segment_mc_81_8_98_8_stop:
         }
     }
 }
